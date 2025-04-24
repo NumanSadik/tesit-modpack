@@ -1,0 +1,23 @@
+{
+	"favorites": [
+		"{data:{Count:1b,id:\"thermal:phytogro\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"bountiful:decree\",tag:{\"bountiful:decree_data\":'{\"ids\":[\"butcher\"]}'},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"iter_rpg:elemental_sword\",tag:{Damage:0,Enchantments:[{id:\"minecraft:mending\",lvl:1s}]},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:6s}]},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"iter_rpg:elemental_sword\",tag:{Damage:0,Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:sharpness\",lvl:6s}]},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:dirt\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:bamboo\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"thermal:slag\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:bone_meal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:soul_soil\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:wither_rose\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"iguanatweaksreborn:cyan_flower\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"goety:black_book\"},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"thermal:slag_block\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"immersiveengineering:slag_brick\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": [
+		"{DisplayHistoryCategory:\"minecraft:plugins/tag\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"93e37727-d785-4e7e-bd5c-cb4bef43fcbe\"}"
+	]
+}

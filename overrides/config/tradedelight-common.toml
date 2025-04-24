@@ -1,0 +1,305 @@
+#Enable trade for butcher_bacon
+butcher_bacon_enabled = true
+#Buy amount for butcher_bacon
+#Range: 1 ~ 64
+butcher_bacon_buy = 16
+#Sell amount for butcher_bacon
+#Range: 1 ~ 64
+butcher_bacon_sell = 1
+#Enable trade for butcher_chicken_cuts
+butcher_chicken_cuts_enabled = true
+#Buy amount for butcher_chicken_cuts
+#Range: 1 ~ 64
+butcher_chicken_cuts_buy = 28
+#Sell amount for butcher_chicken_cuts
+#Range: 1 ~ 64
+butcher_chicken_cuts_sell = 1
+#Enable trade for butcher_ham
+butcher_ham_enabled = true
+#Buy amount for butcher_ham
+#Range: 1 ~ 64
+butcher_ham_buy = 4
+#Sell amount for butcher_ham
+#Range: 1 ~ 64
+butcher_ham_sell = 1
+#Enable trade for butcher_beef_patty
+butcher_beef_patty_enabled = true
+#Buy amount for butcher_beef_patty
+#Range: 1 ~ 64
+butcher_beef_patty_buy = 1
+#Sell amount for butcher_beef_patty
+#Range: 1 ~ 64
+butcher_beef_patty_sell = 8
+#Enable trade for butcher_cooked_mutton_chops
+butcher_cooked_mutton_chops_enabled = true
+#Buy amount for butcher_cooked_mutton_chops
+#Range: 1 ~ 64
+butcher_cooked_mutton_chops_buy = 1
+#Sell amount for butcher_cooked_mutton_chops
+#Range: 1 ~ 64
+butcher_cooked_mutton_chops_sell = 14
+#Enable trade for butcher_cooked_chicken_cuts
+butcher_cooked_chicken_cuts_enabled = true
+#Buy amount for butcher_cooked_chicken_cuts
+#Range: 1 ~ 64
+butcher_cooked_chicken_cuts_buy = 1
+#Sell amount for butcher_cooked_chicken_cuts
+#Range: 1 ~ 64
+butcher_cooked_chicken_cuts_sell = 16
+#Enable trade for butcher_cooked_bacon
+butcher_cooked_bacon_enabled = true
+#Buy amount for butcher_cooked_bacon
+#Range: 1 ~ 64
+butcher_cooked_bacon_buy = 1
+#Sell amount for butcher_cooked_bacon
+#Range: 1 ~ 64
+butcher_cooked_bacon_sell = 20
+#Enable trade for butcher_smoked_ham
+butcher_smoked_ham_enabled = true
+#Buy amount for butcher_smoked_ham
+#Range: 1 ~ 64
+butcher_smoked_ham_buy = 1
+#Sell amount for butcher_smoked_ham
+#Range: 1 ~ 64
+butcher_smoked_ham_sell = 2
+#Enable trade for butcher_minced_beef
+butcher_minced_beef_enabled = true
+#Buy amount for butcher_minced_beef
+#Range: 1 ~ 64
+butcher_minced_beef_buy = 20
+#Sell amount for butcher_minced_beef
+#Range: 1 ~ 64
+butcher_minced_beef_sell = 1
+#Enable trade for butcher_mutton_chops
+butcher_mutton_chops_enabled = true
+#Buy amount for butcher_mutton_chops
+#Range: 1 ~ 64
+butcher_mutton_chops_buy = 14
+#Sell amount for butcher_mutton_chops
+#Range: 1 ~ 64
+butcher_mutton_chops_sell = 1
+#Enable trade for butcher_dog_food
+butcher_dog_food_enabled = true
+#Buy amount for butcher_dog_food
+#Range: 1 ~ 64
+butcher_dog_food_buy = 1
+#Sell amount for butcher_dog_food
+#Range: 1 ~ 64
+butcher_dog_food_sell = 5
+#Enable trade for butcher_barbecue_stick
+butcher_barbecue_stick_enabled = true
+#Buy amount for butcher_barbecue_stick
+#Range: 1 ~ 64
+butcher_barbecue_stick_buy = 1
+#Sell amount for butcher_barbecue_stick
+#Range: 1 ~ 64
+butcher_barbecue_stick_sell = 3
+#Enable trade for butcher_roast_chicken
+butcher_roast_chicken_enabled = true
+#Buy amount for butcher_roast_chicken
+#Range: 1 ~ 64
+butcher_roast_chicken_buy = 1
+#Sell amount for butcher_roast_chicken
+#Range: 1 ~ 64
+butcher_roast_chicken_sell = 5
+#Enable trade for butcher_steak_and_potatoes
+butcher_steak_and_potatoes_enabled = true
+#Buy amount for butcher_steak_and_potatoes
+#Range: 1 ~ 64
+butcher_steak_and_potatoes_buy = 1
+#Sell amount for butcher_steak_and_potatoes
+#Range: 1 ~ 64
+butcher_steak_and_potatoes_sell = 7
+#Enable trade for farmer_rice
+farmer_rice_enabled = true
+#Buy amount for farmer_rice
+#Range: 1 ~ 64
+farmer_rice_buy = 17
+#Sell amount for farmer_rice
+#Range: 1 ~ 64
+farmer_rice_sell = 1
+#Enable trade for farmer_cabbage
+farmer_cabbage_enabled = true
+#Buy amount for farmer_cabbage
+#Range: 1 ~ 64
+farmer_cabbage_buy = 14
+#Sell amount for farmer_cabbage
+#Range: 1 ~ 64
+farmer_cabbage_sell = 1
+#Enable trade for farmer_tomato
+farmer_tomato_enabled = true
+#Buy amount for farmer_tomato
+#Range: 1 ~ 64
+farmer_tomato_buy = 22
+#Sell amount for farmer_tomato
+#Range: 1 ~ 64
+farmer_tomato_sell = 1
+#Enable trade for farmer_onion
+farmer_onion_enabled = true
+#Buy amount for farmer_onion
+#Range: 1 ~ 64
+farmer_onion_buy = 29
+#Sell amount for farmer_onion
+#Range: 1 ~ 64
+farmer_onion_sell = 1
+#Enable trade for farmer_wheat_dough
+farmer_wheat_dough_enabled = true
+#Buy amount for farmer_wheat_dough
+#Range: 1 ~ 64
+farmer_wheat_dough_buy = 1
+#Sell amount for farmer_wheat_dough
+#Range: 1 ~ 64
+farmer_wheat_dough_sell = 11
+#Enable trade for farmer_rice_bale
+farmer_rice_bale_enabled = true
+#Buy amount for farmer_rice_bale
+#Range: 1 ~ 64
+farmer_rice_bale_buy = 9
+#Sell amount for farmer_rice_bale
+#Range: 1 ~ 64
+farmer_rice_bale_sell = 1
+#Enable trade for farmer_apple_cider
+farmer_apple_cider_enabled = true
+#Buy amount for farmer_apple_cider
+#Range: 1 ~ 64
+farmer_apple_cider_buy = 2
+#Sell amount for farmer_apple_cider
+#Range: 1 ~ 64
+farmer_apple_cider_sell = 1
+#Enable trade for farmer_pie_crust
+farmer_pie_crust_enabled = true
+#Buy amount for farmer_pie_crust
+#Range: 1 ~ 64
+farmer_pie_crust_buy = 1
+#Sell amount for farmer_pie_crust
+#Range: 1 ~ 64
+farmer_pie_crust_sell = 5
+#Enable trade for farmer_apple_pie
+farmer_apple_pie_enabled = true
+#Buy amount for farmer_apple_pie
+#Range: 1 ~ 64
+farmer_apple_pie_buy = 5
+#Sell amount for farmer_apple_pie
+#Range: 1 ~ 64
+farmer_apple_pie_sell = 4
+#Enable trade for farmer_sweet_berry_cheesecake
+farmer_sweet_berry_cheesecake_enabled = true
+#Buy amount for farmer_sweet_berry_cheesecake
+#Range: 1 ~ 64
+farmer_sweet_berry_cheesecake_buy = 5
+#Sell amount for farmer_sweet_berry_cheesecake
+#Range: 1 ~ 64
+farmer_sweet_berry_cheesecake_sell = 4
+#Enable trade for farmer_chocolate_pie
+farmer_chocolate_pie_enabled = true
+#Buy amount for farmer_chocolate_pie
+#Range: 1 ~ 64
+farmer_chocolate_pie_buy = 5
+#Sell amount for farmer_chocolate_pie
+#Range: 1 ~ 64
+farmer_chocolate_pie_sell = 4
+#Enable trade for farmer_straw_bale
+farmer_straw_bale_enabled = true
+#Buy amount for farmer_straw_bale
+#Range: 1 ~ 64
+farmer_straw_bale_buy = 4
+#Sell amount for farmer_straw_bale
+#Range: 1 ~ 64
+farmer_straw_bale_sell = 1
+#Enable trade for farmer_sweet_berry_cookie
+farmer_sweet_berry_cookie_enabled = true
+#Buy amount for farmer_sweet_berry_cookie
+#Range: 1 ~ 64
+farmer_sweet_berry_cookie_buy = 5
+#Sell amount for farmer_sweet_berry_cookie
+#Range: 1 ~ 64
+farmer_sweet_berry_cookie_sell = 1
+#Enable trade for farmer_honey_cookie
+farmer_honey_cookie_enabled = true
+#Buy amount for farmer_honey_cookie
+#Range: 1 ~ 64
+farmer_honey_cookie_buy = 3
+#Sell amount for farmer_honey_cookie
+#Range: 1 ~ 64
+farmer_honey_cookie_sell = 14
+#Enable trade for farmer_melon_popsicle
+farmer_melon_popsicle_enabled = true
+#Buy amount for farmer_melon_popsicle
+#Range: 1 ~ 64
+farmer_melon_popsicle_buy = 3
+#Sell amount for farmer_melon_popsicle
+#Range: 1 ~ 64
+farmer_melon_popsicle_sell = 8
+#Enable trade for farmer_cake_slice
+farmer_cake_slice_enabled = true
+#Buy amount for farmer_cake_slice
+#Range: 1 ~ 64
+farmer_cake_slice_buy = 5
+#Sell amount for farmer_cake_slice
+#Range: 1 ~ 64
+farmer_cake_slice_sell = 8
+#Enable trade for farmer_fruit_salad
+farmer_fruit_salad_enabled = true
+#Buy amount for farmer_fruit_salad
+#Range: 1 ~ 64
+farmer_fruit_salad_buy = 11
+#Sell amount for farmer_fruit_salad
+#Range: 1 ~ 64
+farmer_fruit_salad_sell = 4
+#Enable trade for farmer_mixed_salad
+farmer_mixed_salad_enabled = true
+#Buy amount for farmer_mixed_salad
+#Range: 1 ~ 64
+farmer_mixed_salad_buy = 7
+#Sell amount for farmer_mixed_salad
+#Range: 1 ~ 64
+farmer_mixed_salad_sell = 2
+#Enable trade for farmer_cooked_rice
+farmer_cooked_rice_enabled = true
+#Buy amount for farmer_cooked_rice
+#Range: 1 ~ 64
+farmer_cooked_rice_buy = 15
+#Sell amount for farmer_cooked_rice
+#Range: 1 ~ 64
+farmer_cooked_rice_sell = 8
+#Enable trade for farmer_glow_berry_custard
+farmer_glow_berry_custard_enabled = true
+#Buy amount for farmer_glow_berry_custard
+#Range: 1 ~ 64
+farmer_glow_berry_custard_buy = 11
+#Sell amount for farmer_glow_berry_custard
+#Range: 1 ~ 64
+farmer_glow_berry_custard_sell = 3
+#Enable trade for farmer_horse_feed
+farmer_horse_feed_enabled = true
+#Buy amount for farmer_horse_feed
+#Range: 1 ~ 64
+farmer_horse_feed_buy = 9
+#Sell amount for farmer_horse_feed
+#Range: 1 ~ 64
+farmer_horse_feed_sell = 1
+#Enable trade for farmer_fried_rice
+farmer_fried_rice_enabled = true
+#Buy amount for farmer_fried_rice
+#Range: 1 ~ 64
+farmer_fried_rice_buy = 21
+#Sell amount for farmer_fried_rice
+#Range: 1 ~ 64
+farmer_fried_rice_sell = 5
+#Enable trade for farmer_raw_pasta
+farmer_raw_pasta_enabled = true
+#Buy amount for farmer_raw_pasta
+#Range: 1 ~ 64
+farmer_raw_pasta_buy = 23
+#Sell amount for farmer_raw_pasta
+#Range: 1 ~ 64
+farmer_raw_pasta_sell = 27
+#Enable trade for farmer_pumpkin_slice
+farmer_pumpkin_slice_enabled = true
+#Buy amount for farmer_pumpkin_slice
+#Range: 1 ~ 64
+farmer_pumpkin_slice_buy = 3
+#Sell amount for farmer_pumpkin_slice
+#Range: 1 ~ 64
+farmer_pumpkin_slice_sell = 11
+

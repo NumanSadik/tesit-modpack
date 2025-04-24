@@ -1,0 +1,2 @@
+resourcePacks:["vanilla","mod_resources","Forgery","Forgery grayscale","Moonlight Mods Dynamic Assets","netherexp:jne_retextures","spelunkery:better_vanilla_gems","file/better_flame_particles-v2.2-mc1.14x-1.21x-resourcepack.zip","file/better-nature.zip","file/MandalasGUI+Dakmode_1.20.5.zip","eatinganimations_compat","better_smithing_ui/dark_ui","default_seamless","delightful:overhauls"]
+incompatibleResourcePacks:["file/better-nature.zip","file/MandalasGUI+Dakmode_1.20.5.zip","file/§3Drodi\u0027s Illagers [V4.9.1].zip"]

@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "thermal:crude_oil_fluid",
+  "condition": [{"type": "forge:false"}]
+}

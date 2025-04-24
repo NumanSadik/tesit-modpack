@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "pneumaticcraft:kerosene",
+  "condition": [{"type": "forge:false"}]
+}

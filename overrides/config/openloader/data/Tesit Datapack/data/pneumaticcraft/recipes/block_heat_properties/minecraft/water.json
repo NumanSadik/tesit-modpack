@@ -1,0 +1,7 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "fluid": "minecraft:water",
+  "transformHot": {
+    "block": "embers:steam[level=7]"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "butchercraft:pork_ribs"
+    },
+    {
+      "tag": "betterbeekeeping:honey_bottles"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    }
+  ],
+  "item": "candlelight:pork_ribs",
+  "count": 2,
+  "experience": 0.25
+}

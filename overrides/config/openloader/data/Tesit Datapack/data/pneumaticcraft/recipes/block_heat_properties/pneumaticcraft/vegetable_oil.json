@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "pneumaticcraft:vegetable_oil",
+  "condition": [{"type": "forge:false"}]
+}

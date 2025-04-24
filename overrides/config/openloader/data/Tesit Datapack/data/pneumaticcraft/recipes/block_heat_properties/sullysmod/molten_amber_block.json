@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "sullysmod:molten_amber_block",
+  "condition": [{"type": "forge:false"}]
+}

@@ -1,0 +1,4029 @@
+{
+	// Lock item list
+	lockItemList: [
+		{
+			item: "minecraft:anvil",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:chipped_anvil",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:damaged_anvil",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "tetra:basic_workbench",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "tetra*tier*sword:iron",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:brewing_stand",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Magic",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:enchanting_table",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "eidolon:soul_enchanter",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "eidolon:magic_worktable",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:alchemy_table",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:beacon",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:end_crystal",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 15
+				},
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:ender_chest",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:respawn_anchor",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:white_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:light_gray_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:gray_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:black_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:brown_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:red_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:orange_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:yellow_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:lime_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:green_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:cyan_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:light_blue_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:blue_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:purple_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:magenta_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:pink_shulker_box",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:dragon_egg",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 15
+				}
+			]
+		},
+		{
+			item: "minecraft:wither_skeleton_skull",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:lodestone",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				},
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:smithing_table",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 10
+				},
+				{
+					aptitude: "Intelligence",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:grindstone",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				},
+				{
+					aptitude: "Intelligence",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "spelunkery:diamond_grindstone",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 12
+				},
+				{
+					aptitude: "Intelligence",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:cartography_table",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:stonecutter",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:smoker",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "nethersdelight:nether_brick_smoker",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:blast_furnace",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:loom",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				},
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:name_tag",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "minecraft:fishing_rod",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:bone_meal",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersdelight:organic_compost",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "farmersdelight:rich_soil",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "farmersdelight:planter",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:phytogro",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:shears",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:lead",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:spyglass",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				},
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:brush",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:fire_charge",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:flint_and_steel",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:redstone",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:redstone_torch",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:repeater",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:comparator",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:writable_book",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:written_book",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:tnt",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:lectern",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				},
+				{
+					aptitude: "Building",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:ender_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:ender_eye",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:bow",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Strength",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:stinger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level:3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:driftbow",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Strength",
+					level: 2
+				},
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "cataclysm:cursed_bow",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 2
+				},
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:crossbow",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:recurve_bow",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:saddle",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:elytra",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 15
+				}
+			]
+		},
+		{
+			item: "minecraft:firework_rocket",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 10
+				},
+				{
+					aptitude: "Intelligence",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "minecraft:experience_bottle",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				},
+				{
+					aptitude: "Luck",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "minecraft:farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_weathering:silty_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_weathering:sandy_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_weathering:earthen_clay_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_weathering:loamy_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersdelight:rich_soil_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersdelight:fertilized_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "swampier_swamps:fertile_farmland",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "iter_rpg:arcane_flower_seeds",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "vinery:taiga_grape_seeds_red",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "vinery:taiga_grape_seeds_white",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "vinery:jungle_grape_seeds_red",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:cocoa_beans",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:pitcher_pod",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:glow_berries",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:nether_wart:",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 5
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:frogspawn",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Constitution",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:turtle_egg",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Constitution",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:sniffer_egg",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Constitution",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:oak_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "quark:yellow_blossom_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:spruce_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:birch_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:jungle_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:acacia_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:dark_oak_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:mangrove_propagule",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:cherry_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:azalea",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:flowering_azalea",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:crimson_fungus",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:warped_fungus",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:bamboo",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:sugar_cane",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:cactus",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:chorus_plant",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:chorus_flower",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:shield",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				},
+				{
+					aptitude: "Constitution",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:chainmail_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:chainmail_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:chainmail_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:chainmail_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_armors:wither_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_armors:warrior_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_armors:robe_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:azure_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:compressed_iron_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:pneumatic_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "biomancy:acolyte_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Intelligence",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "eidolon:silver_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "savage_and_ravage:griefer_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "meadow:fur_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_armors:warrior_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:turtle_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Dexterity",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_horse_armor",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				},
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_horse_armor",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				},
+				{
+					aptitude: "Dexterity",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_horse_armor",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				},
+				{
+					aptitude: "Dexterity",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:totem_of_undying",
+			aptitudes: [
+				{
+					aptitude: "Constitution",
+					level: 8
+				},
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:trident",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 10
+				},
+				{
+					aptitude: "Dexterity",
+					level: 9
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:lead_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:dawnstone_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:silver_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:lead_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:dawnstone_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:silver_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "phantasm:crystalline_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:black_steel_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:black_steel_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:lead_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:dawnstone_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:deepsteel_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:deepsteel_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "kobolds:kobold_iron_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "phantasm:crystalline_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:silver_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "alexsmobs:ghostly_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:black_steel_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:lead_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:dawnstone_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:silver_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:deepsteel_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "kobolds:kobold_iron_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:black_steel_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "dungeons_plus:warped_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:coral_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:iron_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:bloodletter",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "davespotioneering:rudimentary_gauntlet",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Magic",
+					level: 2
+				},
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "davespotioneering:netherite_gauntlet",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 9
+				},
+				{
+					aptitude: "Magic",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "embers:silver_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:khopesh",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:tyrfing",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "cataclysm:black_steel_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:lead_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "embers:dawnstone_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "phantasm:crystalline_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "ancientsand:ancient_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "iter_rpg:golden_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:diamond_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:cursed_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:cursed_dagger",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:dagger_of_greed",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				},
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "aquamirae:poisoned_blade",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "farmersdelight:golden_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "farmersdelight:iron_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "delightful:silver_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "bakery:bread_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:butcher_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:skinning_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:bone_saw",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:gut_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				},
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:meat_hook_item",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:grinder",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "butchercraft:butcher_block",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "farmersdelight:diamond_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "farmersdelight:netherite_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 6.5
+				}
+			]
+		},
+		{
+			item: "sullysmod:primitive_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 6.5
+				}
+			]
+		},
+		{
+			item: "sullysmod:throwing_knife",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_flail",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "phantasm:crystalline_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "aquamirae:terrible_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_axe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_axe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_axe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				},
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:golden_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "queen_bee:stinger_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				},
+				{
+					aptitude: "Dexterity",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "alexsmobs:skelewag_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				},
+				{
+					aptitude: "Dexterity",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "nethersdelight:golden_machete",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "nethersdelight:iron_machete",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 6.5
+				}
+			]
+		},
+		{
+			item: "nethersdelight:diamond_machete",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "nethersdelight:netherite_machete",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "iter_rpg:golden_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:golden_flail",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:golden_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "dungeonnowloading:life_stealer",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "dungeonnowloading:spawner_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:diamond_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "malum:crude_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:diamond_flail",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "spelunkery:obsidian_hammer_and_chisel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "embers:clockwork_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "eidolon:reversal_pick",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:diamond_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "embers:clockwork_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "embers:grandhammer",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "phantasm:crystalline_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:diamond_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:diamond_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 13
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 13
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				},
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				},
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "cataclysm:ancient_spear",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 16
+				},
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "cataclysm:void_forge",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "cataclysm:infernal_forge",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "eidolon:reaper_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 6
+				},
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "eidolon:deathbringer_scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "mca:scythe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_flail",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "minecraft:honey_bottle",
+			aptitudes: [
+				{
+					aptitude: "Constitution",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "minecraft:potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "kobolds:kobold_potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "netherexp:antidote",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "netherexp:grenade_antidote",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 4
+				},
+				{
+					aptitude: "Dexterity",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:mana_potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 2
+				},
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:huge_mana_potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:super_mana_potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 4
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:splash_potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 3
+				},
+				{
+					aptitude: "Dexterity",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "minecraft:lingering_potion",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 3
+				},
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:amethyst_wand",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:pearl_wand",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:bone_wand",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:abyssquartz_wand",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "eidolon:soulfire_wand",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "eidolon:bonechill_wand",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "savage_and_ravage:wand_of_freezing",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:nimble_copper_shortstaff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:hydra_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "embers:cinder_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "embers:blazing_ray",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "mca:staff_of_life",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "malum:totemic_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_flames",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_water",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_air",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_spirits",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_heat",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_seas",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_seismic",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_healing",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_undead",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_shadow_flames",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_blizzard",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_meteorites",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_lightning",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_dimensions",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:book_of_havoc",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:spell_scribbles",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:spell_book",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:thunderclap",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "ancientcurses:cursed_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:corrupted_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:corrupted_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:soul_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:ancient_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:bubble_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:summoner_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:icy_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:crimson_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "endermanoverhaul:warped_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "collectorsreap:shimmering_pearl",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_amethyst",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_diamond",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_abyssquartz",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_magmanum",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_emerald",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_sanguarnet",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:iron_ring_awakened_sanguarnet",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_amethyst",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_diamond",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_abyssquartz",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_magmanum",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_emerald",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_sanguarnet",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:gold_ring_awakened_sanguarnet",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "candlelight:gold_ring",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_amethyst",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_diamond",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_abyssquartz",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_magmanum",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_emerald",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_sanguarnet",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:netherite_ring_awakened_sanguarnet",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "malum:gilded_ring",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ornate_ring",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_esoteric_spoils",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_curative_talent",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_arcane_prowess",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_manaweaving",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_alchemical_mastery",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_desperate_voracity",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_the_hoarder",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "malum:ring_of_the_demolitionist",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "alexsmobs:tendon_whip",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 4
+				}
+			]
+		}
+	]
+}

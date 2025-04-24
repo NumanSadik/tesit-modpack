@@ -1,0 +1,25 @@
+#villagerxp.config.xpAmount.tooltip
+#Range: 0 ~ 150
+xpAmount = 10
+#villagerxp.config.enableXpBottles.tooltip
+enableXpBottles = true
+#villagerxp.config.enableXpOrbs.tooltip
+enableXpOrbs = true
+#villagerxp.config.requiresCrouching.tooltip
+requiresCrouching = true
+#villagerxp.config.bottleMultiplier.tooltip
+#Range: 0.1 ~ 5.0
+bottleMultiplier = 1.0
+#villagerxp.config.orbMultiplier.tooltip
+#Range: 0.1 ~ 5.0
+orbMultiplier = 1.0
+#villagerxp.config.orbAttractRange.tooltip
+#Range: 1.0 ~ 16.0
+orbAttractRange = 4.5
+#villagerxp.config.orbPickupRange.tooltip
+#Range: 0.5 ~ 10.0
+orbPickupRange = 1.5
+#villagerxp.config.levelsPerBottle.tooltip
+#Range: 0 ~ 4
+levelsPerBottle = 0
+

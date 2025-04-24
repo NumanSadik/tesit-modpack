@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "biomancy:acid_fluid_block",
+  "condition": [{"type": "forge:false"}]
+}

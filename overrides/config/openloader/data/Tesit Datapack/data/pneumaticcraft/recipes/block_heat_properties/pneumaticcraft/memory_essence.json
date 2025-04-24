@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "pneumaticcraft:memory_essence",
+  "condition": [{"type": "forge:false"}]
+}

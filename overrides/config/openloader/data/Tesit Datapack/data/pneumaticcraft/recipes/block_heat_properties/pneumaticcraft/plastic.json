@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "pneumaticcraft:plastic",
+  "condition": [{"type": "forge:false"}]
+}

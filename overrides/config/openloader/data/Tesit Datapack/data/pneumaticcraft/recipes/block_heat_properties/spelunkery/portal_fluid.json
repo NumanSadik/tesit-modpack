@@ -1,0 +1,5 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "spelunkery:portal_fluid",
+  "condition": [{"type": "forge:false"}]
+}
