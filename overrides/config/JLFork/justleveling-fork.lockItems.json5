@@ -974,6 +974,15 @@
 			]
 		},
 		{
+			item: "malum:runewood_sapling",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
 			item: "quark:yellow_blossom_sapling",
 			aptitudes: [
 				{

@@ -98,6 +98,7 @@
   "forge:tallow": ["delightful:animal_fat", "immersive_weathering:tallow", "butchercraft:fat"],
   "forge:ingots/rose_gold": ["mca:rose_gold_ingot"],
   "forge:dusts/rose_gold": ["mca:rose_gold_dust"],
+  "forge:dusts/sulfur": ["spelunkery:sulfur", "thermal:sulfur_dust", "immersiveengineering:dust_sulfur", "eidolon:sulfur"],
   "forge:storage_blocks/rose_gold": ["mca:rose_gold_block"],
   "forge:storage_blocks": ["salt:salt_block", "vintagedelight:salt_block","spelunkery:salt_block"],
   "forge:storage_blocks/salt": ["salt:salt_block", "vintagedelight:salt_block","spelunkery:salt_block"],

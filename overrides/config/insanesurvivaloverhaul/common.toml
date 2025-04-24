@@ -1,7 +1,7 @@
 "Enable Combat" = false
 "Enable Experience" = false
 "Enable Farming" = true
-"Enable Hunger & Health" = true
+"Enable Hunger & Health" = false
 "Enable Items" = true
 "Enable Mining" = true
 "Enable Miscellaneous" = true
@@ -650,7 +650,7 @@
 	#Beacon has been redesigned to have more effects and range based off blocks used for pyramid. Effects and blocks ranges are controlled via json config in this feature's folder.
 	"Enable Beacon & Conduit" = true
 	#Various data packs that can be enabled/disabled
-	"Enable Data Packs & Integration" = true
+	"Enable Data Packs & Integration" = false
 	#Various data packs that can be enabled/disabled
 	"Enable Tinker Integration" = true
 	#Various stuff that doesn't fit in any other Feature.
@@ -721,7 +721,7 @@
 		#Makes redstone components require redstone in their recipe (e.g. Levers, pressure plates, etc).
 		"Actual Redstone Components" = true
 		#If true a data pack will be enabled that makes furnaces require copper. Copper ingots can be obtained from raw copper on campfires.
-		"Copper Furnace" = true
+		"Copper Furnace" = false
 		#If true a data pack will be enabled that disables villages and pillagers outpost generation.
 		"Disable Long Noses Structures" = false
 		#If true a data pack will be enabled that changes fishing Loot.
@@ -798,7 +798,7 @@
 		#Plays a sound effect when a mob is hit at least from this distance.
 		#Range: > -2147483648
 		"Ding on mob hit at distance" = 40
-		"Blindness no longer prevents sprinting" = false
+		"Blindness no longer prevents sprinting" = true
 
 		[Miscellaneous.Tweaks.Sponge]
 			#The maximum amount of blocks a sponge can soak. (Vanilla is 64, disabled if quark is installed)
