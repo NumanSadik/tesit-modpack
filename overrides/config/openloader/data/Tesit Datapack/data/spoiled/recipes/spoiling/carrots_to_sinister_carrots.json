@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "tesit:spoils/carrot"
+  },
+  "result": {
+    "item": "domesticationinnovation:sinister_carrot"
+  },
+  "spoiltime": 20,
+  "priority": 5
+}

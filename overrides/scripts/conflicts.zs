@@ -15,6 +15,15 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tagmanager:items>.removeId(<tag:items:spelunkery:smeltable_foods>, <resource:minecraft:rotten_flesh>);
 <tagmanager:items>.removeId(<tag:items:spelunkery:blastable_foods>, <resource:minecraft:rotten_flesh>);
 
+<tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:potato>]);
+<tagmanager:items>.addId(<tag:items:tesit:spoils/potato>, [<resource:minecraft:potato>]);
+<tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:apple>, <resource:minecraft:golden_apple>]);
+<tagmanager:items>.addId(<tag:items:tesit:spoils/apple>, [<resource:minecraft:apple>, <resource:minecraft:golden_apple>, <resource:softi_dnd_cleric:pyroquartz_apple>, <resource:illusion_onslaught:arcane_apple>, <resource:buzzier_bees:honey_apple>, <resource:vanillacookbook:baked_apple>]);
+<tagmanager:items>.addId(<tag:items:tesit:spoils/cherry>, [<resource:vinery:cherry>]);
+<tagmanager:items>.addId(<tag:items:tesit:spoils/tomato>, [<resource:thermal:tomato>, <resource:farm_and_charm:tomato>]);
+<tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
+<tagmanager:items>.addId(<tag:items:tesit:spoils/carrot>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>, <resource:miners_delight:cave_carrot>, <resource:miners_delight:copper_carrot>]);
+
 craftingTable.removeByName("farm_and_charm:carrot_bag");
 craftingTable.removeByName("farm_and_charm:potato_bag");
 craftingTable.removeByName("farm_and_charm:beetroot_bag");

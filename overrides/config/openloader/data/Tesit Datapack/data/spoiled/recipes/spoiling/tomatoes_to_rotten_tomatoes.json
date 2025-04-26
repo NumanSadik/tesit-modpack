@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "tesit:spoils/tomato"
+  },
+  "result": {
+    "item": "farm_and_charm:rotten_tomato"
+  },
+  "spoiltime": 20,
+  "priority": 5
+}

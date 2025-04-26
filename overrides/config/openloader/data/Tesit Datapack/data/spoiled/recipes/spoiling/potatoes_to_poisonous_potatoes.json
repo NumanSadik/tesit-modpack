@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "tesit:spoils/potato"
+  },
+  "result": {
+    "item": "minecraft:poisonous_potato"
+  },
+  "spoiltime": 20,
+  "priority": 5
+}

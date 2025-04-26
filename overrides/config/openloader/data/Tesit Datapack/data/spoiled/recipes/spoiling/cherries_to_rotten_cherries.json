@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "tesit:spoils/cherry"
+  },
+  "result": {
+    "item": "vinery:rotten_cherry"
+  },
+  "spoiltime": 20,
+  "priority": 5
+}

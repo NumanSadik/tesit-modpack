@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "tesit:spoils/apple"
+  },
+  "result": {
+    "item": "domesticationinnovation:rotten_apple"
+  },
+  "spoiltime": 20,
+  "priority": 5
+}

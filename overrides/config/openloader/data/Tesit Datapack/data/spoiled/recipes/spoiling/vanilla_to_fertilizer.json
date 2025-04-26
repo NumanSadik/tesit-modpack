@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "spoiled:foods/vanilla"
+  },
+  "result": {
+    "item": "farm_and_charm:fertilizer"
+  },
+  "spoiltime": 20,
+  "priority": 5
+}

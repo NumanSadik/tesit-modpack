@@ -774,78 +774,6 @@
 			]
 		},
 		{
-			item: "minecraft:farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "immersive_weathering:silty_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "immersive_weathering:sandy_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "immersive_weathering:earthen_clay_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "immersive_weathering:loamy_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "farmersdelight:rich_soil_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "farmersdelight:fertilized_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "swampier_swamps:fertile_farmland",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 5
-				}
-			]
-		},
-		{
 			item: "iter_rpg:arcane_flower_seeds",
 			aptitudes: [
 				{
@@ -859,69 +787,11 @@
 			]
 		},
 		{
-			item: "vinery:taiga_grape_seeds_red",
+			item: "quark:seed_pouch",
 			aptitudes: [
 				{
 					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "vinery:taiga_grape_seeds_white",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "vinery:jungle_grape_seeds_red",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "minecraft:cocoa_beans",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "minecraft:pitcher_pod",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "minecraft:glow_berries",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 3
-				}
-			]
-		},
-		{
-			item: "minecraft:nether_wart:",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 5
-				},
-				{
-					aptitude: "Magic",
-					level: 4
+					level: 6
 				}
 			]
 		},
@@ -1573,6 +1443,528 @@
 				{
 					aptitude: "Dexterity",
 					level: 9
+				}
+			]
+		},
+		{
+			item: "endersdelight:chorus_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersdelight:cabbage_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vintagedelight:peanut_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vintagedelight:cucumber_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vintagedelight:ghost_pepper_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:apple_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:carrot_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:potato_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:beetroot_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:corn_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:onion_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:radish_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:sadiroot_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:spinach_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:bell_pepper_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:eggplant_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:green_bean_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:hops_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:strawberry_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:tomato_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "collectorsreap:pomegranate_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "collectorsreap:lime_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:passion_fruit_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:shimmering_passion_fruit_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:orange_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:blood_orange_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:currant_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:dragon_fruit_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:golden_dragon_fruit_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:white_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:red_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vintagedelight:oat_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vintagedelight:gearo_berry_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:cherry_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:white_savanna_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:red_savanna_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:white_taiga_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:red_taiga_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:white_jungle_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:red_jungle_grape_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "herbalbrews:tea_leaf_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farm_and_charm:lettuce_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farm_and_charm:corn_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farm_and_charm:onion_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farm_and_charm:flour_bag",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "miners_delight:cave_carrot_crate",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:rice_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:peanut_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:coffee_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:tea_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersrespite:green_tea_leaves_sack",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersrespite:yellow_tea_leaves_sack",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersrespite:black_tea_leaves_sack",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersrespite:coffee_beans_sack",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "delightful:salmonberry_sack",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "delightful:acorn_sack",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:yucca_cask",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "atmospheric:roasted_yucca_cask",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
 				}
 			]
 		},
