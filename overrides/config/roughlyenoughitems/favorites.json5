@@ -1,11 +1,4 @@
 {
-	"favorites": [
-		"{data:{Count:1b,id:\"miners_delight:copper_carrot\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"immersive_weathering:sandy_cobblestone_wall\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"minecraft:splash_potion\",tag:{CustomPotionColor:16711680,CustomPotionEffects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:600,Id:201,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"vinery:creeper_effect\"}]},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:600,Id:201,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"vinery:creeper_effect\",type:\"minecraft:effect\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"farm_and_charm:tomato\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
-	],
 	"hiddenFavorites": [],
 	"displays": [
 		"{DisplayHistoryCategory:\"minecraft:plugins/tag\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"93e37727-d785-4e7e-bd5c-cb4bef43fcbe\"}"

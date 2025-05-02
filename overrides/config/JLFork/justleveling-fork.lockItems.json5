@@ -665,7 +665,7 @@
 			aptitudes: [
 				{
 					aptitude: "Dexterity",
-					level:3
+					level: 3
 				}
 			]
 		},
@@ -1897,6 +1897,24 @@
 			]
 		},
 		{
+			item: "habitat:kabloom_fruit_pile",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "habitat:kabloom_pulp_block",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
 			item: "farmersrespite:green_tea_leaves_sack",
 			aptitudes: [
 				{
@@ -2718,7 +2736,7 @@
 			aptitudes: [
 				{
 					aptitude: "Dexterity",
-					level: 6.5
+					level: 6
 				}
 			]
 		},
@@ -2727,7 +2745,7 @@
 			aptitudes: [
 				{
 					aptitude: "Dexterity",
-					level: 6.5
+					level: 6
 				}
 			]
 		},
@@ -2922,7 +2940,7 @@
 			aptitudes: [
 				{
 					aptitude: "Strength",
-					level: 6.5
+					level: 6
 				}
 			]
 		},
@@ -4423,6 +4441,2804 @@
 				{
 					aptitude: "Dexterity",
 					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:netherite_upgrade_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:sentry_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:dune_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:coast_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:wild_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:ward_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:eye_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:vex_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:tide_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:snout_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:rib_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:spire_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:wayfinder_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:shaper_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:silence_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:raiser_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "minecraft:host_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "softi_dnd_cleric:blazing_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:fallacy_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaos_upgrade_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "kobolds:kobold_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:evoker_trim",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "galosphere:silver_upgrade_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "galosphere:preserved_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "sullysmod:jade_upgrade_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "neapolitan:primal_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_upgrade_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "atmospheric:apostle_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "atmospheric:druid_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "atmospheric:petrified_armor_trim_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "wares:delivery_table",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 4
+				},
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "minecraft:cauldron",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "easel_does_it:easel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				},
+				{
+					aptitude: "Intelligence",
+					level: 4
+				},
+				{
+					aptitude: "Constitution",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "meadow:woodcutter",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				},
+				{
+					aptitude: "Intelligence",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersdelight:skillet",
+			aptitudes: [
+				{
+					aptitude: "Constitution",
+					level: 4
+				},
+				{
+					aptitude: "Intelligence",
+					level: 4
+				},
+				{
+					aptitude: "Luck",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "farmersdelight:cooking_pot",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "betterarcheology:archeology_table",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 8
+				},
+				{
+					aptitude: "Luck",
+					level: 6
+				},
+				{
+					aptitude: "Constitution",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "vinery:fermentation_barrel",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				},
+				{
+					aptitude: "Constitution",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:charging_station",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:workbench",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:turntable",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:craftingtable",
+			aptitudes: [
+				{
+					aptitude: "Intelligence",
+					level: 6
+				},
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:circuit_table",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				},
+				{
+					aptitude: "Intelligence",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:totem_of_roots",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:totem_of_souls",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "betterarcheology:torrent_totem",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				},
+				{
+					aptitude: "Dexterity",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "betterarcheology:soul_totem",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				},
+				{
+					aptitude: "Constitution",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "goety:witch_cauldron",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "davespotioneering:reinforced_cauldron",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "herbalbrews:cauldron",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "meadow:cooking_cauldron",
+			aptitudes: [
+				{
+					aptitude: "Constitution",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_shield",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				},
+				{
+					aptitude: "Constitution",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "alexsmobs:shield_of_the_deep",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				},
+				{
+					aptitude: "Constitution",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "sullysmod:jade_shield",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				},
+				{
+					aptitude: "Constitution",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:wayfarers_belt",
+			aptitudes: [
+				{
+					aptitude: "Dexterity",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:spiteful_belt",
+			aptitudes: [
+				{
+					aptitude: "Constitution",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:dark_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:grand_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:necro_cape",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:nameless_cape",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:illusion_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:illusion_robe_mirror",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:frost_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:frost_robe_cryo",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:wind_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:storm_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:wild_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:abyss_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:witch_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:witch_robe_hedge",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:warlock_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:warlock_robe_dark",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:nether_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:nether_robe_warped",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:unholy_robe",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:arcane_bouquete",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ancient_knowledge",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "goety:dark_hat",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:grand_turban",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:frost_crown",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:wild_crown",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:abyss_crown",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:nether_crown",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:necro_crown",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:nameless_crown",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:witch_hat",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:witch_hat_hedge",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:crone_hat",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:unholy_hat",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:ring_of_want",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:ring_of_force",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:ring_of_the_forge",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:ring_of_the_dragon",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "softi_dnd_cleric:golden_blessing",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "softi_dnd_cleric:lime_blessing",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "softi_dnd_cleric:violet_blessing",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:cursed_paladin_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "goety:dark_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "immersive_armors:heavy_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:slime_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_armors:divine_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "immersive_armors:prismarine_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:steampunk_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "iter_rpg:elemental_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:damned_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:spiritual_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				},
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_armor_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:terrible_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "aquamirae:three_bolt_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "alexsmobs:froststalker_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_armors:slime_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iter_rpg:damned_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "alexsmobs:crocodile_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "alexsmobs:rocky_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "meadow:fur_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "goety:cursed_knight_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "goety:black_iron_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "immersive_armors:steampunk_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:compressed_iron_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:pneumatic_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "eidolon:silver_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "savage_and_ravage:griefer_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "immersive_armors:heavy_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:cursed_paladin_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "immersive_armors:divine_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:spiritual_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:armor_steel_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "aquamirae:terrible_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "immersive_armors:prismarine_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "goety:dark_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 9
+				}
+			]
+		},
+		{
+			item: "iter_rpg:elemental_armor_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 9
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "eidolon:bonelord_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 9
+				}
+			]
+		},
+		{
+			item: "immersive_armors:wither_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_armors:steampunk_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "thermal:beekeeper_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "aquamirae:terrible_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "malum:soul_hunter_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "immersive_armors:slime_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:damned_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "eidolon:silver_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "alexsmobs:emu_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "meadow:fur_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:abyssal_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "goety:cursed_knight_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:black_iron_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:divine_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:compressed_iron_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:pneumatic_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "thermal:diving_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "thermal:hazmat_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "embers:ashen_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "aquamirae:three_bolt_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "savage_and_ravage:griefer_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:heavy_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "galosphere:sterling_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "goety:cursed_paladin_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "immersive_armors:warrior_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "immersive_armors:prismarine_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:armor_steel_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "alexsmobs:centipede_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "malum:soul_stained_steel_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "goety:dark_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 9
+				}
+			]
+		},
+		{
+			item: "iter_rpg:elemental_armor_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 9
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_leggings",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "meadow:fur_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "goety:cursed_knight_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_armors:wither_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_armors:warrior_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:slime_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "immersive_armors:steampunk_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:magmanum_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:ametrine_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:azure_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:black_iron_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "goety:cursed_paladin_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:divine_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:prismarine_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "iter_rpg:damned_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "embers:ashen_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "alexsmobs:roadrunner_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:dark_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "immersive_armors:heavy_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "aquamirae:three_bolt_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "iter_rpg:elemental_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_armor_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "goety:cursed_knight_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "goety:black_iron_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersive_armors:wither_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:compressed_iron_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "pneumaticcraft:pneumatic_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "thermal:beekeeper_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "thermal:beekeeper_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "thermal:beekeeper_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 2
+				}
+			]
+		},
+		{
+			item: "thermal:diving_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:diving_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "thermal:diving_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "thermal:hazmat_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "thermal:hazmat_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "thermal:hazmat_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:armor_steel_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:armor_steel_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "embers:ashen_cloak",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "embers:ashen_goggles",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:terrible_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "aquamirae:abyssal_heaume",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:abyssal_brigantine",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 5
+				}
+			]
+		},
+		{
+			item: "aquamirae:abyssal_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:abyssal_tiara",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "aquamirae:three_bolt_suit",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "galosphere:sterling_helmet",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "galosphere:sterling_chestplate",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 7
+				}
+			]
+		},
+		{
+			item: "galosphere:sterling_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "savage_and_ravage:griefer_boots",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "kobolds:kobold_iron_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "eidolon:sapping_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iguanatweaksreborn:flint_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "iter_rpg:sword_of_bounding",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:dark_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:sword_steel",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:elemental_sword",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "iguanatweaksreborn:flint_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "kobolds:kobold_iron_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:dark_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:earth_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:water_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:air_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:fire_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iter_rpg:void_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "illusion_onslaught:chaotic_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:hoe_steel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "oreganized:electrum_hoe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "iguanatweaksreborn:flint_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "goety:dark_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "immersiveengineering:pickaxe_steel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 6
+				}
+			]
+		},
+		{
+			item: "goety:eerie_pickaxe",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "adventure_legacy:silver_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "goety:rampaging_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "goety:dark_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 8
+				},
+				{
+					aptitude: "Building",
+					level: 8
+				}
+			]
+		},
+		{
+			item: "eidolon:cleaving_axe",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 10
+				},
+				{
+					aptitude: "Building",
+					level: 10
+				}
+			]
+		},
+		{
+			item: "eidolon:codex",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "goety:ominous_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:necro_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:wind_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:storm_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:frost_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:wild_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:nether_staff",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "goety:empty_focus",
+			aptitudes: [
+				{
+					aptitude: "Magic",
+					level: 3
 				}
 			]
 		}

@@ -1,0 +1,10 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "forge:meat"
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "priority": 2
+}
