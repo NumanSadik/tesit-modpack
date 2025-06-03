@@ -460,6 +460,15 @@
 			]
 		},
 		{
+			item: "farm_and_charm:fertilizer",
+			aptitudes: [
+				{
+					aptitude: "Luck",
+					level: 4
+				}
+			]
+		},
+		{
 			item: "farmersdelight:organic_compost",
 			aptitudes: [
 				{
@@ -835,88 +844,7 @@
 			]
 		},
 		{
-			item: "minecraft:oak_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "malum:runewood_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "quark:yellow_blossom_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "minecraft:spruce_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "minecraft:birch_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "minecraft:jungle_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "minecraft:acacia_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "minecraft:dark_oak_sapling",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
 			item: "minecraft:mangrove_propagule",
-			aptitudes: [
-				{
-					aptitude: "Intelligence",
-					level: 4
-				}
-			]
-		},
-		{
-			item: "minecraft:cherry_sapling",
 			aptitudes: [
 				{
 					aptitude: "Intelligence",
@@ -6889,7 +6817,7 @@
 			aptitudes: [
 				{
 					aptitude: "Strength",
-					level: 4
+					level: 3
 				}
 			]
 		},
@@ -7238,6 +7166,24 @@
 			aptitudes: [
 				{
 					aptitude: "Magic",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iguanatweaksreborn:flint_shovel",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 3
+				}
+			]
+		},
+		{
+			item: "iguanatweaksreborn:flint_axe",
+			aptitudes: [
+				{
+					aptitude: "Building",
 					level: 3
 				}
 			]

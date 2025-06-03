@@ -234,6 +234,9 @@
 		#Killing Spell Cooldown, Default: 200
 		#Range: > 0
 		killingCoolDown = 200
+		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.25
+		#Range: 0.0 ~ 1.7976931348623157E308
+		killingFeedback = 1.25
 
 	[Spells."Skull Spell"]
 		#Skull Spell Cost, Default: 16
@@ -308,7 +311,7 @@
 		blazeLimit = 16
 
 	[Spells."Feasting Spell"]
-		#Feasting Spell Cost, Default: 8
+		#Feasting Spell Cost, Default: 16
 		#Range: > 0
 		feastCost = 8
 		#How many ticks the Feasting Spell much charge before casting, Default: 0
@@ -700,10 +703,10 @@
 		#Frost Nova Spell Cooldown, Default: 100
 		#Range: > 0
 		frostNovaCoolDown = 100
-		#How much base minimum damage Frost Nova Spell deals, Default: 3.0
+		#How much base minimum damage Frost Nova Spell deals, Default: 5.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		frostNovaMinDamage = 3.0
-		#How much base maximum damage Frost Nova Spell deals, Default: 6.0
+		#How much base maximum damage Frost Nova Spell deals, Default: 10.0
 		#Range: 2.0 ~ 1.7976931348623157E308
 		frostNovaMaxDamage = 6.0
 

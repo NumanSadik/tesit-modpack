@@ -31,9 +31,9 @@
 
 [Popup]
 	#Allowed Values: TOAST, OVERLAY, DISABLED
-	musicPopupStyle = "TOAST"
+	musicPopupStyle = "DISABLED"
 	#Allowed Values: TOAST, OVERLAY, DISABLED
-	recordPopupStyle = "TOAST"
+	recordPopupStyle = "DISABLED"
 
 	[Popup.Toast]
 		#Range: 500 ~ 20000

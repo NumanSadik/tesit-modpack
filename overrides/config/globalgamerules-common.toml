@@ -72,8 +72,6 @@
 		"iguanatweaks:discrete_name_tags" = true
 		#Non Vanilla gamerule: 'iguanatweaks:doLooseRespawn'
 		"iguanatweaks:do_loose_respawn" = true
-		#Non Vanilla gamerule: 'iguanatweaks:doSeasonGrassGrowDeath'
-		"iguanatweaks:do_season_grass_grow_death" = true
 
 	[gamerules.misc]
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
@@ -114,8 +112,6 @@
 		do_daylight_cycle = true
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
-		#Non Vanilla gamerule: 'doSeasonCycle'
-		do_season_cycle = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.
 		do_vines_spread = true
 		#Whether the weather can change naturally. The /weather command can still change weather.

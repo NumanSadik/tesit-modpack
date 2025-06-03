@@ -20,8 +20,6 @@
 	"Enable Nether" = false
 	#Trees fall when cut.
 	"Enable Timber Trees" = false
-	#Change a few things relative to Serene Seasons
-	"Enable Seasons" = true
 	#Various changes to explosions, like higher knockback and getting hit when behind blown up blocks.
 	"Enable Explosion Overhaul" = true
 	"Enable Cyan Flower" = true
@@ -48,8 +46,9 @@
 			Maximum = 1600.0
 
 		[World.Spawners."Disable spawners"]
+			#If true, spawners will be disabled after spawning a certain amount of mobs.
 			Enabled = false
-			#The minimum amount of spawnable mobs (when the spawner is basically in the same position as the world spawn). The amount of spawnable mobs before deactivating is equal to the distance divided by 8 (plus this value). E.g. At 160 blocks from spawn the max spawnable mobs will be 160 / 8 + 25 = 20 + 25 = 55
+			#The minimum amount of spawnable mobs (when the spawner is basically in the same position as the world spawn). The amount of spawnable mobs before deactivating is equal to the distance divided by 8 (plus this value). E.g. At 160 blocks from spawn the max spawnable mobs will be 160 / 8 + 20 = 20 + 20 = 40
 			#Range: > 0
 			"Minimum Spawnable Mobs" = 20
 			#This multiplier increases the max mobs spawned.
@@ -82,6 +81,20 @@
 				Minimum = 150.0
 				#Range: 0.0 ~ 1.7976931348623157E308
 				Maximum = 200.0
+
+		[World.Spawners."Reactivated spawners"]
+			#The range of a player nearby in which the spawner will be active. Setting to -1 should keep the spawners always active (untested) as long as the chunk is loaded (hostiles will still despawn in a 128 block radius).
+			#Range: > -1
+			"Player range" = 128
+			#Reactivated spawners spawn mobs no matter the light level.
+			"Ignore light" = false
+
+			#How many ticks will the spawner try to summon mobs.
+			[World.Spawners."Reactivated spawners".Delay]
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				Minimum = 3600.0
+				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				Maximum = 6000.0
 
 	[World."Coal & Fire"]
 		#Chance for logs to release charcoal layer when burnt
@@ -154,29 +167,6 @@
 	[World."Timber Trees"]
 		#Trees will timber only if an item in the minecraft:axes item tag is used
 		"Requires #minecraft:axes" = false
-
-	#Change a few things relative to Serene Seasons
-	[World.Seasons]
-		#Makes the following changes to Serene Seasons config:
-		#* seasonal_crops is set to false, as it's controlled by Plants Growth
-		#* Sets the starting season to the one in 'Starting season'
-		"Serene Seasons changes" = true
-		#Removes greenhouse glass.
-		"No greenhouse glass" = true
-		#Saplings no longer drop in Winter.
-		"No Saplings in Winter" = true
-		#Grass and tall grass decays in Winter and regrows back in Spring. Saplings are also transformed into Dead Bushes.
-		"Grass Decay and Growth" = true
-		#Has no effect if 'Serene Seasons changes' is disabled
-		#Allowed Values: EARLY_SPRING, MID_SPRING, LATE_SPRING, EARLY_SUMMER, MID_SUMMER, LATE_SUMMER, EARLY_AUTUMN, MID_AUTUMN, LATE_AUTUMN, EARLY_WINTER, MID_WINTER, LATE_WINTER
-		"Starting season" = "EARLY_SUMMER"
-		#How many minutes will day and night duration be (with this set to 10 the day will last 10 minutes and the night 10 minutes for a grand total of 20 minutes). This also adjusts the day_duration config option in Serene Seasons. Vanilla is 10. Requires Time Control mod
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Time Control day night duration" = 15.0
-		#How many minutes will day and night duration be shifted based off seasons? E.g. in Mid spring / autumn the duration of day and night is vanilla, when moving off those seasons day and night will last this many minutes more/less. In mid summer / winter the duration of day and night duration will be more / less by 3 times this value. Set to 0 to disable. Requires Time Control mod
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Time Control day night shift" = 1.5
-		"Season based fishing time" = true
 
 	#Various changes to explosions, like higher knockback and getting hit when behind blown up blocks.
 	[World."Explosion Overhaul"]
@@ -255,6 +245,12 @@
 		#In how many ticks will items despawn after dropping from a grave.
 		#Range: > -2147483648
 		"Despawn time" = 2400
+		#If true, graves will be placed even if the player has no items/xp.
+		"Summon grave even with no items" = true
+		#If true, players can crouch right-click to take items from graves. Experience still requires breaking the grave.
+		"Crouch take items" = false
+		#If true, only players that generated the grave can crouch right-click to take items from graves.
+		"Crouch take items only owner" = false
 
 	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
 	["Sleep & Respawn".Cloth]
@@ -454,7 +450,9 @@
 
 	#Slowdown based off the terrain entities walking on. Custom Terrain Slowdown are controlled via json in this feature's folder
 	[Movement."Terrain Slowdown"]
-		"Frost walker reduces Ice slowdown" = true
+		"Frost walker reduces ice slowdown" = true
+		#If true, snow slowdown is ignored if wearing leather boots (or any item in iguanatweaksreborn:snow_slowdown_ignore item tag)
+		"Snow slowdown ignored with leather boots" = true
 
 	#Prevents the player from placing blocks below him when in mid air.
 	[Movement."No Pillaring"]
@@ -522,8 +520,6 @@
 	"Enable Villagers" = true
 	#Changes to mobs equipment
 	"Enable Equipment" = true
-	#Changes to mob spawn with Serene Seasons installed
-	"Enable Season Spawning" = true
 	#Add a brand new Echo Torch and some changes to mob spawn
 	"Enable Spawning" = false
 	#Change wandering trader offers. Trades can be customized via json in this feature's folder
@@ -567,53 +563,6 @@
 		#All drops from mobs will be disenchanted.
 		"Disenchant equipment" = false
 
-	#Changes to mob spawn with Serene Seasons installed
-	[Mobs."Season Spawning"]
-		#Sea Creatures can no longer naturally spawn in Winter and will spawn less in autumn.
-		"No Sea creature in cold seasons" = true
-
-		[Mobs."Season Spawning".Despawning]
-			#Despawn Distance on winter, note that lower values increase the mobs around the player. Vanilla is 128
-			#Range: > -2147483648
-			Winter = 112
-			#Despawn Distance on spring, note that lower values increase the mobs around the player. Vanilla is 128
-			#Range: > -2147483648
-			Spring = 128
-			#Despawn Distance on summer, note that lower values increase the mobs around the player. Vanilla is 128
-			#Range: > -2147483648
-			Summer = 128
-			#Despawn Distance on autumn, note that lower values increase the mobs around the player. Vanilla is 128
-			#Range: > -2147483648
-			Autumn = 128
-
-		[Mobs."Season Spawning"."Hostile Cap"]
-			#Hostile Mobs cap on winter.
-			#Range: > -2147483648
-			Winter = 70
-			#Hostile Mobs cap on spring.
-			#Range: > -2147483648
-			Spring = 70
-			#Hostile Mobs cap on summer.
-			#Range: > -2147483648
-			Summer = 55
-			#Hostile Mobs cap on autumn.
-			#Range: > -2147483648
-			Autumn = 70
-
-		[Mobs."Season Spawning"."Animals Cap"]
-			#Animals Mobs cap on winter.
-			#Range: > -2147483648
-			Winter = 0
-			#Animals Mobs cap on spring.
-			#Range: > -2147483648
-			Spring = 35
-			#Animals Mobs cap on summer.
-			#Range: > -2147483648
-			Summer = 55
-			#Animals Mobs cap on autumn.
-			#Range: > -2147483648
-			Autumn = 15
-
 	#Add a brand new Echo Torch and some changes to mob spawn
 	[Mobs.Spawning]
 		#Disables Zombie Villagers
@@ -643,6 +592,8 @@
 		"Passive regen chance" = 200
 		#Instead of dealing magic and melee damage, guardians now only deal magic damage equal to their attack_damage attribute
 		"Guardian magic damage only" = true
+		#Iron golems no longer deal randomized damage, but fixed attack_damage attribute damage instead
+		"Fixed iron golem damage" = true
 
 [Miscellaneous]
 	#Various Nerfs
@@ -651,8 +602,6 @@
 	"Enable Beacon & Conduit" = true
 	#Various data packs that can be enabled/disabled
 	"Enable Data Packs & Integration" = false
-	#Various data packs that can be enabled/disabled
-	"Enable Tinker Integration" = true
 	#Various stuff that doesn't fit in any other Feature.
 	"Enable Tweaks" = true
 	#Apply potion effects on certain hunger / health / experience level. Debuffs are controlled via json in this feature's folder
@@ -739,7 +688,7 @@
 		#* Heavily increases experience reward
 		#* Removes some advancements (like villagers ones)
 		"Advancements overhaul" = false
-		#Integrates the mod with Supplementaries. Check here for changes: https://github.com/Insane96/IguanaTweaksReborn/wiki/Farmer%27s-Delight-integration
+		#Integrates the mod with Supplementaries. Check here for changes: https://github.com/Insane96/IguanaTweaksReborn/wiki/Supplementaries-integration
 		"Supplementaries integration" = true
 		#Integrates the mod with Farmer's delight. Some config options are changed along with a data pack installed. Check here for changes: https://github.com/Insane96/IguanaTweaksReborn/wiki/Farmer%27s-Delight-integration
 		"Farmer's Delight integration" = true
@@ -753,22 +702,10 @@
 		"Caverns & Chasms integration" = false
 		#Integrates the mod with Crate. Alters ore generation.
 		"Create integration" = false
-		#Integrates the mod with Tinker's Construct. Disables vanilla items.
+		#Integrates the mod with Tinker's Construct. Disables vanilla items. Changes some stats and adds modifiers
 		"Tinkers' Construct integration" = false
 		#When you add a new mod the game automatically sets the data pack of the mod at the bottom of all the data packs, making the data packs loaded from this mod not work. If this is set to true the enabled and disabled Data Packs of the world are reset and reloaded. WARNING: you'll lose disabled data packs!
 		"Force Reload world Data Packs" = false
-
-	#Various data packs that can be enabled/disabled
-	[Miscellaneous."Tinker Integration"]
-		#Multiplier applied to tinkers construct heads and modifiers mining speed. This also applies to additive modifiers
-		#Range: 0.0 ~ 128.0
-		"Mining speed modifier" = 0.75
-		#Multiplier applied to tinkers construct heads and modifiers attack damage. This also applies to additive modifiers
-		#Range: 0.0 ~ 128.0
-		"Damage modifier" = 0.75
-		#Multiplier applied to tinkers construct heads and modifiers durability. This also applies to additive modifiers
-		#Range: 0.0 ~ 128.0
-		"Durability modifier" = 0.75
 
 	#Various stuff that doesn't fit in any other Feature.
 	[Miscellaneous.Tweaks]
