@@ -48,7 +48,7 @@
 		#Whether the player should take damage when inside powder snow.
 		freeze_damage = true
 		#Whether the player should keep items and experience in their inventory after death .
-		keep_inventory = false
+		keep_inventory = true
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 		natural_regeneration = true
 		#What percentage of players must sleep to skip the night.
@@ -72,6 +72,9 @@
 		"iguanatweaks:discrete_name_tags" = true
 		#Non Vanilla gamerule: 'iguanatweaks:doLooseRespawn'
 		"iguanatweaks:do_loose_respawn" = true
+		#Non Vanilla gamerule: 'moneyDropPercentage'
+		#Range: > 0
+		money_drop_percentage = 10
 
 	[gamerules.misc]
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
@@ -83,7 +86,7 @@
 		#Range: > 0
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
-		reduced_debug_info = true
+		reduced_debug_info = false
 		#Non Vanilla gamerule: 'iguanatweaks:explosionMobGriefing'
 		"iguanatweaks:explosion_mob_griefing" = true
 		#Non Vanilla gamerule: 'iguanatweaks:foggyWeather'
@@ -109,7 +112,7 @@
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
-		do_daylight_cycle = true
+		do_daylight_cycle = false
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.

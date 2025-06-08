@@ -1,0 +1,21 @@
+#Enable Alex's Mobs trade compat
+alexsmobs = true
+#Enable Apotheosis trade compat
+apotheosis = false
+#Enable Create trade compat
+create = false
+#Enable Ars Nouveau trade compat
+ars_nouveau = false
+#Enable Immersive Engineering trade compat
+immersiveengineering = true
+#Enable Iron's Spellbooks trade compat
+irons_spellbooks = false
+#Enable Mystical Agriculture trade compat
+mysticalagriculture = false
+#Enable Naturalist trade compat
+naturalist = true
+#Enable Quark trade compat
+quark = true
+#Enable Tinkers' Construct trade compat
+tconstruct = false
+

@@ -110,7 +110,8 @@
   "farm_and_charm:onion":["thermal:onion"],
   "forge:crops/strawberry":["neapolitan:strawberries"],
   "forge:storage_blocks/flax": ["supplementaries:flax_block"],
-  "forge:bottles/milk": ["vanillacookbook:milk_bottle"]
+  "forge:bottles/milk": ["vanillacookbook:milk_bottle"],
+  "forge:raw_materials/coal_coke": ["thermal:coal_coke", "immersiveengineering:coal_coke"]
   },
   "tagOwnerships": {
     "forge:ores/gold": ["forge:gold_ores"]

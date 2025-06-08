@@ -4,6 +4,9 @@ import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.SmokerRecipeManager;
 
+smoker.removeByName("vanillacookbook:cooked_sniffer_egg_smoking");
+craftingTable.removeByName("immersiveengineering:crafting/slag_brick");
+
 furnace.removeByName("spelunkery:iron_ore_smelting");
 furnace.removeByName("eidolon:smelt_lead_dust");
 furnace.removeByName("eidolon:smelt_silver_dust");
@@ -73,6 +76,11 @@ craftingTable.addShaped("rope", <item:brewery:rope>, [[<item:minecraft:string>, 
 craftingTable.removeByName("immersive_armors:robe_boots");
 craftingTable.addShaped("robe_boots", <item:immersive_armors:robe_boots>, [[<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
                                                                             [<tag:items:minecraft:wool>, <item:minecraft:blaze_powder>, <tag:items:minecraft:wool>]]);
+
+craftingTable.removeByName("immersiveengineering:crafting/sawdust");
+craftingTable.addShaped("sawdust_flooring", <item:immersiveengineering:sawdust>*6, [[<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>], 
+                                                                                    [<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>,]]);
+
 
 craftingTable.removeByName("iter_rpg:wooden_dagger_craft");
 craftingTable.addShaped("wooden_dagger_craft", <item:iter_rpg:wodden_dagger>, [[<item:minecraft:air>, <tag:items:minecraft:planks>], [<item:minecraft:stick>]]);

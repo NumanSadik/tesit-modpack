@@ -8,7 +8,7 @@
 	#Sends when you open a Gui, and what Gui
 	sendActiveGui = true
 	#Sends when you go idle / return
-	sendIdleState = true
+	sendIdleState = false
 	#Enables or disables idle visual in the server player list tab screen
 	showIdleStatesInPlayerList = true
 	#Enables or disables idle visual above player head
