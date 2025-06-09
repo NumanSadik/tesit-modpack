@@ -8,7 +8,7 @@
   "fallDamageSharedWithLandedOnMob": true,
   "fallDamageAmountAbsorbedByLandedOnMob": 0.5,
   "allowInvisibleCollisions": true,
-  "allowShovingMobs": true,
+  "allowShovingMobs": false,
   "shoveAgainTimeInTicks": 20,
   "allowVillagerCollisions": true,
   "entityCollisionBlacklist": [
