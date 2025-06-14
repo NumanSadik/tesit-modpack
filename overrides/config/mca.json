@@ -317,6 +317,9 @@
     "TOUGH": true
   },
   "taxesMap": {
-    "minecraft:emerald": 1.0
+    "minecraft:emerald": 1.0,
+    "numismatic-overhaul:bronze_coin": 0.2,
+    "numismatic-overhaul:silver_coin": 0.7,
+    "numismatic-overhaul:gold_coin": 1.0
   }
 }
