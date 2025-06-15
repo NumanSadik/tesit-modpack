@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "description": "Configuration resources for Tesit modpack",
+        "pack_format": 26
+    },
+    "filter": {
+      "block": [
+        {
+          "namespace": "examplemod",
+          "path": "advancements/."
+        }
+      ]
+    }
+}
