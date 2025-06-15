@@ -153,15 +153,10 @@
 	beneficialEffectValue: 60.0,
 	// Beneficial effect passive levels. Don't modify the length of the array!
 	beneficialEffectPassiveLevels: [
-		2,
 		4,
-		5,
 		7,
-		8,
 		10,
-		11,
 		13,
-		15,
 		16
 	],
 	// Magic Resist passive value at max level
