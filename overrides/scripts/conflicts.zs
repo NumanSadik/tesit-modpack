@@ -3,6 +3,9 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.SmokerRecipeManager;
+import mods.farmersdelight.CuttingBoard;
+
+<recipetype:farmersdelight:cutting>.removeByName("farmersdelight:cutting/gravel");
 
 smoker.removeByName("vanillacookbook:cooked_sniffer_egg_smoking");
 craftingTable.removeByName("immersiveengineering:crafting/slag_brick");

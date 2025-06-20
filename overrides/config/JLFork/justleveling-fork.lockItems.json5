@@ -3891,7 +3891,7 @@
 			aptitudes: [
 				{
 					aptitude: "Magic",
-					level: 2
+					level: 6
 				}
 			]
 		},

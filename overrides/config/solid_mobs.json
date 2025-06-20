@@ -12,6 +12,8 @@
   "shoveAgainTimeInTicks": 20,
   "allowVillagerCollisions": true,
   "entityCollisionBlacklist": [
-    "entity.ratsmischief.rat"
+    "entity.ratsmischief.rat",
+    "entity.mca.male_villager",
+    "entity.mca.female_villager"
   ]
 }

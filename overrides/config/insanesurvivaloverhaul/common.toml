@@ -129,7 +129,7 @@
 		#	* Makes sweet berry patches has less plants and plants will not be all grown up
 		#	If berry good is present, a different datapack is enabled that integrates with the mod
 		#
-		"Data pack" = true
+		"Data pack" = false
 
 	[World."Faster Decay Leaves"]
 		#Range: > 1
@@ -266,7 +266,7 @@
 	["Sleep & Respawn".Tiredness]
 		#Multiply the tiredness gained by this value. Normally you gain tiredness equal to the exhaustion gained. 'Effective Hunger' doesn't affect the exhaustion gained.
 		#Range: 0.0 ~ 128.0
-		"Tiredness gained multiplier" = 1.0
+		"Tiredness gained multiplier" = 2.0
 		#If true the player will not set the spawn point if can't sleep.
 		"Prevent Spawn Point" = false
 		#Tiredness required to get the Tired effect and be able to sleep.
@@ -336,9 +336,9 @@
 		#The range from beds where players will respawn.
 		["Sleep & Respawn".Respawn."Loose Bed Spawn Range"]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Minimum = 64.0
+			Minimum = 0.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Maximum = 128.0
+			Maximum = 32.0
 
 		["Sleep & Respawn".Respawn."Stats Penalty"]
 
@@ -715,7 +715,7 @@
 		"Falling breaking glass" = true
 		#Poison will damage the player every this ticks at level I. Vanilla is 25.
 		#Range: > 1
-		"Poison damage speed" = 60
+		"Poison damage speed" = 25
 		#When you die in hardcore, your spawn point is set to where you died and a lightning strike is summoned
 		"Better hardcore death" = false
 		#If enabled, the Totem of Undying will give Resistance IV for 5.5 seconds
@@ -750,7 +750,7 @@
 		[Miscellaneous.Tweaks.Breathe]
 			#The amount of ticks the entities consumes when underwater. In vanilla it's 1 without Respiration enchantment. For non integer numbers the decimal part will count as a chance to have a +1
 			#Range: 0.0 ~ 100.0
-			"Air ticks consumed" = 1.5
+			"Air ticks consumed" = 1
 			#Every how many ticks will entities drown
 			#Range: 0 ~ 100
 			"Drown Speed" = 30
@@ -768,7 +768,7 @@
 			#Range: > -2147483648
 			"Helmet water breathing time" = 900
 			#If true scutes will drop as a block and not as item
-			"Scute drop as block" = false
+			"Scute drop as block" = true
 
 [Mining]
 	#Various mining changes
@@ -879,7 +879,7 @@
 	#Control Items properties via data packs. Add more tooltips.
 	[Items.Misc]
 		#Tools get a mining speed tooltip.
-		"Mining speed tooltip" = false
+		"Mining speed tooltip" = true
 		#If enabled items in the iguanatweaksreborn:has_tooltip item tag will get a tooltip with the vanilla name + .tooltip (e.g. item.minecraft.arrow.tooltip)
 		"Item tooltips" = false
 
