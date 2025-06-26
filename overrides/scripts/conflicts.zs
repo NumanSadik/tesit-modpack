@@ -58,7 +58,10 @@ craftingTable.removeByName("immersive_weathering:candle_from_tallow");
 craftingTable.removeByName("vinery:storage_pot");
 craftingTable.removeByName("mca:rose_gold_dust_from_ingot");
 craftingTable.removeByName("farm_and_charm:tomato_bag");
+craftingTable.removeByName("farm_and_charm:seeds_tomato");
+craftingTable.removeByName("farm_and_charm:onion_bag");
 craftingTable.removeByName("farm_and_charm:strawberry_bag");
+craftingTable.removeByName("farm_and_charm:strawberry_seeds");
 craftingTable.removeByName("mca:book_supporters");
 
 craftingTable.removeByName("meadow:bench");
