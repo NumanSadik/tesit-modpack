@@ -1,0 +1,2 @@
+*.json text eol=lf
+*.json5 text eol=lf
