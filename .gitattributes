@@ -1,2 +1,2 @@
-*.json text eol=crlf
-*.json5 text eol=crlf
+*.json text eol=lf
+*.json5 text eol=lf
