@@ -9,7 +9,7 @@
 	#Clay Golem replacement rate (Normal difficulty)
 	"Normal Replacement Rate" = 0.4
 	#Clay Golem replacement rate (Hard difficulty)
-	"Hard Replacement Rate" = 1.0
+	"Hard Replacement Rate" = 6.0
 	#Remove Bad Omen effect after drinking milk?
 	"Milk Removes Bad Omen" = false
 	#Pillage Sieges occur at night?
