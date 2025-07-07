@@ -284,34 +284,20 @@ import mods.initialinventory.InvHandler;
 
 events.register<crafttweaker.forge.api.event.entity.EntityJoinLevelEvent>(event => {
     if event.entity is LivingEntity {
-        event.entity.updateData({
-            Brain: {memories: {"mca:wears_armor": {value: 1}}}, 
-            "wearArmor": 1
-        });
-
-
         val castToLivingEntity = event.entity as LivingEntity;
         val entityRegistryName = event.entity.registryName.toString();
-        if (entityRegistryName == "mca:male_villager" || entityRegistryName == "mca:male_zombie_villager") {
-            val headWearItem = <tag:items:tesit:headwear/male>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:headwear/male>.elements.length as int)].registryName.toString();
-            val chestWearItem = <tag:items:tesit:chestwear/male>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:chestwear/male>.elements.length as int)].registryName.toString();
-            val legWearItem = <tag:items:tesit:legwear/male>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:legwear/male>.elements.length as int)].registryName.toString();
-            val footWearItem = <tag:items:tesit:footwear/male>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:footwear/male>.elements.length as int)].registryName.toString();
-            event.entity.updateData({
-                Inventory: [
-                    {id: headWearItem, Count: 1 as byte},
-                    {id: chestWearItem, Count: 1 as byte},
-                    {id: legWearItem, Count: 1 as byte},
-                    {id: footWearItem, Count: 1 as byte}
-                ]
-            });
-        }
+        val entityGender = entityRegistryName[4 .. entityRegistryName.indexOf("_") as int];
         
-        if (entityRegistryName == "mca:female_villager" || entityRegistryName == "mca:female_zombie_villager") {
-            val headWearItem = <tag:items:tesit:headwear/female>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:headwear/female>.elements.length as int)].registryName.toString();
-            val chestWearItem = <tag:items:tesit:chestwear/female>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:chestwear/female>.elements.length as int)].registryName.toString();
-            val legWearItem = <tag:items:tesit:legwear/female>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:legwear/female>.elements.length as int)].registryName.toString();
-            val footWearItem = <tag:items:tesit:footwear/female>.elements[castToLivingEntity.random.nextInt(0, <tag:items:tesit:footwear/female>.elements.length as int)].registryName.toString();
+        if (entityRegistryName[0 .. 4] == "mca:") {
+            event.entity.updateData({
+                Brain: {memories: {"mca:wears_armor": {value: 1}}}, 
+                "wearArmor": 1
+            });
+
+            val headWearItem = <tagmanager:items>.tag("tesit:headwear/"+entityGender).elements[castToLivingEntity.random.nextInt(0, <tagmanager:items>.tag("tesit:headwear/"+entityGender).elements.length as int)].registryName.toString();
+            val chestWearItem = <tagmanager:items>.tag("tesit:chestwear/"+entityGender).elements[castToLivingEntity.random.nextInt(0, <tagmanager:items>.tag("tesit:chestwear/"+entityGender).elements.length as int)].registryName.toString();
+            val legWearItem = <tagmanager:items>.tag("tesit:legwear/"+entityGender).elements[castToLivingEntity.random.nextInt(0, <tagmanager:items>.tag("tesit:legwear/"+entityGender).elements.length as int)].registryName.toString();
+            val footWearItem = <tagmanager:items>.tag("tesit:footwear/"+entityGender).elements[castToLivingEntity.random.nextInt(0, <tagmanager:items>.tag("tesit:footwear/"+entityGender).elements.length as int)].registryName.toString();
             event.entity.updateData({
                 Inventory: [
                     {id: headWearItem, Count: 1 as byte},
