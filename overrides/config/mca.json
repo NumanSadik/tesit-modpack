@@ -79,7 +79,7 @@
   "villagerChatAIIncludeSessionInformation": false,
   "inworldAIToken": "",
   "inworldAIResourceNames": {},
-  "enableOnlineTTS": true,
+  "enableOnlineTTS": false,
   "onlineTTSModel": "default",
   "onlineTTSServer": "https://api.rk.conczin.net/",
   "player2Url": "http://127.0.0.1:4315/",
