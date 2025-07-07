@@ -912,7 +912,7 @@
 		"Exhaustion per tick when breaking a block" = 0.005
 		#Every second the player will get this exhaustion.
 		#Range: 0.0 ~ 128.0
-		"Passive Exhaustion" = 0.005
+		"Passive Exhaustion" = 0.01
 		#Every tick of the player's rowing will get this exhaustion.
 		#Range: 0.0 ~ 128.0
 		"Rowing Exhaustion" = 0.005
