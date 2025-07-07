@@ -4,6 +4,7 @@ import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.SmokerRecipeManager;
 import mods.farmersdelight.CuttingBoard;
+import crafttweaker.api.loot.modifier.CommonLootModifiers;
 
 <recipetype:farmersdelight:cutting>.removeByName("farmersdelight:cutting/gravel");
 
@@ -201,3 +202,5 @@ craftingTable.removeByName("spelunkery:cinnabar_block");
 <tagmanager:items>.addId(<tag:items:forge:crops/corn>, <resource:farm_and_charm:corn>);
 
 <tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, [<resource:spelunkery:portal_fluid>, <resource:spelunkery:flowing_portal_fluid>]);
+
+<block:ecologics:pot>.addLootModifier("potsherd", CommonLootModifiers.clearing(CommonLootModifiers.add(<item:iter_rpg:potsherd>)));
