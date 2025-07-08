@@ -2,7 +2,8 @@ import crafttweaker.api.tag.manager.ITagManager;
 import crafttweaker.api.entity.LivingEntity;
 import crafttweaker.forge.api.event.entity.EntityJoinLevelEvent;
 import crafttweaker.api.data.MapData;
-import mods.initialinventory.InvHandler;
+import crafttweaker.forge.api.event.advancement.AdvancementEarnEvent;
+import crafttweaker.api.entity.type.player.Player;
 
 <tagmanager:items>.addId(<tag:items:tesit:headwear/female>, [
                             <resource:clothingcraft:cap_red_helmet>, 
@@ -286,13 +287,14 @@ events.register<crafttweaker.forge.api.event.entity.EntityJoinLevelEvent>(event 
     if event.entity is LivingEntity {
         val castToLivingEntity = event.entity as LivingEntity;
         val entityRegistryName = event.entity.registryName.toString();
-        val entityGender = entityRegistryName[4 .. entityRegistryName.indexOf("_") as int];
         
         if (entityRegistryName[0 .. 4] == "mca:") {
             event.entity.updateData({
                 Brain: {memories: {"mca:wears_armor": {value: 1}}}, 
                 "wearArmor": 1
             });
+            
+            val entityGender = entityRegistryName[4 .. entityRegistryName.indexOf("_") as int];
 
             val headWearItem = <tagmanager:items>.tag("tesit:headwear/"+entityGender).elements[castToLivingEntity.random.nextInt(0, <tagmanager:items>.tag("tesit:headwear/"+entityGender).elements.length as int)].registryName.toString();
             val chestWearItem = <tagmanager:items>.tag("tesit:chestwear/"+entityGender).elements[castToLivingEntity.random.nextInt(0, <tagmanager:items>.tag("tesit:chestwear/"+entityGender).elements.length as int)].registryName.toString();
@@ -309,3 +311,10 @@ events.register<crafttweaker.forge.api.event.entity.EntityJoinLevelEvent>(event 
         }
     }
 });
+
+/*events.register<crafttweaker.forge.api.event.advancement.AdvancementEarnEvent>(event => {
+    if (event.entity is Player && event.advancement.id as string == "mca:root") {
+        val player = event.entity as Player;
+        println(player.customData as string);
+    }
+});*/
