@@ -1,0 +1,62 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.mca.root"
+    },
+    "description": {
+      "translate": "advancement.mca.root.description"
+    },
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/oak_log.png"
+  },
+  "criteria": {
+    "village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "#minecraft:village"
+          }
+        }
+      }
+    },
+    "town": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "#towns_and_towers:town"
+          }
+        }
+      }
+    },
+    "tavern": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "#tesit:tavern"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "mca:books/romance"
+    ]
+  },
+  "requirements": [
+    [
+      "village",
+      "town",
+      "tavern"
+    ]
+  ]
+}
