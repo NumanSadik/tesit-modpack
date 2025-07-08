@@ -72,9 +72,6 @@
 		"iguanatweaks:discrete_name_tags" = true
 		#Non Vanilla gamerule: 'iguanatweaks:doLooseRespawn'
 		"iguanatweaks:do_loose_respawn" = true
-		#Non Vanilla gamerule: 'moneyDropPercentage'
-		#Range: > 0
-		money_drop_percentage = 10
 
 	[gamerules.misc]
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
@@ -86,7 +83,7 @@
 		#Range: > 0
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
-		reduced_debug_info = false
+		reduced_debug_info = true
 		#Non Vanilla gamerule: 'iguanatweaks:explosionMobGriefing'
 		"iguanatweaks:explosion_mob_griefing" = true
 		#Non Vanilla gamerule: 'iguanatweaks:foggyWeather'
