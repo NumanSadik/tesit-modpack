@@ -1319,6 +1319,7 @@
 		#If > 0, Armor Toughness on items will be converted to absorption, multiplying it by this, and Armor will stay the same.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Toughness to absorption ratio" = 0.25
+
 	[Combat.Knockback]
 		#Percentage knockback dealt if the player is using an item that doesn't have the attack damage attribute. Broken items from the Items module count as No Weapon
 		#Range: 0.0 ~ 1.0

@@ -47,6 +47,59 @@
 			]
 		},
 		{
+			item: "tetra*tier*pickaxe:iron",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "tetra*tier*axe:iron",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "tetra*tier*sword:aluminum",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "tetra*tier*pickaxe:aluminum",
+			aptitudes: [
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
+			item: "tetra*tier*axe:aluminum",
+			aptitudes: [
+				{
+					aptitude: "Strength",
+					level: 4
+				},
+				{
+					aptitude: "Building",
+					level: 4
+				}
+			]
+		},
+		{
 			item: "minecraft:brewing_stand",
 			aptitudes: [
 				{
