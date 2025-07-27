@@ -4,7 +4,6 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 
 //fix broken recpies before replacer executes
 craftingTable.removeByName("supplementaries:soap");
-craftingTable.removeByName("supplementaries:soap_from_animal_fat");
 
 Replacer.create()
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <tag:items:farm_and_charm:cooked_mutton>, <tag:items:forge:mutton/cooked>)

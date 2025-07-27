@@ -29,8 +29,6 @@
 		tnt_explosion_drop_decay = false
 
 	[gamerules.player]
-		#Non Vanilla gamerule: 'buildingDebug'
-		building_debug = false
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
 		disable_elytra_movement_check = true
 		#Players respawn immediately without showing the death screen.
@@ -43,8 +41,6 @@
 		fall_damage = true
 		#Whether the player should take damage in fire, lava, campfires, or on magma blocks.
 		fire_damage = true
-		#Non Vanilla gamerule: 'fragileBlocks'
-		fragile_blocks = true
 		#Whether the player should take damage when inside powder snow.
 		freeze_damage = true
 		#Whether the player should keep items and experience in their inventory after death .

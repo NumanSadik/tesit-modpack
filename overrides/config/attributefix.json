@@ -198,17 +198,6 @@
         "value": 2000
       }
     },
-    "iter_rpg:spellcasting_power": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -218,6 +207,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "iter_rpg:spellcasting_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
       }
     },
     "obscure_api:magic_resistance": {
@@ -231,17 +231,6 @@
         "value": 100
       }
     },
-    "iter_rpg:ranged_damage": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100000000,
-        "value": 100000000
-      }
-    },
     "justlevelingfork:critical_damage": {
       "enabled": false,
       "min": {
@@ -251,6 +240,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "iter_rpg:ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100000000,
+        "value": 100000000
       }
     },
     "galosphere:illager_resistance": {
@@ -429,17 +429,6 @@
         "value": 2048
       }
     },
-    "iter_rpg:flat_ranged_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "eidolon:magic_power": {
       "enabled": false,
       "min": {
@@ -449,6 +438,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "iter_rpg:flat_ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
       }
     },
     "obscure_api:accuracy": {
@@ -517,17 +517,6 @@
         "value": 1024
       }
     },
-    "iter_rpg:spell_cooldown": {
-      "enabled": false,
-      "min": {
-        "default": -1,
-        "value": -1
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -537,6 +526,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "iter_rpg:spell_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
       }
     },
     "forge:block_reach": {

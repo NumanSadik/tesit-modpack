@@ -20,16 +20,6 @@ import crafttweaker.api.tag.manager.ITagManager;
 <tagmanager:items>.addId(<tag:items:minecraft:pink_carpet>, <resource:minecraft:pink_carpet>);
 <tagmanager:items>.addId(<tag:items:minecraft:cyan_carpet>, <resource:minecraft:cyan_carpet>);
 <tagmanager:items>.addId(<tag:items:minecraft:white_carpet>, <resource:minecraft:white_carpet>);
-<tagmanager:items>.addId(<tag:items:iter_rpg:grimstone_blocks>, [   <resource:iter_rpg:grimstone>, 
-                                                                    <resource:iter_rpg:grimstone_bricks>, 
-                                                                    <resource:iter_rpg:cracked_grimstone_bricks>, 
-                                                                    <resource:iter_rpg:polished_grimstone>, 
-                                                                    <resource:iter_rpg:polished_grimstone_stairs>, 
-                                                                    <resource:iter_rpg:grimstone_bricks_stairs>, 
-                                                                    <resource:iter_rpg:polished_grimstone_wall>, 
-                                                                    <resource:iter_rpg:grimstone_bricks_wall>, 
-                                                                    <resource:iter_rpg:chiseled_grimstone_bricks>, 
-                                                                    <resource:iter_rpg:charged_grimstone_bricks>]);
 
 
 
