@@ -252,7 +252,7 @@
 	["Sleep & Respawn".Tiredness]
 		#Multiply the tiredness gained by this value. Normally you gain tiredness equal to the exhaustion gained. 'Effective Hunger' doesn't affect the exhaustion gained.
 		#Range: 0.0 ~ 128.0
-		"Tiredness gained multiplier" = 2.0
+		"Tiredness gained multiplier" = 3.0
 		#If true the player will not set the spawn point if can't sleep.
 		"Prevent Spawn Point" = false
 		#Tiredness required to get the Tired effect and be able to sleep.
