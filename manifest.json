@@ -3,7 +3,7 @@
     "version": "1.20.1",
     "modLoaders": [
       {
-        "id": "forge-47.3.33",
+        "id": "forge-47.4.0",
         "primary": true
       }
     ]
@@ -102,11 +102,6 @@
     {
       "projectID": 1038117,
       "fileID": 6195385,
-      "required": true
-    },
-    {
-      "projectID": 433068,
-      "fileID": 5015286,
       "required": true
     },
     {
@@ -226,7 +221,7 @@
     },
     {
       "projectID": 586095,
-      "fileID": 6706891,
+      "fileID": 6778940,
       "required": true
     },
     {
@@ -255,11 +250,6 @@
       "required": true
     },
     {
-      "projectID": 382016,
-      "fileID": 6248885,
-      "required": true
-    },
-    {
       "projectID": 450603,
       "fileID": 6185984,
       "required": true
@@ -271,7 +261,7 @@
     },
     {
       "projectID": 1082700,
-      "fileID": 5622213,
+      "fileID": 6840239,
       "required": true
     },
     {
@@ -351,7 +341,7 @@
     },
     {
       "projectID": 364918,
-      "fileID": 6039557,
+      "fileID": 6828889,
       "required": true
     },
     {
@@ -435,11 +425,6 @@
       "required": true
     },
     {
-      "projectID": 386534,
-      "fileID": 6005769,
-      "required": true
-    },
-    {
       "projectID": 465109,
       "fileID": 6743693,
       "required": true
@@ -452,11 +437,6 @@
     {
       "projectID": 670986,
       "fileID": 5093785,
-      "required": true
-    },
-    {
-      "projectID": 949719,
-      "fileID": 5847856,
       "required": true
     },
     {
@@ -506,7 +486,7 @@
     },
     {
       "projectID": 896746,
-      "fileID": 6259599,
+      "fileID": 6913537,
       "required": true
     },
     {
@@ -561,7 +541,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 6740431,
+      "fileID": 6935940,
       "required": true
     },
     {
@@ -755,8 +735,8 @@
       "required": true
     },
     {
-      "projectID": 580681,
-      "fileID": 6495768,
+      "projectID": 902314,
+      "fileID": 5132335,
       "required": true
     },
     {
@@ -765,8 +745,8 @@
       "required": true
     },
     {
-      "projectID": 902314,
-      "fileID": 5132335,
+      "projectID": 580681,
+      "fileID": 6495768,
       "required": true
     },
     {
@@ -785,13 +765,13 @@
       "required": true
     },
     {
-      "projectID": 951499,
-      "fileID": 6303144,
+      "projectID": 1177348,
+      "fileID": 6076902,
       "required": true
     },
     {
-      "projectID": 1177348,
-      "fileID": 6076902,
+      "projectID": 951499,
+      "fileID": 6303144,
       "required": true
     },
     {
@@ -820,13 +800,13 @@
       "required": true
     },
     {
-      "projectID": 331936,
-      "fileID": 6702068,
+      "projectID": 690628,
+      "fileID": 5443848,
       "required": true
     },
     {
-      "projectID": 690628,
-      "fileID": 5443848,
+      "projectID": 331936,
+      "fileID": 6702068,
       "required": true
     },
     {
@@ -875,18 +855,13 @@
       "required": true
     },
     {
-      "projectID": 665658,
-      "fileID": 5089991,
-      "required": true
-    },
-    {
       "projectID": 402659,
       "fileID": 6435382,
       "required": true
     },
     {
-      "projectID": 362393,
-      "fileID": 6393127,
+      "projectID": 665658,
+      "fileID": 5089991,
       "required": true
     },
     {
@@ -905,13 +880,13 @@
       "required": true
     },
     {
-      "projectID": 461710,
-      "fileID": 5242883,
+      "projectID": 835861,
+      "fileID": 5479898,
       "required": true
     },
     {
-      "projectID": 835861,
-      "fileID": 5479898,
+      "projectID": 461710,
+      "fileID": 5242883,
       "required": true
     },
     {
@@ -921,17 +896,17 @@
     },
     {
       "projectID": 412082,
-      "fileID": 6713838,
-      "required": true
-    },
-    {
-      "projectID": 348834,
-      "fileID": 6475355,
+      "fileID": 6974860,
       "required": true
     },
     {
       "projectID": 433760,
       "fileID": 6738627,
+      "required": true
+    },
+    {
+      "projectID": 348834,
+      "fileID": 6475355,
       "required": true
     },
     {

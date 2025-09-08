@@ -1,0 +1,3 @@
+#A list of items to blacklist from being distributed by luck.
+blacklisted_items = ["map"]
+

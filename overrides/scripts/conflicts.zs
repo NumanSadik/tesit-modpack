@@ -30,11 +30,11 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tagmanager:items>.addId(<tag:items:tesit:spoils/tomato>, [<resource:farm_and_charm:tomato>]);
 <tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
 <tagmanager:items>.addId(<tag:items:tesit:spoils/carrot>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>, <resource:miners_delight:cave_carrot>, <resource:miners_delight:copper_carrot>]);
-<tagmanager:items>.addId(<tag:items:spoiled:foods/vanilla>, [<resource:habitat:kabloom_pulp>, <resource:habitat:kabloom_fruit>, <resource:habitat:dried_ball_cactus>, <resource:vintagedelight:gearo_berry>, <resource:vintagedelight:peanut>, <resource:vintagedelight:roasted_peanut>, <resource:vintagedelight:honey_roasted_peanut>]);
+<tagmanager:items>.addId(<tag:items:spoiled:foods/vanilla>, [<resource:habitat:kabloom_pulp>, <resource:habitat:kabloom_fruit>, <resource:habitat:dried_ball_cactus>]);
 <tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:honey_bottle>]);
 
 <tagmanager:items>.addId(<tag:items:forge:meat>, [<resource:swampier_swamps:frog_leg>, <resource:swampier_swamps:cooked_frog_leg>, <resource:butchercraft:goat_chop>, <resource:butchercraft:cooked_goat_chop>]);
-<tagmanager:items>.addId(<tag:items:forge:meat/cooked>, [<resource:swampier_swamps:cooked_frog_leg>, <resource:vintagedelight:cheese_burger>, <resource:vintagedelight:deluxe_burger>, <resource:alexsmobs:kangaroo_burger>, <resource:farmersdelight:hamburger>, <resource:casualness_delight:donkey_burger>, <resource:collectorsreap:land_and_sea_burger>, <resource:alexsdelight:bison_burger>, <resource:butchercraft:cooked_goat_chop>]);
+<tagmanager:items>.addId(<tag:items:forge:meat/cooked>, [<resource:swampier_swamps:cooked_frog_leg>, <resource:alexsmobs:kangaroo_burger>, <resource:farmersdelight:hamburger>, <resource:casualness_delight:donkey_burger>, <resource:collectorsreap:land_and_sea_burger>, <resource:alexsdelight:bison_burger>, <resource:butchercraft:cooked_goat_chop>]);
 
 craftingTable.removeByName("farm_and_charm:carrot_bag");
 craftingTable.removeByName("farm_and_charm:potato_bag");
@@ -161,9 +161,8 @@ craftingTable.removeByName("spelunkery:cinnabar_block");
 
 <tagmanager:blocks>.addId(<tag:blocks:forge:ores>, [<resource:spelunkery:granite_jade_ore>, <resource:spelunkery:andesite_jade_ore>, <resource:spelunkery:diorite_jade_ore>, <resource:spelunkery:tuff_jade_ore>]);
 
-<tagmanager:blocks>.addId(<tag:blocks:spelunkery:salt_blocks>, [<resource:vintagedelight:salt>, <resource:vintagedelight:salt_block>]);
-<tagmanager:blocks>.addId(<tag:blocks:forge:storage_blocks>, [<resource:vintagedelight:salt_block>, <resource:spelunkery:salt_block>]);
-<tagmanager:blocks>.addId(<tag:blocks:forge:storage_blocks/salt>, [<resource:vintagedelight:salt_block>, <resource:spelunkery:salt_block>]);
+<tagmanager:blocks>.addId(<tag:blocks:forge:storage_blocks>, [<resource:spelunkery:salt_block>]);
+<tagmanager:blocks>.addId(<tag:blocks:forge:storage_blocks/salt>, [<resource:spelunkery:salt_block>]);
 
 <tagmanager:items>.addId(<tag:items:forge:crops/corn>, <resource:farm_and_charm:corn>);
 
