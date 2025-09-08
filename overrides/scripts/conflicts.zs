@@ -29,7 +29,7 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tagmanager:items>.addId(<tag:items:tesit:spoils/cherry>, [<resource:vinery:cherry>]);
 <tagmanager:items>.addId(<tag:items:tesit:spoils/tomato>, [<resource:farm_and_charm:tomato>]);
 <tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
-<tagmanager:items>.addId(<tag:items:tesit:spoils/carrot>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>, <resource:miners_delight:cave_carrot>, <resource:miners_delight:copper_carrot>]);
+<tagmanager:items>.addId(<tag:items:tesit:spoils/carrot>, [<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
 <tagmanager:items>.addId(<tag:items:spoiled:foods/vanilla>, [<resource:habitat:kabloom_pulp>, <resource:habitat:kabloom_fruit>, <resource:habitat:dried_ball_cactus>]);
 <tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:honey_bottle>]);
 
@@ -78,6 +78,23 @@ craftingTable.addShaped("robe_boots", <item:immersive_armors:robe_boots>, [[<tag
 craftingTable.removeByName("immersiveengineering:crafting/sawdust");
 craftingTable.addShaped("sawdust_flooring", <item:immersiveengineering:sawdust>*6, [[<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>], 
                                                                                     [<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>,]]);
+
+craftingTable.removeByName("dungeonsdelight:golden_cleaver");
+craftingTable.addShaped("golden_cleaver", <item:dungeonsdelight:golden_cleaver>, [[<tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>], 
+                                                                                    [<tag:items:forge:ingots/gold>, <tag:items:forge:rods/wooden>],
+                                                                                    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>]]);
+
+
+craftingTable.removeByName("dungeonsdelight:iron_cleaver");
+craftingTable.addShaped("iron_cleaver", <item:dungeonsdelight:iron_cleaver>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], 
+                                                                                    [<tag:items:forge:ingots/iron>, <tag:items:forge:rods/wooden>],
+                                                                                    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>]]);
+
+craftingTable.removeByName("dungeonsdelight:diamond_cleaver");
+craftingTable.addShaped("diamond_cleaver", <item:dungeonsdelight:diamond_cleaver>, [[<tag:items:forge:gems/diamond>, <tag:items:forge:gems/diamond>], 
+                                                                                    [<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>],
+                                                                                    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>]]);
+
 
 
 craftingTable.removeByName("eidolon:codex");
