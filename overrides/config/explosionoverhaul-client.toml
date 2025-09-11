@@ -9,7 +9,7 @@
 	#
 	#Core explosion visual effects
 	#Enables the main fiery glow particles (glow, glow_2, sglow). Disabling this can significantly improve performance.
-	enableExplosionParticles = true
+	enableExplosionParticles = false
 	#Enables the smoke trail that follows plasma sparks.
 	enablePlasmaSmokeTrail = true
 	#

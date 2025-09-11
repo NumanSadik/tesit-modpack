@@ -178,7 +178,7 @@
 		#Explosions affect even entities spawned by the explosions, like TnTs or chests content. BE AWARE that containers content will get destroyed.
 		"Explosion Affect Just Spawned Entities" = false
 		#EXPERIMENTAL! This will make explosion blast blocks away. Blocks that can't land will drop the block as a TNT would have destroyed it.
-		"Enable Flying Blocks" = true
+		"Enable Flying Blocks" = false
 		#If true, creepers explosions will drop no blocks.
 		"Creeper collateral" = false
 		#Number in the explosion damage calculation. Vanilla is 7. Higher = More damage

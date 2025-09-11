@@ -12,7 +12,7 @@
 [General]
 	#Enables or disables blocks being launched from explosions.
 	#If false, explosions will still destroy blocks but won't create falling block entities.
-	enableFallingBlocks = true
+	enableFallingBlocks = false
 	#Enables or disables the falling effect for pointed dripstone near explosions.
 	enableDripstoneFalling = true
 	#Enables or disables the destruction of blocks, creating craters.
