@@ -98,13 +98,6 @@ craftingTable.addShaped("book_infection", <item:mca:book_infection>, [[<item:min
 
 craftingTable.removeByName("eidolon:smooth_stone_tiles");
 
-craftingTable.removeByName("galosphere:shadow_frame");
-craftingTable.addShaped("shadow_frame", <item:galosphere:shadow_frame>*8, [[<tag:items:forge:ingots/silver>, <item:galosphere:cured_membrane>, <tag:items:forge:ingots/silver>], [<item:galosphere:cured_membrane>, <tag:items:forge:ingots/silver>, <item:galosphere:cured_membrane>], [<tag:items:forge:ingots/silver>, <item:galosphere:cured_membrane>, <tag:items:forge:ingots/silver>]]);
-craftingTable.removeByName("galosphere:pink_salt_lamp");
-craftingTable.addShaped("pink_salt_lamp", <item:galosphere:pink_salt_lamp>, [[<item:galosphere:pink_salt_cluster>], [<tag:items:forge:ingots/silver>]]);
-craftingTable.removeByName("galosphere:barometer");
-craftingTable.addShaped("barometer", <item:galosphere:barometer>, [[<item:minecraft:air>, <tag:items:forge:ingots/silver>, <item:minecraft:air>], [<tag:items:forge:ingots/silver>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/silver>], [<item:minecraft:air>, <tag:items:forge:ingots/silver>, <item:minecraft:air>]]);
-
 craftingTable.removeByName("farm_and_charm:silo_wood");
 craftingTable.addShaped("silo_wood", <item:farm_and_charm:silo_wood>*2, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 

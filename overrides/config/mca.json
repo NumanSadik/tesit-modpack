@@ -314,7 +314,8 @@
     "DWARFISM": true,
     "UNKNOWN": true,
     "WEAK": true,
-    "TOUGH": true
+    "TOUGH": true,
+    "ASEXUAL": true
   },
   "taxesMap": {
     "minecraft:emerald": 1.0,

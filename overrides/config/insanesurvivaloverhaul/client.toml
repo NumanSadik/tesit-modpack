@@ -7,11 +7,9 @@
 	"Enable Death" = true
 	#Changes to sounds and music. Disabling this feature requires a Minecraft restart.
 	"Enable Sounds & Music" = false
-	#Makes fog less invasive in some contexts
 	"Enable Fog" = true
 	#World border changes
 	"Enable World Border" = false
-	#Misc client side changes
 	"Enable Misc" = false
 	#Adds various infos on top left of the screen
 	"Enable HUD Infos" = false
@@ -41,7 +39,6 @@
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Music delay multiplier" = 0.1
 
-	#Makes fog less invasive in some contexts
 	[Client.Fog]
 		#If true you'll be able to see better in lava when with the Fire Resistance Effect.
 		"Better visibility in Lava with Fire Resistance Lava" = true
@@ -50,6 +47,8 @@
 		#Render distance is multiplied by this value in the Nether. Vanilla is 0.5.
 		#Range: 0.0 ~ 1.0
 		"Nether fog ratio" = 0.75
+		#If true, overworld fog will be use the values from the config.
+		"Overworld fog" = true
 
 		[Client.Fog.Overworld]
 			#Changes fog to start closer to the player. E.g. A value of 0.5 makes fog start at half the render distance. Vanilla is 1, Pre-1.18.1 was 0.75, Pre-1.7.2 was 0.25. This disables itself if Foggy Weather is enabled.
@@ -71,7 +70,6 @@
 		#Range: 0.0 ~ 1.0
 		Transparency = 0.4
 
-	#Misc client side changes
 	[Client.Misc]
 		#If true, the outline around blocks will be red if the tool in hand will make drops not ... drop.
 		"Red block outline with wrong tool" = true

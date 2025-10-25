@@ -22,6 +22,14 @@
 	enableGlassBreaking = true
 	#Enables or disables the flickering effect on Redstone Lamps near explosions.
 	enableLampFlicker = true
+	#Enables or disables the clustering of nearby explosives into a single, more powerful explosion.
+	#If true, multiple TNT blocks/entities close together will merge into one explosion with increased power.
+	enableExplosionClustering = true
+	#Maximum total power for clustered TNT explosions.
+	#4 = minimum (single TNT), 100 = default, 1000 = extreme (high crash risk).
+	#WARNING: Values above 150 may cause rendering lag. Values above 500 risk game crashes.
+	#Range: 4 ~ 1000
+	maxClusterPower = 100
 
 #
 #Dripstone Falling
@@ -44,16 +52,6 @@
 	#Default: 70
 	#Range: 10 ~ 500
 	glassBlocksPerCycle = 70
-	#The base number of rays used to detect glass for a minimal power explosion.
-	#More rays increase precision and the chance to hit small windows, but increase performance cost.
-	#Default: 1000
-	#Range: 500 ~ 10000
-	glassBreakingBaseRayCount = 1000
-	#How many additional rays are added per point of explosion power.
-	#This makes powerful explosions more accurate at a distance.
-	#Default: 140. A power 100 explosion will have 1000 + 100*140 = 15000 rays.
-	#Range: 50 ~ 500
-	glassBreakingPowerRayMultiplier = 140
 
 #
 #Crater Customization
@@ -163,4 +161,65 @@
 		enableCaveSounds = true
 		#If enabled, an ambient cave explosion will cause a visual dust effect to fall from the ceiling.
 		enableAmbientCaveDust = true
+
+#
+#Async crater pipeline (off-thread ray geometry + main-thread batched application)
+["Async Crater"]
+	#Enable the asynchronous crater pipeline.
+	#Compute crater geometry off-thread and apply block changes in small batches per tick to keep TPS smooth on large explosions.
+	#
+	#WARNING: When asynchronous and multi-threaded mode is enabled - destruction of VS objects - does not work.
+	enableAsyncCrater = true
+	#Maximum number of threads for off-thread crater geometry precomputation.
+	#0 = Auto (use all available: 12)
+	#1 = Single-threaded
+	#2-12 = Custom thread count for this system
+	#Range: 0 ~ 12
+	craterMaxThreads = 0
+	#Maximum number of blocks to evaluate/apply per server tick when building a crater.
+	#Higher values complete faster but can cause small TPS dips.
+	#Lower values keep TPS flatter but take longer.
+	#Range: 0 ~ 150000
+	craterApplyBlocksPerTick = 50000
+	#Limit of falling block entities to spawn per tick during crater application (visual debris).
+	#Set to 0 to disable spawning via the async pipeline.
+	#Range: 0 ~ 2000
+	craterMaxFallingBlocksPerTick = 500
+	#Directly write block states into chunk sections during crater application (much faster).
+	#When enabled, bypasses Level#setBlock and updates heightmaps/light manually.
+	#Note: This skips Forge block events and neighbor updates.
+	enableDirectChunkWrites = true
+	#Maximum number of chunks to process per tick when direct writes are enabled.
+	#Used along with block budget to smooth TPS.
+	#Range: 0 ~ 500
+	craterChunksPerTick = 120
+
+#Settings for chunk scanning and block indexing system.
+#System detected: 12 CPU threads available
+#Configuration ranges are automatically adjusted for your system
+[Scan]
+	#Maximum number of threads to use for chunk scanning.
+	#Available range for your system: 0-12 threads
+	#0 = Auto-detect (recommended): uses all 12 available threads
+	#1 = Single-threaded (slowest but safest)
+	#2-12 = Custom thread count for this system
+	#Your system supports up to 12 concurrent threads
+	#Range: 0 ~ 12
+	maxScanThreads = 0
+	#How much CPU power to use for chunk scanning (1-100%).
+	#100% = Maximum speed, uses all available threads intensively
+	#50% = Balanced, leaves room for other server processes
+	#25% = Conservative, minimal impact on server performance
+	#Lower values add delays between chunk processing to reduce CPU load.
+	#Range: 1 ~ 100
+	cpuUsagePercent = 75
+	#Enables or disables the block indexing system.
+	#When enabled, chunks are automatically scanned for Redstone Lamps and Pointed Dripstone.
+	#When disabled, only manual registration/unregistration of blocks will occur.
+	#This affects Redstone Lamp flickering and Pointed Dripstone falling effects near explosions.
+	enableBlockIndexing = true
+	#Controls visibility of the scanning progress HUD.
+	#When disabled, no progress bar will be shown even if scanning is enabled.
+	#Shows percentage of chunks scanned during world initialization and automatically hides when complete.
+	showScanProgressHUD = true
 
