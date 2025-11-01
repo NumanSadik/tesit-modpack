@@ -33,7 +33,7 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tagmanager:items>.removeId(<tag:items:spoiled:foods/vanilla>, [<resource:minecraft:honey_bottle>]);
 
 <tagmanager:items>.addId(<tag:items:forge:meat>, [<resource:swampier_swamps:frog_leg>, <resource:swampier_swamps:cooked_frog_leg>, <resource:butchercraft:goat_chop>, <resource:butchercraft:cooked_goat_chop>]);
-<tagmanager:items>.addId(<tag:items:forge:meat/cooked>, [<resource:swampier_swamps:cooked_frog_leg>, <resource:alexsmobs:kangaroo_burger>, <resource:farmersdelight:hamburger>, <resource:casualness_delight:donkey_burger>, <resource:collectorsreap:land_and_sea_burger>, <resource:alexsdelight:bison_burger>, <resource:butchercraft:cooked_goat_chop>]);
+<tagmanager:items>.addId(<tag:items:forge:meat/cooked>, [<resource:swampier_swamps:cooked_frog_leg>, <resource:farmersdelight:hamburger>, <resource:casualness_delight:donkey_burger>, <resource:collectorsreap:land_and_sea_burger>, <resource:butchercraft:cooked_goat_chop>]);
 
 craftingTable.removeByName("farm_and_charm:carrot_bag");
 craftingTable.removeByName("farm_and_charm:potato_bag");
@@ -101,9 +101,6 @@ craftingTable.removeByName("eidolon:smooth_stone_tiles");
 craftingTable.removeByName("farm_and_charm:silo_wood");
 craftingTable.addShaped("silo_wood", <item:farm_and_charm:silo_wood>*2, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 
-craftingTable.removeByName("ecologics:surface_moss");
-craftingTable.addShaped("surface_moss", <item:ecologics:surface_moss>*6, [[<item:immersive_weathering:moss_clump>, <item:immersive_weathering:moss_clump>, <item:immersive_weathering:moss_clump>]]);
-
 craftingTable.removeByName("spelunkery:compression_blast_miner");
 craftingTable.addShaped("compression_blast_miner", <item:spelunkery:compression_blast_miner>, [[<item:minecraft:obsidian>, <item:minecraft:dispenser>, <item:minecraft:obsidian>],[<item:minecraft:obsidian>, <item:minecraft:iron_block>, <item:minecraft:obsidian>], [<item:minecraft:netherite_ingot>, <tag:items:forge:storage_blocks/cinnabar>, <item:minecraft:netherite_ingot>]]);
 
@@ -114,7 +111,7 @@ craftingTable.addShaped("compression_blast_miner", <item:spelunkery:compression_
 <tagmanager:items>.addId(<tag:items:forge:boots>, [<resource:galosphere:sterling_boots>, <resource:pneumaticcraft:compressed_iron_boots>, <resource:pneumaticcraft:pneumatic_boots>, <resource:thermal:beekeeper_boots>, <resource:thermal:diving_boots>, <resource:thermal:hazmat_boots>, <resource:candlelight:chefs_boots>, <resource:vinery:winemaker_boots>, <resource:brewery:brewfest_boots>, <resource:brewery:brewfest_shoes>]);
 <tag:items:forge:armors>.add([<tag:items:forge:helmets>,<tag:items:forge:chestplates>,<tag:items:forge:leggings>,<tag:items:forge:boots>]);
 <tagmanager:items>.addId(<tag:items:minecraft:compasses>, [<resource:spelunkery:magnetic_compass>]);
-<tagmanager:items>.addId(<tag:items:forge:tools>, [<resource:minecraft:flint_and_steel>, <resource:spelunkery:flint_hammer_and_chisel>, <resource:spelunkery:obsidian_hammer_and_chisel>, <resource:thermal:wrench>, <resource:minecraft:brush>, <resource:galosphere:silver_bomb>, <resource:davespotioneering:potioneer_gauntlet>, <resource:davespotioneering:netherite_gauntlet>, <resource:davespotioneering:rudimentary_gauntlet>, <resource:alexsmobs:shield_of_the_deep>]);
+<tagmanager:items>.addId(<tag:items:forge:tools>, [<resource:minecraft:flint_and_steel>, <resource:spelunkery:flint_hammer_and_chisel>, <resource:spelunkery:obsidian_hammer_and_chisel>, <resource:thermal:wrench>, <resource:minecraft:brush>, <resource:galosphere:silver_bomb>]);
 <tag:items:biomancy:cannot_be_eaten_by_cradle>.add([<tag:items:forge:armors>, <tag:items:forge:tools>, <tag:items:forge:armors>, <tag:items:curios:belt>, <tag:items:curios:hands>, <tag:items:curios:head>, <tag:items:curios:back>, <tag:items:curios:curio>, <tag:items:curios:charm>]);
 
 <tagmanager:items>.addId(<tag:items:forge:gems>, <resource:spelunkery:cinnabar>);
@@ -161,7 +158,6 @@ craftingTable.removeByName("spelunkery:cinnabar_block");
 <tagmanager:blocks>.addId(<tag:blocks:minecraft:doors>, [<resource:immersive_weathering:exposed_iron_door>, <resource:immersive_weathering:weathered_iron_door>, <resource:immersive_weathering:rusted_iron_door>, <resource:immersive_weathering:waxed_iron_door>, <resource:immersive_weathering:waxed_exposed_iron_door>, <resource:immersive_weathering:waxed_weathered_iron_door>, <resource:immersive_weathering:waxed_rusted_iron_door>]);
 <tagmanager:items>.addId(<tag:items:minecraft:doors>, [<resource:immersive_weathering:exposed_iron_door>, <resource:immersive_weathering:weathered_iron_door>, <resource:immersive_weathering:rusted_iron_door>, <resource:immersive_weathering:waxed_iron_door>, <resource:immersive_weathering:waxed_exposed_iron_door>, <resource:immersive_weathering:waxed_weathered_iron_door>, <resource:immersive_weathering:waxed_rusted_iron_door>]);
 <tagmanager:blocks>.addId(<tag:blocks:spelunkery:chisel_immune>, [<resource:immersive_weathering:exposed_iron_door>, <resource:immersive_weathering:weathered_iron_door>, <resource:immersive_weathering:rusted_iron_door>, <resource:immersive_weathering:waxed_iron_door>, <resource:immersive_weathering:waxed_exposed_iron_door>, <resource:immersive_weathering:waxed_weathered_iron_door>, <resource:immersive_weathering:waxed_rusted_iron_door>]);
-<tagmanager:blocks>.addId(<tag:blocks:dramaticdoors:tall_doors>, [<resource:dramaticdoors:tall_weathered_iron_door>, <resource:dramaticdoors:tall_rusted_iron_door>, <resource:dramaticdoors:tall_waxed_weathered_iron_door>, <resource:dramaticdoors:tall_waxed_rusted_iron_door>]);
 
 <tagmanager:blocks>.addId(<tag:blocks:forge:ores>, [<resource:spelunkery:granite_jade_ore>, <resource:spelunkery:andesite_jade_ore>, <resource:spelunkery:diorite_jade_ore>, <resource:spelunkery:tuff_jade_ore>]);
 
