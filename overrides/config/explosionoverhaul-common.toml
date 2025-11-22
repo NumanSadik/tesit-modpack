@@ -223,3 +223,8 @@
 	#Shows percentage of chunks scanned during world initialization and automatically hides when complete.
 	showScanProgressHUD = true
 
+#Sound system settings
+[Sounds]
+	#Enable advanced sound speed system for explosions. If disabled, sound always travels at 343 m/s.
+	enableAdvancedSoundSpeed = false
+

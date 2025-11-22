@@ -19,5 +19,6 @@
     "create:extendo_grip",
     "pneumaticcraft:minigun"
   ],
-  "autoToggleModItems": []
+  "autoToggleModItems": [],
+  "hiddenLayers": []
 }

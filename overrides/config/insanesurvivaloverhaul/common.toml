@@ -95,9 +95,6 @@
 				Maximum = 6000.0
 
 	[World."Coal & Fire"]
-		#Chance for logs to release charcoal layer when burnt
-		#Range: 0.0 ~ 1.0
-		"Charcoal from burnt logs chance" = 0.8
 		#If enabled, a data pack will be enabled that:
 		#* Removes the Charcoal recipe from smelting
 		#* Makes Coal Ore require an Iron Pickaxe or better to mine
@@ -108,6 +105,9 @@
 		"Campfire turn off under rain" = true
 		#If true, campfires must be lit
 		"Unlit campfires" = true
+		#Chance for logs to yield burnt logs when burnt
+		#Range: 0.0 ~ 1.0
+		"Burnt logs chance" = 0.8
 
 		[World."Coal & Fire"."Two flint fire starter"]
 			#If true, two flints (on per hand) can start a fire
@@ -253,6 +253,7 @@
 		"Crouch take items" = false
 		#If true, only players that generated the grave can crouch right-click to take items from graves.
 		"Crouch take items only owner" = false
+		"Remove ghostly on grave break" = true
 
 	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
 	["Sleep & Respawn".Cloth]
@@ -289,6 +290,8 @@
 		"Allow sleeping even when not tired" = false
 		#If true, Simple Clouds' clouds will speed up when player skips time by sleeping.
 		"Simple clouds integration" = false
+		#If true, sets the playersSleepingPercentage gamerule to 1 so tired players can sleep no matter how many players on a server.
+		"Force one player sleep" = false
 
 		["Sleep & Respawn".Tiredness."Energy boost"]
 			#If the player has energy boost, reduce tiredness by this value (multiplied by the effect level) each tick.
@@ -919,7 +922,7 @@
 	"Enable Copper equipment" = true
 	#Check your altitude. Disables itself if Caverns and Chasms is present
 	"Enable Altimeter" = true
-	#A new block that can let you carry more stuff around.
+	#A new item that can let you carry more stuff around.
 	"Enable Pouch" = true
 	#If enabled, a data pack will be enabled that disables stone tools crafting and generation in chests will be replaced with copper ones.
 	"Enable Stone tools gone" = true
@@ -984,7 +987,7 @@
 		#Range: 0 ~ 15
 		"Max sunlight" = 12
 
-	#A new block that can let you carry more stuff around.
+	#A new item that can let you carry more stuff around.
 	[Items.Pouch]
 		#Range: > 0
 		"Max pouch without slowdown" = 2

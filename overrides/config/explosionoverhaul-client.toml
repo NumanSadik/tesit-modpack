@@ -5,7 +5,7 @@
 	#Lower quality (64p) can significantly improve performance on systems with less VRAM.
 	#Requires a resource pack reload (F3+T) to apply the change.
 	#Allowed Values: QUALITY_256, QUALITY_64
-	glowTextureQuality = "QUALITY_256"
+	glowTextureQuality = "QUALITY_64"
 	#
 	#Core explosion visual effects
 	#Enables the main fiery glow particles (glow, glow_2, sglow). Disabling this can significantly improve performance.
@@ -38,7 +38,7 @@
 	#Particle rendering system mode:
 	#REALISTIC - Uses animated sprite sheets with complex textures (current system)
 	#PROCEDURAL - Uses procedural color animation with simple textures (new system, better performance)
-	#Allowed Values: REALISTIC, PROCEDURAL
+	#Allowed Values: REALISTIC, REALISTIC_2, PROCEDURAL
 	particleRenderMode = "REALISTIC"
 	#
 	#Plasma particle effects
@@ -69,6 +69,16 @@
 	#A value of 10 means every 10th particle checks (default performance).
 	#Range: 1 ~ 20
 	groundMistRaycastFrequency = 10
+	#Scales the size of all explosion particles across all render modes.
+	#1.0 = default size, 0.1 = 10% of default, 5.0 = 500% of default.
+	#Range: 0.1 ~ 5.0
+	particleSizeScale = 1.0
+	#Internal flag: marks whether the first-time setup screen has been shown.
+	firstLaunchComplete = true
+	#
+	#Configuration for the shockwave effect
+	#Enables or disables the shockwave particle effect from explosions.
+	enableShockwaveEffect = true
 
 #
 #Camera shake settings

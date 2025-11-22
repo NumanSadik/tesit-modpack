@@ -16,14 +16,14 @@
 
 	#Changes to light
 	[Client.Light]
-		#If enabled, the brightness will be set to this value, ignoring the brightness in video settings.
-		#Range: -1.0 ~ 1.0
-		"Force brightness" = 0.15
 		#How many ticks before expiring Night Vision will slowly fade out? Set to -1 to disable
 		#Range: > -1
 		"Night vision fade out time" = 50
 		#If true, 'Force brightness' will only apply if the current brightness is higher than 'Force brightness'
 		"Force only lower brightness" = true
+		#If enabled, the brightness will be set to this value if higher in the video settings.
+		#Range: 0.0 ~ 1.0
+		"Force darkness" = 0.15
 
 	#Changes to death
 	[Client.Death]
@@ -80,6 +80,8 @@
 		"No tilting with non directional damage types" = true
 		#If true, hunger will be rendered even when the player is in riding an entity. Also hides the jump bar unless jumping (showing the XP bar)
 		"Fix mounts gui" = true
+		#If true, health will not shake if player's max health is below 4
+		"Prevent shake based off max health" = false
 
 	#Adds various infos on top left of the screen
 	[Client."HUD Infos"]
