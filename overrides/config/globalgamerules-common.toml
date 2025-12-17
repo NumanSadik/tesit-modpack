@@ -136,6 +136,9 @@
 		[gamerules.modded.updates]
 			"iguanatweaks:fireSpeedMultiplier" = 4
 
+		[gamerules.modded.spawning]
+			doCaravanSpawning = true
+
 #Configs related to difficulty changes
 [difficulty]
 	#If the difficulty should be set on world load
