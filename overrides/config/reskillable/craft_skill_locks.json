@@ -1,0 +1,983 @@
+{
+  "craftSkillLocks": {
+    "minecraft:anvil": [
+      "building:12"
+    ],
+    "minecraft:chipped_anvil": [
+      "building:12"
+    ],
+    "minecraft:damaged_anvil": [
+      "building:12"
+    ],
+    "minecraft:brewing_stand": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:enchanting_table": [
+      "magic:12"
+    ],
+    "eidolon:soul_enchanter": [
+      "magic:12"
+    ],
+    "eidolon:magic_worktable": [
+      "magic:12"
+    ],
+    "minecraft:beacon": [
+      "building:20"
+    ],
+    "minecraft:end_crystal": [
+      "magic:30",
+      "building:22"
+    ],
+    "minecraft:ender_chest": [
+      "magic:20"
+    ],
+    "minecraft:respawn_anchor": [
+      "magic:20"
+    ],
+    "minecraft:shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:white_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:light_gray_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:gray_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:black_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:brown_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:red_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:orange_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:yellow_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:lime_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:green_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:cyan_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:light_blue_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:blue_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:purple_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:magenta_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:pink_shulker_box": [
+      "magic:20"
+    ],
+    "minecraft:dragon_egg": [
+      "magic:30"
+    ],
+    "minecraft:wither_skeleton_skull": [
+      "magic:8",
+      "building:8"
+    ],
+    "minecraft:lodestone": [
+      "building:16"
+    ],
+    "minecraft:smithing_table": [
+      "building:20"
+    ],
+    "minecraft:grindstone": [
+      "building:16"
+    ],
+    "spelunkery:diamond_grindstone": [
+      "building:22"
+    ],
+    "minecraft:cartography_table": [
+      "building:12"
+    ],
+    "minecraft:stonecutter": [
+      "building:6",
+      "attack:6"
+    ],
+    "minecraft:smoker": [
+      "building:6"
+    ],
+    "minecraft:blast_furnace": [
+      "building:6"
+    ],
+    "minecraft:loom": [
+      "building:8"
+    ],
+    "minecraft:fishing_rod": [
+      "gathering:4"
+    ],
+    "minecraft:bone_meal": [
+      "farming:8"
+    ],
+    "farm_and_charm:fertilizer": [
+      "farming:8"
+    ],
+    "farmersdelight:organic_compost": [
+      "farming:12"
+    ],
+    "farmersdelight:rich_soil": [
+      "farming:12"
+    ],
+    "farmersdelight:planter": [
+      "farming:16"
+    ],
+    "pneumaticcraft:phytogro": [
+      "farming:16"
+    ],
+    "minecraft:shears": [
+      "building:4"
+    ],
+    "minecraft:lead": [
+      "farming:4"
+    ],
+    "minecraft:redstone": [
+      "magic:4"
+    ],
+    "minecraft:redstone_torch": [
+      "magic:4"
+    ],
+    "minecraft:repeater": [
+      "magic:4"
+    ],
+    "minecraft:comparator": [
+      "magic:4"
+    ],
+    "minecraft:writable_book": [
+      "magic:6"
+    ],
+    "minecraft:written_book": [
+      "magic:6"
+    ],
+    "minecraft:tnt": [
+      "magic:12"
+    ],
+    "minecraft:lectern": [
+      "magic:6",
+      "building:4"
+    ],
+    "minecraft:ender_pearl": [
+      "magic:8"
+    ],
+    "minecraft:ender_eye": [
+      "magic:16"
+    ],
+    "minecraft:bow": [
+      "agility:4",
+      "attack:4"
+    ],
+    "minecraft:crossbow": [
+      "agility:6",
+      "attack:4"
+    ],
+    "minecraft:saddle": [
+      "agility:6"
+    ],
+    "minecraft:elytra": [
+      "agility:30"
+    ],
+    "minecraft:firework_rocket": [
+      "agility:20"
+    ],
+    "minecraft:experience_bottle": [
+      "magic:12"
+    ],
+    "quark:seed_pouch": [
+      "farming:12"
+    ],
+    "minecraft:frogspawn": [
+      "farming:12",
+      "gathering:16"
+    ],
+    "minecraft:turtle_egg": [
+      "farming:12",
+      "gathering:16"
+    ],
+    "minecraft:sniffer_egg": [
+      "farming:12",
+      "gathering:16"
+    ],
+    "minecraft:mangrove_propagule": [
+      "farming:8"
+    ],
+    "minecraft:azalea": [
+      "farming:8"
+    ],
+    "minecraft:flowering_azalea": [
+      "farming:8"
+    ],
+    "minecraft:crimson_fungus": [
+      "farming:8"
+    ],
+    "minecraft:warped_fungus": [
+      "farming:8"
+    ],
+    "minecraft:bamboo": [
+      "farming:8"
+    ],
+    "minecraft:sugar_cane": [
+      "farming:8"
+    ],
+    "minecraft:cactus": [
+      "farming:8"
+    ],
+    "minecraft:chorus_plant": [
+      "farming:12"
+    ],
+    "minecraft:chorus_flower": [
+      "farming:12"
+    ],
+    "minecraft:shield": [
+      "defense:4"
+    ],
+    "minecraft:chainmail_helmet": [
+      "defense:4"
+    ],
+    "minecraft:chainmail_chestplate": [
+      "defense:4"
+    ],
+    "minecraft:chainmail_leggings": [
+      "defense:4"
+    ],
+    "minecraft:chainmail_boots": [
+      "defense:4"
+    ],
+    "minecraft:iron_helmet": [
+      "defense:8"
+    ],
+    "minecraft:iron_chestplate": [
+      "defense:8"
+    ],
+    "minecraft:iron_leggings": [
+      "defense:8"
+    ],
+    "minecraft:iron_boots": [
+      "defense:8"
+    ],
+    "minecraft:golden_helmet": [
+      "defense:6",
+      "magic:6"
+    ],
+    "pneumaticcraft:compressed_iron_helmet": [
+      "defense:6"
+    ],
+    "pneumaticcraft:pneumatic_helmet": [
+      "defense:6",
+      "magic:6"
+    ],
+    "biomancy:acolyte_armor_helmet": [
+      "defense:6",
+      "magic:6"
+    ],
+    "eidolon:silver_helmet": [
+      "defense:6"
+    ],
+    "savage_and_ravage:griefer_helmet": [
+      "defense:6"
+    ],
+    "minecraft:golden_chestplate": [
+      "defense:6",
+      "magic:6"
+    ],
+    "minecraft:golden_leggings": [
+      "defense:6",
+      "magic:6"
+    ],
+    "minecraft:golden_boots": [
+      "defense:6",
+      "magic:6"
+    ],
+    "minecraft:diamond_helmet": [
+      "defense:16"
+    ],
+    "minecraft:diamond_chestplate": [
+      "defense:16"
+    ],
+    "minecraft:diamond_leggings": [
+      "defense:16"
+    ],
+    "minecraft:diamond_boots": [
+      "defense:16"
+    ],
+    "minecraft:netherite_helmet": [
+      "defense:22"
+    ],
+    "minecraft:netherite_chestplate": [
+      "defense:22"
+    ],
+    "minecraft:netherite_leggings": [
+      "defense:22"
+    ],
+    "minecraft:netherite_boots": [
+      "defense:22"
+    ],
+    "minecraft:turtle_helmet": [
+      "defense:6",
+      "agility:6"
+    ],
+    "minecraft:golden_horse_armor": [
+      "defense:4",
+      "agility:4"
+    ],
+    "minecraft:iron_horse_armor": [
+      "defense:6",
+      "agility:6"
+    ],
+    "minecraft:diamond_horse_armor": [
+      "defense:12",
+      "agility:12"
+    ],
+    "minecraft:totem_of_undying": [
+      "defense:16",
+      "magic:12"
+    ],
+    "minecraft:trident": [
+      "attack:20",
+      "agility:18"
+    ],
+    "endersdelight:chorus_crate": [
+      "building:8"
+    ],
+    "farmersdelight:cabbage_crate": [
+      "building:8"
+    ],
+    "thermal:apple_block": [
+      "building:8"
+    ],
+    "thermal:carrot_block": [
+      "building:8"
+    ],
+    "thermal:potato_block": [
+      "building:8"
+    ],
+    "thermal:beetroot_block": [
+      "building:8"
+    ],
+    "thermal:corn_block": [
+      "building:8"
+    ],
+    "thermal:onion_block": [
+      "building:8"
+    ],
+    "thermal:radish_block": [
+      "building:8"
+    ],
+    "thermal:sadiroot_block": [
+      "building:8"
+    ],
+    "thermal:spinach_block": [
+      "building:8"
+    ],
+    "thermal:bell_pepper_block": [
+      "building:8"
+    ],
+    "thermal:eggplant_block": [
+      "building:8"
+    ],
+    "thermal:green_bean_block": [
+      "building:8"
+    ],
+    "thermal:hops_block": [
+      "building:8"
+    ],
+    "thermal:strawberry_block": [
+      "building:8"
+    ],
+    "thermal:tomato_block": [
+      "building:8"
+    ],
+    "collectorsreap:pomegranate_crate": [
+      "building:8"
+    ],
+    "collectorsreap:lime_crate": [
+      "building:8"
+    ],
+    "vinery:white_grape_bag": [
+      "building:8"
+    ],
+    "vinery:red_grape_bag": [
+      "building:8"
+    ],
+    "vinery:cherry_bag": [
+      "building:8"
+    ],
+    "vinery:white_savanna_grape_bag": [
+      "building:8"
+    ],
+    "vinery:red_savanna_grape_bag": [
+      "building:8"
+    ],
+    "vinery:white_taiga_grape_bag": [
+      "building:8"
+    ],
+    "vinery:red_taiga_grape_bag": [
+      "building:8"
+    ],
+    "vinery:white_jungle_grape_bag": [
+      "building:8"
+    ],
+    "vinery:red_jungle_grape_bag": [
+      "building:8"
+    ],
+    "herbalbrews:tea_leaf_crate": [
+      "building:8"
+    ],
+    "farm_and_charm:lettuce_bag": [
+      "building:8"
+    ],
+    "farm_and_charm:corn_bag": [
+      "building:8"
+    ],
+    "farm_and_charm:onion_bag": [
+      "building:8"
+    ],
+    "farm_and_charm:flour_bag": [
+      "building:8"
+    ],
+    "miners_delight:cave_carrot_crate": [
+      "building:8"
+    ],
+    "thermal:rice_block": [
+      "building:8"
+    ],
+    "thermal:peanut_block": [
+      "building:8"
+    ],
+    "thermal:coffee_block": [
+      "building:8"
+    ],
+    "thermal:tea_block": [
+      "building:8"
+    ],
+    "minecraft:iron_hoe": [
+      "building:8"
+    ],
+    "embers:lead_hoe": [
+      "building:8"
+    ],
+    "embers:dawnstone_hoe": [
+      "building:8"
+    ],
+    "embers:silver_hoe": [
+      "building:8"
+    ],
+    "minecraft:golden_hoe": [
+      "building:6"
+    ],
+    "minecraft:diamond_hoe": [
+      "building:16"
+    ],
+    "iguanatweaksreborn:flint_hoe": [
+      "building:6"
+    ],
+    "immersiveengineering:hoe_steel": [
+      "building:16"
+    ],
+    "oreganized:electrum_hoe": [
+      "building:16"
+    ],
+    "minecraft:iron_shovel": [
+      "building:8"
+    ],
+    "embers:lead_shovel": [
+      "building:8"
+    ],
+    "embers:dawnstone_shovel": [
+      "building:8"
+    ],
+    "embers:silver_shovel": [
+      "building:8"
+    ],
+    "minecraft:golden_shovel": [
+      "building:6"
+    ],
+    "minecraft:diamond_shovel": [
+      "building:16"
+    ],
+    "minecraft:netherite_shovel": [
+      "building:22"
+    ],
+    "iguanatweaksreborn:flint_shovel": [
+      "building:6"
+    ],
+    "immersiveengineering:shovel_steel": [
+      "building:8"
+    ],
+    "minecraft:iron_pickaxe": [
+      "building:8"
+    ],
+    "embers:lead_pickaxe": [
+      "building:8"
+    ],
+    "embers:dawnstone_pickaxe": [
+      "building:8"
+    ],
+    "embers:silver_pickaxe": [
+      "building:8"
+    ],
+    "minecraft:golden_pickaxe": [
+      "building:6"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "building:16"
+    ],
+    "embers:clockwork_pickaxe": [
+      "building:16"
+    ],
+    "oreganized:electrum_pickaxe": [
+      "building:16"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "building:22"
+    ],
+    "iguanatweaksreborn:flint_pickaxe": [
+      "building:6"
+    ],
+    "immersiveengineering:pickaxe_steel": [
+      "building:12"
+    ],
+    "minecraft:iron_axe": [
+      "attack:8",
+      "building:8"
+    ],
+    "embers:lead_axe": [
+      "attack:8",
+      "building:8"
+    ],
+    "embers:dawnstone_axe": [
+      "attack:8",
+      "building:8"
+    ],
+    "embers:silver_axe": [
+      "attack:8",
+      "building:8"
+    ],
+    "minecraft:golden_axe": [
+      "building:6",
+      "attack:6"
+    ],
+    "minecraft:diamond_axe": [
+      "attack:16",
+      "building:16"
+    ],
+    "embers:clockwork_axe": [
+      "attack:16",
+      "building:16"
+    ],
+    "oreganized:electrum_axe": [
+      "attack:16",
+      "building:16"
+    ],
+    "minecraft:netherite_axe": [
+      "attack:22",
+      "building:22"
+    ],
+    "eidolon:cleaving_axe": [
+      "attack:20",
+      "building:20"
+    ],
+    "iguanatweaksreborn:flint_axe": [
+      "building:6"
+    ],
+    "immersiveengineering:axe_steel": [
+      "building:8"
+    ],
+    "minecraft:iron_sword": [
+      "attack:8"
+    ],
+    "embers:silver_sword": [
+      "attack:8"
+    ],
+    "embers:lead_sword": [
+      "attack:8"
+    ],
+    "embers:dawnstone_sword": [
+      "attack:8"
+    ],
+    "minecraft:golden_sword": [
+      "attack:6"
+    ],
+    "minecraft:diamond_sword": [
+      "attack:16"
+    ],
+    "oreganized:electrum_sword": [
+      "attack:16"
+    ],
+    "minecraft:netherite_sword": [
+      "attack:22"
+    ],
+    "eidolon:sapping_sword": [
+      "attack:8"
+    ],
+    "iguanatweaksreborn:flint_sword": [
+      "attack:6"
+    ],
+    "immersiveengineering:sword_steel": [
+      "attack:16"
+    ],
+    "davespotioneering:rudimentary_gauntlet": [
+      "attack:8",
+      "magic:4"
+    ],
+    "davespotioneering:netherite_gauntlet": [
+      "attack:18",
+      "magic:12"
+    ],
+    "embers:tyrfing": [
+      "attack:8"
+    ],
+    "farmersdelight:golden_knife": [
+      "agility:4"
+    ],
+    "farmersdelight:iron_knife": [
+      "agility:4"
+    ],
+    "bakery:bread_knife": [
+      "agility:4"
+    ],
+    "butchercraft:butcher_knife": [
+      "agility:4"
+    ],
+    "butchercraft:skinning_knife": [
+      "agility:4"
+    ],
+    "butchercraft:bone_saw": [
+      "agility:4"
+    ],
+    "butchercraft:gut_knife": [
+      "agility:4"
+    ],
+    "farmersdelight:diamond_knife": [
+      "agility:8"
+    ],
+    "farmersdelight:netherite_knife": [
+      "agility:12"
+    ],
+    "kaleidoscope_cookery:gold_kitchen_knife": [
+      "agility:4"
+    ],
+    "kaleidoscope_cookery:iron_kitchen_knife": [
+      "agility:4"
+    ],
+    "kaleidoscope_cookery:diamond_kitchen_knife": [
+      "agility:8"
+    ],
+    "kaleidoscope_cookery:netherite_kitchen_knife": [
+      "agility:12"
+    ],
+    "spelunkery:obsidian_hammer_and_chisel": [
+      "building:16"
+    ],
+    "eidolon:reversal_pick": [
+      "building:16"
+    ],
+    "embers:grandhammer": [
+      "attack:8",
+      "building:8"
+    ],
+    "eidolon:reaper_scythe": [
+      "attack:12",
+      "magic:12"
+    ],
+    "eidolon:deathbringer_scythe": [
+      "attack:16",
+      "magic:16"
+    ],
+    "mca:scythe": [
+      "attack:16",
+      "magic:16"
+    ],
+    "minecraft:honey_bottle": [
+      "gathering:4"
+    ],
+    "minecraft:potion": [
+      "magic:4"
+    ],
+    "netherexp:antidote": [
+      "magic:6"
+    ],
+    "netherexp:grenade_antidote": [
+      "magic:8",
+      "agility:6"
+    ],
+    "minecraft:splash_potion": [
+      "magic:6",
+      "agility:6"
+    ],
+    "minecraft:lingering_potion": [
+      "magic:6"
+    ],
+    "eidolon:soulfire_wand": [
+      "magic:4"
+    ],
+    "eidolon:bonechill_wand": [
+      "magic:4"
+    ],
+    "savage_and_ravage:wand_of_freezing": [
+      "magic:4"
+    ],
+    "embers:cinder_staff": [
+      "magic:4"
+    ],
+    "embers:blazing_ray": [
+      "magic:4"
+    ],
+    "mca:staff_of_life": [
+      "magic:8"
+    ],
+    "collectorsreap:shimmering_pearl": [
+      "magic:8"
+    ],
+    "candlelight:gold_ring": [
+      "magic:6"
+    ],
+    "minecraft:netherite_upgrade_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:sentry_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:dune_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:coast_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:wild_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:ward_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:eye_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:vex_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:tide_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:snout_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:rib_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:spire_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:wayfinder_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:shaper_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:silence_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "minecraft:raiser_armor_trim_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "minecraft:host_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "softi_dnd_cleric:blazing_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "galosphere:silver_upgrade_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "galosphere:preserved_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "neapolitan:primal_armor_trim_smithing_template": [
+      "magic:12",
+      "building:12"
+    ],
+    "oreganized:electrum_upgrade_smithing_template": [
+      "building:12",
+      "magic:12"
+    ],
+    "wares:delivery_table": [
+      "agility:8"
+    ],
+    "minecraft:cauldron": [
+      "magic:8"
+    ],
+    "easel_does_it:easel": [
+      "building:8"
+    ],
+    "vinery:fermentation_barrel": [
+      "building:8"
+    ],
+    "pneumaticcraft:charging_station": [
+      "magic:12",
+      "building:12"
+    ],
+    "immersiveengineering:workbench": [
+      "magic:12",
+      "building:12"
+    ],
+    "immersiveengineering:turntable": [
+      "building:12",
+      "magic:12"
+    ],
+    "immersiveengineering:craftingtable": [
+      "magic:12",
+      "building:12"
+    ],
+    "immersiveengineering:circuit_table": [
+      "building:12",
+      "magic:12"
+    ],
+    "davespotioneering:reinforced_cauldron": [
+      "magic:12"
+    ],
+    "herbalbrews:cauldron": [
+      "magic:12"
+    ],
+    "softi_dnd_cleric:golden_blessing": [
+      "magic:8"
+    ],
+    "softi_dnd_cleric:lime_blessing": [
+      "magic:8"
+    ],
+    "softi_dnd_cleric:violet_blessing": [
+      "magic:8"
+    ],
+    "oreganized:electrum_helmet": [
+      "defense:8"
+    ],
+    "pneumaticcraft:compressed_iron_chestplate": [
+      "defense:10"
+    ],
+    "pneumaticcraft:pneumatic_chestplate": [
+      "defense:10"
+    ],
+    "eidolon:silver_chestplate": [
+      "defense:10"
+    ],
+    "savage_and_ravage:griefer_chestplate": [
+      "defense:10"
+    ],
+    "immersiveengineering:armor_steel_chestplate": [
+      "defense:14"
+    ],
+    "oreganized:electrum_chestplate": [
+      "defense:16"
+    ],
+    "eidolon:bonelord_chestplate": [
+      "defense:18"
+    ],
+    "eidolon:silver_leggings": [
+      "defense:8"
+    ],
+    "pneumaticcraft:compressed_iron_leggings": [
+      "defense:12"
+    ],
+    "pneumaticcraft:pneumatic_leggings": [
+      "defense:12"
+    ],
+    "embers:ashen_leggings": [
+      "defense:12"
+    ],
+    "savage_and_ravage:griefer_leggings": [
+      "defense:12"
+    ],
+    "galosphere:sterling_leggings": [
+      "defense:14"
+    ],
+    "immersiveengineering:armor_steel_leggings": [
+      "defense:16"
+    ],
+    "oreganized:electrum_leggings": [
+      "defense:16"
+    ],
+    "embers:ashen_boots": [
+      "defense:12"
+    ],
+    "oreganized:electrum_boots": [
+      "defense:14"
+    ],
+    "pneumaticcraft:compressed_iron_boots": [
+      "defense:8"
+    ],
+    "pneumaticcraft:pneumatic_boots": [
+      "defense:10"
+    ],
+    "immersiveengineering:armor_steel_helmet": [
+      "defense:14"
+    ],
+    "immersiveengineering:armor_steel_boots": [
+      "defense:14"
+    ],
+    "embers:ashen_cloak": [
+      "defense:12"
+    ],
+    "embers:ashen_goggles": [
+      "defense:8"
+    ],
+    "galosphere:sterling_helmet": [
+      "defense:12"
+    ],
+    "galosphere:sterling_chestplate": [
+      "defense:14"
+    ],
+    "galosphere:sterling_boots": [
+      "defense:12"
+    ],
+    "savage_and_ravage:griefer_boots": [
+      "defense:8"
+    ],
+    "eidolon:codex": [
+      "magic:6"
+    ],
+    "kaleidoscope_cookery:sickle": [
+      "farming:4"
+    ],
+    "herbalbrews:witch_hat": [
+      "magic:10"
+    ],
+    "herbalbrews:top_hat": [
+      "magic:10"
+    ]
+  }
+}
