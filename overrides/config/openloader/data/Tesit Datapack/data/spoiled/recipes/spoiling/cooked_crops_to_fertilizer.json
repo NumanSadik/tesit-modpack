@@ -1,0 +1,10 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+	"tag": "froge:crops/cooked"
+  },
+  "result": {
+    "item": "farm_and_charm:fertilizer"
+  },
+  "priority": 1
+}

@@ -228,7 +228,7 @@
 	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
 	"Enable Cloth" = true
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
-	"Enable Tiredness" = true
+	"Enable Tiredness" = false
 	#Changes to respawning. Adds the doLooseRespawn gamerule that can disable the loose spawn range
 	"Enable Respawn" = false
 	#Changes to sleeping and spawn points
@@ -1141,7 +1141,7 @@
 		#If true, mobs can randomly fall in love and possibly breed
 		"Auto breed" = true
 		#Enables a data pack that changes animal loot (reduced food drops) and slows down growing, breeding, egging etc
-		"Data pack" = true
+		"Data pack" = false
 
 		[Farming.Livestock.Aging]
 			#If true, animals will age and die of old age. Configurable via data packs. With the data pack enabled, adult will drop more goodies. With pehkui installed, animals will also be smaller/bigger.
@@ -1221,10 +1221,10 @@
 		#BONE_MEAL_ONLY: Crops will grow on dry farmland by only using bone meal
 		#ANY_CASE: Will make Crops not grow in any case when on dry farmland
 		#Allowed Values: NO, BONE_MEAL_ONLY, ANY_CASE
-		"Crops require water" = "ANY_CASE"
+		"Crops require water" = "BONE_MEAL_ONLY"
 		#Radius where water hydrates farmland, vanilla is 4.
 		#Range: > 1
-		"Water hydration radius" = 2
+		"Water hydration radius" = 3
 		#Makes potatoes and carrots not plantable and also enables a data pack that makes the following changes:
 		#* Makes all vanilla crops drop only one seed (and makes carrots and potatoes drop the new seed item)
 		#* Makes crops hard to break, requiring an hoe as correct tool

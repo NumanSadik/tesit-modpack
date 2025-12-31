@@ -704,12 +704,6 @@
       "attack:16",
       "magic:16"
     ],
-    "minecraft:honey_bottle": [
-      "gathering:4"
-    ],
-    "minecraft:potion": [
-      "magic:4"
-    ],
     "netherexp:antidote": [
       "magic:6"
     ],
@@ -718,7 +712,6 @@
       "agility:6"
     ],
     "minecraft:splash_potion": [
-      "magic:6",
       "agility:6"
     ],
     "minecraft:lingering_potion": [
