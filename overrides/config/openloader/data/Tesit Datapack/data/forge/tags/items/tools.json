@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+              "resource:minecraft:flint_and_steel",
+              "resource:spelunkery:flint_hammer_and_chisel",
+              "resource:spelunkery:obsidian_hammer_and_chisel",
+              "resource:minecraft:brush"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+                            "clothingcraft:blue_pajamas_leggings",
+                            "clothingcraft:gray_pajamas_leggings",
+                            "clothingcraft:red_pajamas_leggings",
+                            "clothingcraft:green_pajamas_leggings",
+                            "clothingcraft:medic_suite_leggings",
+                            "clothingcraft:artist_suite_leggings",
+                            "clothingcraft:builder_suite_leggings",
+                            "clothingcraft:farmer_suite_leggings",
+                            "clothingcraft:lumberjack_suite_leggings",
+                            "clothingcraft:mage_suite_leggings",
+                            "clothingcraft:business_suite_leggings",
+                            "clothingcraft:red_dino_suite_leggings",
+                            "clothingcraft:hot_dog_suite_leggings",
+                            "clothingcraft:sunny_pants_leggings",
+                            "clothingcraft:police_form_leggings",
+                            "clothingcraft:jeans_leggings"
+  ]
+}
