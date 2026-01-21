@@ -484,9 +484,6 @@
     "minecraft:diamond_hoe": [
       "building:16"
     ],
-    "iguanatweaksreborn:flint_hoe": [
-      "building:6"
-    ],
     "immersiveengineering:hoe_steel": [
       "building:16"
     ],
@@ -513,9 +510,6 @@
     ],
     "minecraft:netherite_shovel": [
       "building:22"
-    ],
-    "iguanatweaksreborn:flint_shovel": [
-      "building:6"
     ],
     "immersiveengineering:shovel_steel": [
       "building:8"
@@ -546,9 +540,6 @@
     ],
     "minecraft:netherite_pickaxe": [
       "building:22"
-    ],
-    "iguanatweaksreborn:flint_pickaxe": [
-      "building:6"
     ],
     "immersiveengineering:pickaxe_steel": [
       "building:12"
@@ -593,9 +584,6 @@
       "attack:20",
       "building:20"
     ],
-    "iguanatweaksreborn:flint_axe": [
-      "building:6"
-    ],
     "immersiveengineering:axe_steel": [
       "building:8"
     ],
@@ -625,9 +613,6 @@
     ],
     "eidolon:sapping_sword": [
       "attack:8"
-    ],
-    "iguanatweaksreborn:flint_sword": [
-      "attack:6"
     ],
     "immersiveengineering:sword_steel": [
       "attack:16"

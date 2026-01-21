@@ -16,14 +16,13 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tag:items:spelunkery:smeltable_foods>.removeId([<resource:minecraft:cooked_chicken>, <resource:minecraft:rotten_flesh>, <resource:minecraft:cooked_porkchop>, <resource:minecraft:cooked_beef>]);
 <tag:items:spelunkery:blastable_foods>.removeId(<resource:minecraft:rotten_flesh>);
 
-<tag:items:spoiled:foods/vanilla>.removeId([<resource:minecraft:potato>]);
+<tag:items:tesit:spoils/vanilla>.addId([<resource:vanillacookbook:apple_pie>]);
+<tag:items:spoiled:foods/vanilla>.removeId([<resource:minecraft:potato>, <resource:minecraft:apple>, <resource:minecraft:golden_apple>, <resource:minecraft:carrot>, <resource:minecraft:golden_carrot>, <resource:minecraft:honey_bottle>]);
+
 <tag:items:tesit:spoils/potato>.addId([<resource:minecraft:potato>]);
-<tag:items:spoiled:foods/vanilla>.removeId([<resource:minecraft:apple>, <resource:minecraft:golden_apple>]);
 <tag:items:tesit:spoils/apple>.addId([<resource:minecraft:apple>, <resource:minecraft:golden_apple>, <resource:softi_dnd_cleric:pyroquartz_apple>, <resource:vanillacookbook:baked_apple>]);
 <tag:items:tesit:spoils/tomato>.addId([<resource:farm_and_charm:tomato>]);
-<tag:items:spoiled:foods/vanilla>.removeId([<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
 <tag:items:tesit:spoils/carrot>.addId([<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
-<tag:items:spoiled:foods/vanilla>.removeId([<resource:minecraft:honey_bottle>]);
 
 <tag:items:tesit:spoils/crops>.addId([<resource:farm_and_charm:onion>, <resource:farm_and_charm:strawberry>, <resource:windswept:holly_berries>, <resource:herbalbrews:tea_blossom>]);
 <tag:items:forge:meat/cooked>.addId([<resource:windswept:cooked_goat>]);

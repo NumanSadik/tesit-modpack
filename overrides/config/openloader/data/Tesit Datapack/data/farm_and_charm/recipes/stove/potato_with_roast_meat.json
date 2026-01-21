@@ -8,7 +8,7 @@
       "tag": "forge:meat/roast/raw"
     },
     {
-      "tag": "betterbeekeeping:honey_bottles"
+      "item": "minecraft:honey_bottle"
     }
   ],
   "result": {
