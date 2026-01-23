@@ -94,8 +94,8 @@
   ],
   "priorityOverrides": {},
   "customTags": {
-  "immersive_weathering:wax": ["delightful:animal_fat", "eidolon:tallow", "butchercraft:fat"],
-  "forge:tallow": ["delightful:animal_fat", "immersive_weathering:tallow", "butchercraft:fat"],
+  "immersive_weathering:wax": ["delightful:animal_fat", "eidolon:tallow"],
+  "forge:tallow": ["delightful:animal_fat", "immersive_weathering:tallow"],
   "forge:ingots/rose_gold": ["mca:rose_gold_ingot"],
   "forge:dusts/rose_gold": ["mca:rose_gold_dust"],
   "forge:dusts/sulfur": ["spelunkery:sulfur", "thermal:sulfur_dust", "immersiveengineering:dust_sulfur", "eidolon:sulfur"],

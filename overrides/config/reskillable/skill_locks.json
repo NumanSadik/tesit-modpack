@@ -187,9 +187,6 @@
       "agility:6",
       "attack:4"
     ],
-    "minecraft:saddle": [
-      "agility:6"
-    ],
     "minecraft:elytra": [
       "agility:30"
     ],
@@ -331,18 +328,6 @@
     "minecraft:turtle_helmet": [
       "defense:6",
       "agility:6"
-    ],
-    "minecraft:golden_horse_armor": [
-      "defense:4",
-      "agility:4"
-    ],
-    "minecraft:iron_horse_armor": [
-      "defense:6",
-      "agility:6"
-    ],
-    "minecraft:diamond_horse_armor": [
-      "defense:12",
-      "agility:12"
     ],
     "minecraft:totem_of_undying": [
       "defense:16",
@@ -635,18 +620,6 @@
       "agility:4"
     ],
     "bakery:bread_knife": [
-      "agility:4"
-    ],
-    "butchercraft:butcher_knife": [
-      "agility:4"
-    ],
-    "butchercraft:skinning_knife": [
-      "agility:4"
-    ],
-    "butchercraft:bone_saw": [
-      "agility:4"
-    ],
-    "butchercraft:gut_knife": [
       "agility:4"
     ],
     "farmersdelight:diamond_knife": [

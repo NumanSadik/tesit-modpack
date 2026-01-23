@@ -28,8 +28,8 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tag:items:forge:meat/cooked>.addId([<resource:windswept:cooked_goat>]);
 <tag:items:forge:crops/cooked>.addId([<resource:vanillacookbook:cooked_beetroot>]);
 
-<tag:items:forge:meat>.addId([<resource:swampier_swamps:frog_leg>, <resource:swampier_swamps:cooked_frog_leg>, <resource:butchercraft:goat_chop>, <resource:butchercraft:cooked_goat_chop>]);
-<tag:items:forge:meat/cooked>.addId([<resource:swampier_swamps:cooked_frog_leg>, <resource:butchercraft:cooked_goat_chop>]);
+<tag:items:forge:meat>.addId([<resource:swampier_swamps:frog_leg>, <resource:swampier_swamps:cooked_frog_leg>]);
+<tag:items:forge:meat/cooked>.addId([<resource:swampier_swamps:cooked_frog_leg>]);
 
 craftingTable.removeByName("farm_and_charm:carrot_bag");
 craftingTable.removeByName("farm_and_charm:potato_bag");
