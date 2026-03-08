@@ -24,8 +24,7 @@ furnace.removeByName("spelunkery:salt_from_boiling");
 <tag:items:tesit:spoils/tomato>.addId([<resource:farm_and_charm:tomato>]);
 <tag:items:tesit:spoils/carrot>.addId([<resource:minecraft:carrot>, <resource:minecraft:golden_carrot>]);
 
-<tag:items:tesit:spoils/crops>.addId([<resource:farm_and_charm:onion>, <resource:farm_and_charm:strawberry>, <resource:windswept:holly_berries>, <resource:herbalbrews:tea_blossom>]);
-<tag:items:forge:meat/cooked>.addId([<resource:windswept:cooked_goat>]);
+<tag:items:tesit:spoils/crops>.addId([<resource:farm_and_charm:onion>, <resource:farm_and_charm:strawberry>, <resource:herbalbrews:tea_blossom>]);
 <tag:items:forge:crops/cooked>.addId([<resource:vanillacookbook:cooked_beetroot>]);
 
 <tag:items:forge:meat>.addId([<resource:swampier_swamps:frog_leg>, <resource:swampier_swamps:cooked_frog_leg>]);
