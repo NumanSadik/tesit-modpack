@@ -20,8 +20,6 @@
   "showNotificationsAsChat": true,
   "heartsToBeConsideredAsFriend": 60,
   "enableVillagerMailingPlayers": true,
-  "allowBodyCustomizationInDestiny": true,
-  "allowTraitCustomizationInDestiny": true,
   "enableGenderCheckForPlayers": true,
   "zombieBiteInfectionChance": 0.05,
   "infectionChanceDecreasePerLevel": 0.25,
@@ -30,8 +28,6 @@
   "marriageHeartsRequirement": 350,
   "engagementHeartsRequirement": 120,
   "bouquetHeartsRequirement": 23,
-  "babyItemGrowUpTime": 500000,
-  "villagerMaxAgeTime": 384000,
   "villagerMaxHealth": 20,
   "allowVillagerTeleporting": false,
   "villagerMinTeleportationDistance": 2.0,
@@ -124,7 +120,6 @@
   ],
   "enableAutoScanByDefault": true,
   "immersiveLibraryUrl": "https://mca.conczin.net",
-  "allowEveryoneToAddContentGlobally": false,
   "giftDesaturationQueueLength": 16,
   "giftDesaturationFactor": 0.5,
   "giftDesaturationExponent": 0.85,
@@ -143,7 +138,8 @@
   },
   "validTreeSources": [
     "minecraft:grass_block",
-    "minecraft:dirt"
+    "minecraft:dirt",
+    "immersive_weathering:earthen_clay"
   ],
   "launchIntoDestiny": true,
   "allowDestinyCommandOnce": true,
@@ -154,7 +150,6 @@
   "forceVillagerPlayerModel": true,
   "allowLimitedPlayerEditor": true,
   "allowFullPlayerEditor": false,
-  "allowPlayerSizeAdjustment": true,
   "adjustPlayerEyesToHeight": true,
   "useModernUSANamesOnly": false,
   "guardsTargetEntities": {
@@ -222,10 +217,6 @@
     "iter_rpg:goblin_warrior": 3,
     "iter_rpg:mournstone": 3,
     "iter_rpg:griever": 3,
-    "eidolon:necromancer": 4,
-    "eidolon:wraith": 1,
-    "eidolon:giant_skeleton": 3,
-    "eidolon:zombie_brute": 3,
     "iter_rpg:giant_spider": 3,
     "minecraft:drowned": 2,
     "minecraft:evoker": 3,
@@ -277,15 +268,6 @@
     "minecraft:pillager_outpost",
     "minecraft:ancient_city"
   ],
-  "destinySpawnLocations": [
-    "#minecraft:village",
-    "#towns_and_towers:town",
-    "#tesit:tavern"
-  ],
-  "destinyLocationsToTranslationMap": {
-    "minecraft:shipwreck_beached": "destiny.story.sailing",
-    "default": "destiny.story.travelling"
-  },
   "professionConversionsMap": {},
   "shaderLocationsMap": {
     "sirben": "mca:shaders/post/sirben.json",
@@ -296,6 +278,27 @@
     "morph": "arms",
     "epicfight": "all",
     "firstpersonmod": "arms"
+  },
+  "taxesMap": {
+    "minecraft:emerald": 1.0,
+    "numismatic-overhaul:bronze_coin": 0.2,
+    "numismatic-overhaul:silver_coin": 0.7,
+    "numismatic-overhaul:gold_coin": 1.0
+  },
+  "babyItemGrowUpTime": 500000,
+  "villagerMaxAgeTime": 384000,
+  "allowEveryoneToAddContentGlobally": false,
+  "allowPlayerSizeAdjustment": true,
+  "allowBodyCustomizationInDestiny": true,
+  "allowTraitCustomizationInDestiny": true,
+  "destinySpawnLocations": [
+    "#minecraft:village",
+    "#towns_and_towers:town",
+    "#tesit:tavern"
+  ],
+  "destinyLocationsToTranslationMap": {
+    "minecraft:shipwreck_beached": "destiny.story.sailing",
+    "default": "destiny.story.travelling"
   },
   "enabledTraits": {
     "SIRBEN": true,
@@ -316,11 +319,5 @@
     "WEAK": true,
     "TOUGH": true,
     "ASEXUAL": true
-  },
-  "taxesMap": {
-    "minecraft:emerald": 1.0,
-    "numismatic-overhaul:bronze_coin": 0.2,
-    "numismatic-overhaul:silver_coin": 0.7,
-    "numismatic-overhaul:gold_coin": 1.0
   }
 }

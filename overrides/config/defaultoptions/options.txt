@@ -1,3 +1,2 @@
 resourcePacks:["vanilla","mod_resources","Forgery","Forgery grayscale","Moonlight Mods Dynamic Assets","spelunkery:better_vanilla_gems","file/better_flame_particles-v2.2-mc1.14x-1.21x-resourcepack.zip","file/better-nature.zip","file/Undopia_3D_Doors_1.20.x_v.1.1.zip","generated/fragmentum_layer","resources/Tesit Resources","file/MandalasGUI+Dakmode_1.21.6_v2.0.zip","file/Undopia_3D_Bookshelf_1.20.1_v.1.0.zip","file/Undopia_3D_Chiseled_Bookshelf_1.20.1_v.1.0.zip","file/Undopia_3D_Iron_Bars_1.20.1_v.1.0.zip","file/Undopia_3D_Sugar_Cane_1.20.1_v.1.0.zip"]
 incompatibleResourcePacks:["file/better-nature.zip","resources/Tesit Resources","file/MandalasGUI+Dakmode_1.21.6_v2.0.zip"]
-renderClouds:"false"

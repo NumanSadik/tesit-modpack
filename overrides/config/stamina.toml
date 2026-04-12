@@ -18,7 +18,7 @@
 		#How much stamina the player consumes each tick when mining. If stamina is locked, mining speed is halved
 		#Range: 0.0 ~ 1.7976931348623157E308
 		Mine = 0.0
-		#Stamina consumption will be multiplied by this value when the player is out of combat. Out of combat = not attacked or hurt in the last 15 seconds
+		#Multiply stamina consumption by this value when the player is out of combat. Out of combat = not attacked or hurt in the last 15 seconds
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Out of combat multiplier" = 0.8
 

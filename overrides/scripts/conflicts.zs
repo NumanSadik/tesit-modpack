@@ -9,8 +9,6 @@ smoker.removeByName("vanillacookbook:cooked_sniffer_egg_smoking");
 craftingTable.removeByName("immersiveengineering:crafting/slag_brick");
 
 furnace.removeByName("spelunkery:iron_ore_smelting");
-furnace.removeByName("eidolon:smelt_lead_dust");
-furnace.removeByName("eidolon:smelt_silver_dust");
 furnace.removeByName("spelunkery:salt_from_boiling");
 
 <tag:items:spelunkery:smeltable_foods>.removeId([<resource:minecraft:cooked_chicken>, <resource:minecraft:rotten_flesh>, <resource:minecraft:cooked_porkchop>, <resource:minecraft:cooked_beef>]);
@@ -65,12 +63,8 @@ craftingTable.removeByName("immersiveengineering:crafting/sawdust");
 craftingTable.addShaped("sawdust_flooring", <item:immersiveengineering:sawdust>*6, [[<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>], 
                                                                                     [<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>,]]);
 
-craftingTable.removeByName("eidolon:codex");
-craftingTable.addShaped("codex", <item:eidolon:codex>, [[<item:minecraft:book>], [<item:minecraft:rotten_flesh>]]);
 craftingTable.removeByName("mca:book_infection");
 craftingTable.addShaped("book_infection", <item:mca:book_infection>, [[<item:minecraft:book>, <item:minecraft:rotten_flesh>]]);
-
-craftingTable.removeByName("eidolon:smooth_stone_tiles");
 
 craftingTable.removeByName("farm_and_charm:silo_wood");
 craftingTable.addShaped("silo_wood", <item:farm_and_charm:silo_wood>*2, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);

@@ -16,12 +16,6 @@
     "minecraft:enchanting_table": [
       "magic:12"
     ],
-    "eidolon:soul_enchanter": [
-      "magic:12"
-    ],
-    "eidolon:magic_worktable": [
-      "magic:12"
-    ],
     "minecraft:beacon": [
       "building:20"
     ],
@@ -282,9 +276,6 @@
     "biomancy:acolyte_armor_helmet": [
       "defense:6",
       "magic:6"
-    ],
-    "eidolon:silver_helmet": [
-      "defense:6"
     ],
     "savage_and_ravage:griefer_helmet": [
       "defense:6"
@@ -565,10 +556,6 @@
       "attack:22",
       "building:22"
     ],
-    "eidolon:cleaving_axe": [
-      "attack:20",
-      "building:20"
-    ],
     "immersiveengineering:axe_steel": [
       "building:8"
     ],
@@ -595,9 +582,6 @@
     ],
     "minecraft:netherite_sword": [
       "attack:22"
-    ],
-    "eidolon:sapping_sword": [
-      "attack:8"
     ],
     "immersiveengineering:sword_steel": [
       "attack:16"
@@ -643,20 +627,9 @@
     "spelunkery:obsidian_hammer_and_chisel": [
       "building:16"
     ],
-    "eidolon:reversal_pick": [
-      "building:16"
-    ],
     "embers:grandhammer": [
       "attack:8",
       "building:8"
-    ],
-    "eidolon:reaper_scythe": [
-      "attack:12",
-      "magic:12"
-    ],
-    "eidolon:deathbringer_scythe": [
-      "attack:16",
-      "magic:16"
     ],
     "mca:scythe": [
       "attack:16",
@@ -674,12 +647,6 @@
     ],
     "minecraft:lingering_potion": [
       "magic:6"
-    ],
-    "eidolon:soulfire_wand": [
-      "magic:4"
-    ],
-    "eidolon:bonechill_wand": [
-      "magic:4"
     ],
     "savage_and_ravage:wand_of_freezing": [
       "magic:4"
@@ -843,9 +810,6 @@
     "pneumaticcraft:pneumatic_chestplate": [
       "defense:10"
     ],
-    "eidolon:silver_chestplate": [
-      "defense:10"
-    ],
     "savage_and_ravage:griefer_chestplate": [
       "defense:10"
     ],
@@ -854,12 +818,6 @@
     ],
     "oreganized:electrum_chestplate": [
       "defense:16"
-    ],
-    "eidolon:bonelord_chestplate": [
-      "defense:18"
-    ],
-    "eidolon:silver_leggings": [
-      "defense:8"
     ],
     "pneumaticcraft:compressed_iron_leggings": [
       "defense:12"
@@ -917,9 +875,6 @@
     ],
     "savage_and_ravage:griefer_boots": [
       "defense:8"
-    ],
-    "eidolon:codex": [
-      "magic:6"
     ],
     "kaleidoscope_cookery:sickle": [
       "farming:4"
