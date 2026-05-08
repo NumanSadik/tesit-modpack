@@ -49,6 +49,7 @@ craftingTable.removeByName("farm_and_charm:onion_bag");
 craftingTable.removeByName("farm_and_charm:strawberry_bag");
 craftingTable.removeByName("farm_and_charm:strawberry_seeds");
 craftingTable.removeByName("mca:book_supporters");
+craftingTable.removeByName("supplementaries:pancake");
 
 craftingTable.removeByName("supplementaries:item_shelf");
 craftingTable.addShaped("item_shelf", <item:supplementaries:item_shelf>, [[<item:minecraft:air>], [<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>]]);
@@ -62,6 +63,10 @@ craftingTable.addShaped("map", <item:minecraft:map>, [[<item:minecraft:paper>, <
 craftingTable.removeByName("immersiveengineering:crafting/sawdust");
 craftingTable.addShaped("sawdust_flooring", <item:immersiveengineering:sawdust>*6, [[<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>], 
                                                                                     [<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>,]]);
+
+craftingTable.removeByName("candlelight:note_paper");
+craftingTable.addShaped("note_paper", <item:candlelight:note_paper>, [[<item:minecraft:paper>, <item:minecraft:paper>]]);
+
 
 craftingTable.removeByName("mca:book_infection");
 craftingTable.addShaped("book_infection", <item:mca:book_infection>, [[<item:minecraft:book>, <item:minecraft:rotten_flesh>]]);
