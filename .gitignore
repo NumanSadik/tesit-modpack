@@ -10,3 +10,10 @@ overrides/config/Obscuria/Data/obscure_api_cover.png
 overrides/config/forgery/block_logo.png
 /overrides/config/jei/world/local
 /overrides/saves
+overrides/icon.png
+/overrides/immersive_library
+overrides/options.txt
+overrides/patchouli_data.json
+/overrides/screenshots
+overrides/usercache.json
+overrides/usernamecache.json

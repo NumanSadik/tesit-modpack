@@ -103,8 +103,7 @@
       "building:12"
     ],
     "minecraft:stonecutter": [
-      "building:6",
-      "attack:6"
+      "building:6"
     ],
     "minecraft:smoker": [
       "building:6"
