@@ -8,10 +8,10 @@ HealthBonus = false
 showTabButtons = true
 #Global scaling multiplier for XP costs.
 #Range: 0.1 ~ 10.0
-xpScalingMultiplier = 2.0
+xpScalingMultiplier = 1.5
 #Maximum level each skill can be upgraded to.
 #Range: 2 ~ 100
-maximumLevel = 32
+maximumLevel = 28
 #List of substitutions to perform in names in skill lock lists.
 #Useful if you're using a resource pack to change the names of skills, this config doesn't affect gameplay, just accepted values in other configs so it's easier to think about
 #Format: key=value
@@ -75,7 +75,7 @@ skill_level_gates = []
 enableSecondSkillPage = false
 #Maximum total number of skill levels a player can spend across all skills. Set to -1 for unlimited.
 #Range: > -1
-maxTotalSpentLevels = -1
+maxTotalSpentLevels = 64
 #Where the built-in/custom page arrows should appear. Valid: TOP, BOTTOM, LEFT, RIGHT.
 subpageNavPosition = "BOTTOM"
 
