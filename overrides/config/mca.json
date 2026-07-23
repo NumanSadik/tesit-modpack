@@ -13,6 +13,7 @@
   "villagerChatPrefix": "",
   "canHurtBabies": true,
   "enterVillageNotification": true,
+  "giveAdvancementBooks": true,
   "villagerMarriageNotification": true,
   "villagerBirthNotification": true,
   "innArrivalNotification": true,
@@ -31,6 +32,8 @@
   "villagerMaxHealth": 20,
   "allowVillagerTeleporting": false,
   "villagerMinTeleportationDistance": 2.0,
+  "villagerPathfindingDistance": 80,
+  "villagerFollowRange": 48,
   "childInitialHearts": 100,
   "greetHeartsThreshold": 40,
   "greetAfterDays": 2,
@@ -59,6 +62,7 @@
   "burnedClothingTickLength": 3600,
   "coloredHairChance": 0.02,
   "heartsRequiredToAutoSpawnGravestone": 200,
+  "defaultHeadstoneType": "cross_headstone",
   "useSmarterDoorAI": true,
   "procreationCooldown": 72000,
   "trackVillagerPosition": true,
@@ -70,6 +74,7 @@
   "villagerChatAIToken": "",
   "villagerChatAIModel": "gpt-3.5-turbo",
   "villagerChatAISystemPrompt": "",
+  "villagerChatAIFuseSystemPrompt": false,
   "villagerChatAIUseLongTermMemory": true,
   "villagerChatAIUseSharedLongTermMemory": true,
   "villagerChatAIIncludeSessionInformation": false,
@@ -150,7 +155,7 @@
   "forceVillagerPlayerModel": true,
   "allowLimitedPlayerEditor": true,
   "allowFullPlayerEditor": false,
-  "adjustPlayerEyesToHeight": true,
+  "scaleEyeHeightWithPlayerHeight": true,
   "useModernUSANamesOnly": false,
   "guardsTargetEntities": {
     "savage_ravage:skeleton_villager": 3,
@@ -246,6 +251,10 @@
     "#minecraft:trapdoors",
     "#minecraft:walls"
   ],
+  "villagerPathfindingCollisionCheckBlocks": [
+    "#mca:villager_pathfinding_collision_checks"
+  ],
+  "villagerPathfindingCheckAllNodeCollisions": false,
   "structuresInRumors": [
     "minecraft:igloo",
     "minecraft:pyramid",
@@ -289,6 +298,7 @@
   "villagerMaxAgeTime": 384000,
   "allowEveryoneToAddContentGlobally": false,
   "allowPlayerSizeAdjustment": true,
+  "scalePlayerHitboxWithSizeAndWidth": true,
   "allowBodyCustomizationInDestiny": true,
   "allowTraitCustomizationInDestiny": true,
   "destinySpawnLocations": [
@@ -318,6 +328,9 @@
     "UNKNOWN": true,
     "WEAK": true,
     "TOUGH": true,
-    "ASEXUAL": true
+    "ASEXUAL": true,
+    "RAINBOW_EYES": true,
+    "INFERTILE": true,
+    "NO_AGING": true
   }
 }
