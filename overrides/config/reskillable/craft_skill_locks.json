@@ -196,44 +196,6 @@
       "farming:10",
       "gathering:14"
     ],
-    "minecraft:turtle_egg": [
-      "farming:10",
-      "gathering:14"
-    ],
-    "minecraft:sniffer_egg": [
-      "farming:10",
-      "gathering:14"
-    ],
-    "minecraft:mangrove_propagule": [
-      "farming:6"
-    ],
-    "minecraft:azalea": [
-      "farming:6"
-    ],
-    "minecraft:flowering_azalea": [
-      "farming:6"
-    ],
-    "minecraft:crimson_fungus": [
-      "farming:6"
-    ],
-    "minecraft:warped_fungus": [
-      "farming:6"
-    ],
-    "minecraft:bamboo": [
-      "farming:6"
-    ],
-    "minecraft:sugar_cane": [
-      "farming:6"
-    ],
-    "minecraft:cactus": [
-      "farming:6"
-    ],
-    "minecraft:chorus_plant": [
-      "farming:10"
-    ],
-    "minecraft:chorus_flower": [
-      "farming:10"
-    ],
     "minecraft:shield": [
       "defense:3"
     ],
