@@ -1,0 +1,29 @@
+
+[client]
+	#Inject the Quests button into MCA's villager interaction menu.
+	showQuestButtonInMcaMenu = true
+	showQuestToasts = true
+	showQuestTrackerHud = true
+	playQuestSounds = true
+	#How many quests the tracker HUD shows at once.
+	#Range: 1 ~ 15
+	questTrackerMaxEntries = 5
+	#Draw a translucent background behind the quest tracker HUD.
+	questTrackerBackground = true
+	#Screen corner the quest tracker HUD anchors to: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	questTrackerAnchor = "TOP_LEFT"
+	#Quest tracker horizontal offset in pixels from its anchored corner.
+	#Range: 0 ~ 10000
+	questTrackerX = 4
+	#Quest tracker vertical offset in pixels from its anchored corner.
+	#Range: 0 ~ 10000
+	questTrackerY = 4
+	#Show participating community projects in the HUD tracker.
+	showProjectTrackerHud = true
+	#How many community projects the tracker HUD shows at once.
+	#Range: 1 ~ 10
+	projectTrackerMaxEntries = 3
+	#Show a toast when the village opens a new situation that needs help (0.8.0).
+	showSituationToast = true
+
