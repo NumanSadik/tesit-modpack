@@ -5,5 +5,9 @@
 
   "destiny.story.village":"You came across a village",
   "destiny.story.town":"You came across a town",
-  "destiny.story.tavern":"You came across a tavern"
+  "destiny.story.tavern":"You came across a tavern",
+
+  "jobsplus.job.jobsplus.cleric.name": "Cleric",
+  "jobsplus.job.jobsplus.librarian.name": "Librarian",
+  "jobsplus.job.jobsplus.mason.name": "Mason"
 }

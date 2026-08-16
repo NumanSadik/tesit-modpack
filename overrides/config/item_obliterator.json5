@@ -16,14 +16,7 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item",
-    "thermal:satchel",
-    "vintagedelight:cucumber_noodles",
-    "abnormals_delight:silver_knife",
     "mca:needle_and_thread",
-    "brewery:bench",
-    "farmersdelight:fried_egg",
-    "incubation:fried_egg",
     "farm_and_charm:wild_corn"
   ],
   // -----------------------------------------------------------
