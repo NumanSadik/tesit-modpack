@@ -1,0 +1,13 @@
+{
+  "job": "jobsplus:cleric",
+  "parent": "jobsplus:cleric/stronger_potions_i",
+  "name": "Stronger potions II",
+  "description": "Potions have a 40% change to become stronger.",
+  "icon": {
+    "item": "minecraft:potion",
+    "tag": "{Potion:\"minecraft:strength\"}",
+    "count": 2
+  },
+  "price": 12,
+  "required_level": 10
+}

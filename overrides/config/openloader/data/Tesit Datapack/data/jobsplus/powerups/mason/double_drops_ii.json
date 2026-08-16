@@ -1,0 +1,12 @@
+{
+  "job": "jobsplus:mason",
+  "parent": "jobsplus:mason/pickaxe_efficiency_iii",
+  "name": "Double Drops II",
+  "description": "Grants a 10% chance to get double drops when mining blocks.",
+  "icon": {
+    "item": "minecraft:diamond_ore",
+    "count": 2
+  },
+  "price": 10,
+  "required_level": 25
+}

@@ -1,0 +1,13 @@
+{
+  "job": "jobsplus:cleric",
+  "parent": "jobsplus:cleric/harmful_potion_immunity_iv",
+  "name": "Harmful Potion Immunity V",
+  "description": "Become completely immune to harmful potions.",
+  "icon": {
+    "item": "minecraft:potion",
+    "tag": "{Potion:\"minecraft:poison\"}",
+    "count": 5
+  },
+  "price": 18,
+  "required_level": 50
+}

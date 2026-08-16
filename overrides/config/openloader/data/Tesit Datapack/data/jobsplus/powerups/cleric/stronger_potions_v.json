@@ -1,0 +1,13 @@
+{
+  "job": "jobsplus:cleric",
+  "parent": "jobsplus:cleric/stronger_potions_iv",
+  "name": "Stronger potions V",
+  "description": "Potions always become stronger.",
+  "icon": {
+    "item": "minecraft:potion",
+    "tag": "{Potion:\"minecraft:strength\"}",
+    "count": 5
+  },
+  "price": 18,
+  "required_level": 50
+}

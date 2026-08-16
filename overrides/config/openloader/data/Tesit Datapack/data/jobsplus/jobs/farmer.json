@@ -1,0 +1,12 @@
+{
+  "name": "Farmer",
+  "price": 10,
+  "max_level": 100,
+  "color": "#228B22",
+  "icon": {
+    "item": "minecraft:stone_hoe"
+  },
+  "description": "You have a farm and you know how to use it.",
+  "background": "minecraft:textures/block/hay_block_side.png",
+  "is_default": false
+}

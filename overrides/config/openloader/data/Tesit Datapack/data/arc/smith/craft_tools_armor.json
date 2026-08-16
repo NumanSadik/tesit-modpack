@@ -1,0 +1,33 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 2,
+      "max": 4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "items": [
+        "#minecraft:tools",
+        "#forge:tools",
+        "#c:tools",
+        "#c:swords",
+        "#c:axes",
+        "#c:pickaxes",
+        "#c:shovels",
+        "#c:hoes",
+        "#c:shears",
+        "#forge:armors",
+        "#c:armor"
+      ]
+    }
+  ]
+}

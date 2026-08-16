@@ -1,0 +1,12 @@
+{
+  "job": "jobsplus:mason",
+  "parent": "jobsplus:mason/pickaxe_unbreaking_iv",
+  "name": "Double Drops III",
+  "description": "Grants a 20% chance to get double drops when mining blocks.",
+  "icon": {
+    "item": "minecraft:emerald_ore",
+    "count": 3
+  },
+  "price": 15,
+  "required_level": 50
+}
