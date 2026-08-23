@@ -25,13 +25,11 @@ craftingTable.removeByName("spelunkery:stone_pebble");
 craftingTable.removeByName("minecraft:blue_dye");
 craftingTable.removeByName("minecraft:red_dye_from_rose_bush");
 craftingTable.removeByName("spelunkery:leather");
-craftingTable.removeByName("mca:rose_gold_dust_from_ingot");
 craftingTable.removeByName("farm_and_charm:tomato_bag");
 craftingTable.removeByName("farm_and_charm:seeds_tomato");
 craftingTable.removeByName("farm_and_charm:onion_bag");
 craftingTable.removeByName("farm_and_charm:strawberry_bag");
 craftingTable.removeByName("farm_and_charm:strawberry_seeds");
-craftingTable.removeByName("mca:book_supporters");
 
 craftingTable.removeByName("minecraft:bamboo_block");
 craftingTable.addShaped("bamboo_block", <item:minecraft:bamboo_block>, [[<item:minecraft:bamboo>, <item:minecraft:bamboo>], [<item:minecraft:bamboo>, <item:minecraft:bamboo>]]);
@@ -46,9 +44,6 @@ craftingTable.addShaped("silo_wood", <item:farm_and_charm:silo_wood>*2, [[<tag:i
 
 <tag:items:forge:gems>.addId(<resource:spelunkery:cinnabar>);
 <tag:items:forge:gems/cinnabar>.addId(<resource:spelunkery:cinnabar>);
-<tag:items:forge:ingots/gold>.removeId(<resource:mca:rose_gold_ingot>);
-<tag:items:forge:storage_blocks>.addId(<resource:mca:rose_gold_block>);
-<tag:items:forge:storage_blocks/rose_gold>.addId(<resource:mca:rose_gold_block>);
 <tag:items:forge:crops/strawberry>.addId(<resource:farm_and_charm:strawberry>);
 <tag:items:forge:crops/tomato>.addId(<resource:farm_and_charm:tomato>);
 <tag:items:forge:vegetables/tomato>.addId(<resource:farm_and_charm:tomato>);
@@ -59,11 +54,6 @@ craftingTable.addShaped("silo_wood", <item:farm_and_charm:silo_wood>*2, [[<tag:i
 <tag:items:forge:storage_blocks/cinnabar>.addId(<resource:spelunkery:cinnabar_block>);
 <tag:blocks:forge:storage_blocks>.addId(<resource:spelunkery:cinnabar_block>);
 <tag:blocks:forge:storage_blocks/cinnabar>.addId(<resource:spelunkery:cinnabar_block>);
-
-<tag:blocks:forge:storage_blocks>.addId(<resource:mca:rose_gold_block>);
-<tag:blocks:forge:storage_blocks/rose_gold>.addId(<resource:mca:rose_gold_block>);
-<tag:blocks:minecraft:needs_stone_tool>.addId(<resource:mca:rose_gold_block>);
-<tag:blocks:minecraft:beacon_base_blocks>.addId(<resource:mca:rose_gold_block>);
 
 <tag:blocks:forge:ores>.addId([<resource:spelunkery:granite_jade_ore>, <resource:spelunkery:andesite_jade_ore>, <resource:spelunkery:diorite_jade_ore>, <resource:spelunkery:tuff_jade_ore>]);
 
