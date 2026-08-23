@@ -5,4 +5,3 @@ defaultDifficulty = "NORMAL"
 lockDifficulty = false
 #Resource pack IDs to have enabled by default on the first run.
 defaultResourcePacks = []
-

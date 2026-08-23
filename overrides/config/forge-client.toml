@@ -1,4 +1,3 @@
-
 #Client only settings, mostly things related to rendering
 [client]
 	#Enable Forge to queue all chunk updates to the Chunk Update thread.
@@ -11,8 +10,6 @@
 	showLoadWarnings = true
 	#Set to true to use a combined DEPTH_STENCIL attachment instead of two separate ones.
 	useCombinedDepthStencilAttachment = false
-	#[DEPRECATED] Does nothing anymore, IPv6 addresses will be compressed always
-	compressLanIPv6Addresses = true
 	#During block model baking, manually calculates the normal for all faces.
 	#This was the default behavior of forge between versions 31.0 and 47.1.
 	#May result in differences between vanilla rendering and forge rendering.
@@ -23,4 +20,3 @@
 	stabilizeDirectionGetNearest = true
 	#When enabled, Forge will allow mipmaps to be lowered in real-time. This is the default behavior in vanilla. Use this if you experience issues with resource packs that use textures lower than 8x8.
 	allowMipmapLowering = false
-

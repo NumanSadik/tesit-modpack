@@ -1,21 +1,25 @@
-
 [quests]
 	#Ship and enable the built-in default quest pack.
 	enableDefaultQuestPack = true
 	#Maximum simultaneously-active MCA quests per player.
-	#Range: 1 ~ 1000
+	# Default: 10
+	# Range: 1 ~ 1000
 	maxActiveQuestsPerPlayer = 10
 	#Maximum simultaneously-active quests per villager per player.
-	#Range: 1 ~ 100
+	# Default: 1
+	# Range: 1 ~ 100
 	maxActiveQuestsPerVillager = 1
 	#How many quest offers a villager presents at once.
-	#Range: 1 ~ 10
+	# Default: 3
+	# Range: 1 ~ 10
 	offersPerVillager = 3
 	#Ticks before a villager's cached offers reroll (24000 = 1 MC day).
-	#Range: > 1
+	# Default: 24000
+	# Range: > 1
 	offerRefreshTicks = 24000
 	#Default cooldown applied to quests that do not specify one.
-	#Range: > 0
+	# Default: 24000
+	# Range: > 0
 	defaultQuestCooldownTicks = 24000
 
 [turn_in]
@@ -27,119 +31,188 @@
 	#Command rewards are disabled by default for safety (spec section 26).
 	allowCommandRewards = false
 	allowLootTableRewards = true
-	#Range: 0.0 ~ 100.0
+	#Scales every hearts reward before the min/max clamp below. THE key relationship-pacing
+	#lever: MCA needs 100 hearts to marry (50 to engage, 40 to be a friend), so halving this
+	#roughly doubles how many quests a player must complete with one villager to court them.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
 	heartsRewardMultiplier = 1.0
-	#Range: -1000 ~ 1000
+	# Default: 0
+	# Range: -1000 ~ 1000
 	minHeartsReward = 0
-	#Range: 0 ~ 10000
+	# Default: 100
+	# Range: 0 ~ 10000
 	maxHeartsReward = 100
+	#Scales every mcaquests:currency reward. Applied to the rolled amount, then clamped to at
+	#least 0. Explicit mcaquests:item rewards are NOT scaled - only semantic currency is.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	currencyRewardMultiplier = 1.0
+	#Scales every mcaquests:xp and mcaquests:xp_levels reward.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	xpRewardMultiplier = 1.0
 
-[matching]
-	#How giver professions are matched: STRICT, NORMALIZED, or LOOSE.
-	#Allowed Values: STRICT, NORMALIZED, LOOSE
-	professionMatchingMode = "NORMALIZED"
+	[rewards.currency]
+		#Which item the semantic mcaquests:currency reward pays out in.
+		#  VANILLA      - emeralds (default; always available)
+		#  NUMISMATICS  - Create: Numismatics coins, resolved by registry id at runtime
+		#  CUSTOM       - the item named by customCurrencyItem below
+		#MCA: Quests never links against Numismatics classes; the item is looked up by id, so an
+		#absent mod is simply an unresolvable id, handled by currencyFallback.
+		#Allowed Values: VANILLA, NUMISMATICS, CUSTOM
+		currencyProvider = "VANILLA"
+		#Item id used when currencyProvider = CUSTOM.
+		customCurrencyItem = "minecraft:emerald"
+		#Item id used when currencyProvider = NUMISMATICS. Defaults to the spur, Numismatics'
+		#smallest denomination, so datapack amounts stay meaningful at small numbers.
+		numismaticsCurrencyItem = "numismatics:spur"
+		#What to do when the configured provider's item cannot be resolved (mod absent, id typo):
+		#  EMERALDS - pay out vanilla emeralds instead (default; the reward still happens)
+		#  DISABLE  - grant nothing for that reward
+		#Either way the problem is logged once per provider, never once per quest turn-in.
+		#Allowed Values: EMERALDS, DISABLE
+		currencyFallback = "EMERALDS"
+		#Currency range for a quest with "difficulty": "easy".
+		# Default: 1
+		# Range: 0 ~ 10000
+		easyCurrencyMin = 1
+		# Default: 2
+		# Range: 0 ~ 10000
+		easyCurrencyMax = 2
+		#Currency range for a quest with "difficulty": "medium".
+		# Default: 2
+		# Range: 0 ~ 10000
+		mediumCurrencyMin = 2
+		# Default: 4
+		# Range: 0 ~ 10000
+		mediumCurrencyMax = 4
+		#Currency range for a quest with "difficulty": "hard".
+		# Default: 4
+		# Range: 0 ~ 10000
+		hardCurrencyMin = 4
+		# Default: 8
+		# Range: 0 ~ 10000
+		hardCurrencyMax = 8
 
-[behavior]
-	#If true, a quest giver follows the player after they accept a quest (escort-style).
-	#If false (default), accepting never makes the villager follow you, and an existing auto-follow is cleared.
-	followGiverAfterAccept = false
-	#Walk-speed multiplier for a villager LEADING the player in a lead-style escort objective
-	#(escort_entity with "lead": true). Lower keeps the villager near walking pace so the
-	#player can stay close and guard it.
-	#Range: 0.1 ~ 2.0
-	leadVillagerSpeed = 0.6
-	#If true (default), a villager that is the target of one of your active quests (the
-	#recipient of a delivery, or the villager to heal/cure/escort/protect/defend) glows through
-	#walls while it is loaded, so you can find it. Applied server-side; syncs to all clients.
-	highlightQuestTargets = true
-	#Send a short chat confirmation when a quest is accepted or completed.
-	questChatMessages = true
+	[rewards.matching]
+		#How giver professions are matched: STRICT, NORMALIZED, or LOOSE.
+		#Allowed Values: STRICT, NORMALIZED, LOOSE
+		professionMatchingMode = "NORMALIZED"
 
-[debug]
-	#Treat any malformed/unknown quest JSON as a hard error.
-	strictJsonValidation = false
-	debugLogging = false
+	[rewards.behavior]
+		#If true, a quest giver follows the player after they accept a quest (escort-style).
+		#If false (default), accepting never makes the villager follow you, and an existing auto-follow is cleared.
+		followGiverAfterAccept = false
+		#Walk-speed multiplier for a villager LEADING the player in a lead-style escort objective
+		#(escort_entity with "lead": true). Lower keeps the villager near walking pace so the
+		#player can stay close and guard it.
+		# Default: 0.6
+		# Range: 0.1 ~ 2.0
+		leadVillagerSpeed = 0.6
+		#If true (default), a villager that is the target of one of your active quests (the
+		#recipient of a delivery, the villager to heal/cure/escort/protect/defend/trade with, the
+		#villager an escort must reach, or anyone in the quest's "highlight" block) glows through
+		#walls while it is loaded, so you can find it. The outline is drawn only for the player
+		#whose quest it is — other players see nothing, and no effect is applied to the villager.
+		highlightQuestTargets = true
+		#Send a short chat confirmation when a quest is accepted or completed.
+		questChatMessages = true
 
-[projects]
-	#Master switch for the shared village-projects system (0.4.0).
-	enableVillageProjects = true
-	#Block radius used to find/anchor a village when MCA village data is unavailable,
-	#and the radius around a project anchor counted for in-village contributions.
-	#Range: 8 ~ 512
-	defaultScopeFallbackRadius = 64
-	#What happens to a project when its last sponsor dies, if the project does not specify:
-	#FAIL, PAUSE, TRANSFER, or TURN_IN_TO_VILLAGE.
-	#Allowed Values: FAIL, PAUSE, TRANSFER, TURN_IN_TO_VILLAGE
-	defaultSponsorDeathBehavior = "PAUSE"
-	#If true, only one deterministically-chosen villager per village surfaces a given
-	#project each day, so the same project does not flood every eligible villager.
-	oneSponsorPerProjectPerDay = true
-	#How many community projects a villager presents at once.
-	#Range: 0 ~ 5
-	projectOffersPerVillager = 1
-	#Minimum ticks between accepted contributions from one player (anti-spam).
-	#Range: 0 ~ 200
-	projectContributeMinIntervalTicks = 5
-	#Default per-player cap on a single project objective (0 = unlimited).
-	#Range: > 0
-	defaultPerPlayerContributionCap = 0
-	#Allow command rewards inside project phases (off by default for safety).
-	allowProjectCommandRewards = false
-	#Cap on simultaneously-active project instances sharing one scope identity.
-	#Range: 1 ~ 100
-	maxConcurrentProjectsPerScope = 8
+	[rewards.debug]
+		#Treat any malformed/unknown quest JSON as a hard error.
+		strictJsonValidation = false
+		debugLogging = false
 
-[progression]
-	#Master switch for reputation tiers, player titles, and the journal screen (0.7.0).
-	#When off, the reputation_tier condition fails safe, tier-up toasts/titles are not granted,
-	#and tier ladders are not loaded; existing village reputation still accrues unchanged.
-	enableReputationTiers = true
+	[rewards.projects]
+		#Master switch for the shared village-projects system (0.4.0).
+		enableVillageProjects = true
+		#Block radius used to find/anchor a village when MCA village data is unavailable,
+		#and the radius around a project anchor counted for in-village contributions.
+		# Default: 64
+		# Range: 8 ~ 512
+		defaultScopeFallbackRadius = 64
+		#What happens to a project when its last sponsor dies, if the project does not specify:
+		#FAIL, PAUSE, TRANSFER, or TURN_IN_TO_VILLAGE.
+		#Allowed Values: FAIL, PAUSE, TRANSFER, TURN_IN_TO_VILLAGE
+		defaultSponsorDeathBehavior = "PAUSE"
+		#If true, only one deterministically-chosen villager per village surfaces a given
+		#project each day, so the same project does not flood every eligible villager.
+		oneSponsorPerProjectPerDay = true
+		#How many community projects a villager presents at once.
+		# Default: 1
+		# Range: 0 ~ 5
+		projectOffersPerVillager = 1
+		#Minimum ticks between accepted contributions from one player (anti-spam).
+		# Default: 5
+		# Range: 0 ~ 200
+		projectContributeMinIntervalTicks = 5
+		#Default per-player cap on a single project objective (0 = unlimited).
+		# Default: 0
+		# Range: > 0
+		defaultPerPlayerContributionCap = 0
+		#Allow command rewards inside project phases (off by default for safety).
+		allowProjectCommandRewards = false
+		#Cap on simultaneously-active project instances sharing one scope identity.
+		# Default: 8
+		# Range: 1 ~ 100
+		maxConcurrentProjectsPerScope = 8
 
-[situations]
-	#Master switch for the Living Village situations system (0.8.0): emergent, world-driven,
-	#time-limited quest offers opened by gameplay events (raids, deaths, infection, famine, ...).
-	#When off, no situations are detected, opened, or surfaced; existing quests are unaffected.
-	enableSituations = true
-	#Cap on simultaneously-open situations in one village. Excess detections are suppressed
-	#(and logged). 0 disables the cap.
-	#Range: 0 ~ 100
-	maxConcurrentSituationsPerVillage = 2
-	#Minimum ticks between any two situations opening in the same village (anti-spam).
-	#Range: > 0
-	situationGlobalCooldownTicks = 6000
-	#How often (ticks) the periodic detector scans villages for tick-driven situations
-	#(famine, missing kin, nightfall). Event-driven triggers (raid/death/infection) are immediate.
-	#Range: > 20
-	situationDetectionIntervalTicks = 200
-	#Cap on how many situation offers a single villager surfaces at once (they compete with
-	#static offers via the usual priority/weight shaping).
-	#Range: 0 ~ 10
-	maxSituationOffersPerMenu = 2
-	#Default offer-priority tier for situation offers that do not set their own. Higher fills
-	#menu slots first; situations default above standalone quests so the village's needs stand out.
-	#Range: 0 ~ 1000
-	situationDefaultPriority = 5
+	[rewards.progression]
+		#Master switch for reputation tiers, player titles, and the journal screen (0.7.0).
+		#When off, the reputation_tier condition fails safe, tier-up toasts/titles are not granted,
+		#and tier ladders are not loaded; existing village reputation still accrues unchanged.
+		enableReputationTiers = true
 
-[compat]
+	[rewards.situations]
+		#Master switch for the Living Village situations system (0.8.0): emergent, world-driven,
+		#time-limited quest offers opened by gameplay events (raids, deaths, infection, famine, ...).
+		#When off, no situations are detected, opened, or surfaced; existing quests are unaffected.
+		enableSituations = true
+		#Cap on simultaneously-open situations in one village. Excess detections are suppressed
+		#(and logged). 0 disables the cap.
+		# Default: 2
+		# Range: 0 ~ 100
+		maxConcurrentSituationsPerVillage = 2
+		#Minimum ticks between any two situations opening in the same village (anti-spam).
+		# Default: 6000
+		# Range: > 0
+		situationGlobalCooldownTicks = 6000
+		#How often (ticks) the periodic detector scans villages for tick-driven situations
+		#(famine, missing kin, nightfall). Event-driven triggers (raid/death/infection) are immediate.
+		# Default: 200
+		# Range: > 20
+		situationDetectionIntervalTicks = 200
+		#Cap on how many situation offers a single villager surfaces at once (they compete with
+		#static offers via the usual priority/weight shaping).
+		# Default: 2
+		# Range: 0 ~ 10
+		maxSituationOffersPerMenu = 2
+		#Default offer-priority tier for situation offers that do not set their own. Higher fills
+		#menu slots first; situations default above standalone quests so the village's needs stand out.
+		# Default: 5
+		# Range: 0 ~ 1000
+		situationDefaultPriority = 5
 
-	[compat.ftbquests]
-		#Master behavior switch for the optional FTB Quests integration. When false (or FTB
-		#Quests is absent): mcaquests tasks never progress (poll returns early, pushes skip),
-		#mcaquests rewards no-op with a one-time WARN, ftbq_* conditions follow their
-		#when_missing policy, ftbq_progress rewards no-op with log, and commands report
-		#"disabled". Type registration is unaffected by this switch either way.
-		enableFtbQuestsIntegration = false
-		#autoSubmitOnPlayerTick() interval (ticks) for the stateful FTB Quests tasks. Counter
-		#tasks are event-pushed and additionally poll at 4x this interval as a safety net.
-		#Range: 20 ~ 1200
-		ftbqStatePollIntervalTicks = 100
-		#Radius (blocks) for McaCompat.maxHeartsWithin, used by the FTB Quests hearts task.
-		#Range: 4.0 ~ 64.0
-		ftbqHeartsScanRadius = 16.0
-		#Gates the mcaquests:ftbq_progress reward. Scope is limited to quest-book progress
-		#(not commands), hence default-on; still a server-owner lever.
-		allowFtbqProgressRewards = true
-		#Send the known-ids packet to clients on login/reload when FTB Quests is present,
-		#so the mcaquests condition/reward editor dropdowns can offer real quest/task ids.
-		syncFtbqEditorIds = true
-
+		[rewards.compat.ftbquests]
+			#Master behavior switch for the optional FTB Quests integration. When false (or FTB
+			#Quests is absent): mcaquests tasks never progress (poll returns early, pushes skip),
+			#mcaquests rewards no-op with a one-time WARN, ftbq_* conditions follow their
+			#when_missing policy, ftbq_progress rewards no-op with log, and commands report
+			#"disabled". Type registration is unaffected by this switch either way.
+			enableFtbQuestsIntegration = true
+			#autoSubmitOnPlayerTick() interval (ticks) for the stateful FTB Quests tasks. Counter
+			#tasks are event-pushed and additionally poll at 4x this interval as a safety net.
+			# Default: 100
+			# Range: 20 ~ 1200
+			ftbqStatePollIntervalTicks = 100
+			#Radius (blocks) for McaCompat.maxHeartsWithin, used by the FTB Quests hearts task.
+			# Default: 16.0
+			# Range: 4.0 ~ 64.0
+			ftbqHeartsScanRadius = 16.0
+			#Gates the mcaquests:ftbq_progress reward. Scope is limited to quest-book progress
+			#(not commands), hence default-on; still a server-owner lever.
+			allowFtbqProgressRewards = true
+			#Send the known-ids packet to clients on login/reload when FTB Quests is present,
+			#so the mcaquests condition/reward editor dropdowns can offer real quest/task ids.
+			syncFtbqEditorIds = true

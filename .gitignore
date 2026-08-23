@@ -19,3 +19,5 @@ overrides/usercache.json
 overrides/usernamecache.json
 overrides/servers.dat_old
 overrides/config/sound_physics_remastered/sound_rates.properties
+/overrides/dynamic-resource-pack-cache
+overrides/command_history.txt

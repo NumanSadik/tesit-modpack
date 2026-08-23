@@ -1,8 +1,8 @@
-
 ["all mobs"]
 	"Enable the fix for melee cooldowns for mobs?" = true
 	#This determines the range a mob will detect other entities if they have the blindness potion, by default entities will only detect targets in a 10 block radius if they are blinded.
-	#Range: -500.0 ~ 10000.0
+	# Default: 0.1
+	# Range: -500.0 ~ 10000.0
 	"Blindness range" = 0.1
 	"Have all mobs attack villagers?" = false
 	#Any mob id in this list will not attack villagers if the config option for that is on.
@@ -15,15 +15,22 @@
 	"Enable jumping ai" = true
 	"List additional mobs that can also utilize jumping" = ["guardvillagers:guard"]
 	"Mobs that don't have the jumping ai" = []
-	"Jump only if mob is targeting an enemy" = false
+	"Enable bow attacking mobs to shoot faster if the attacker is closer (deals less damage)" = true
+	"Jump only if a mob is actively targeting another mob" = false
+	"Halve all health of baby mobs?" = false
+	"Baby mobs exempt from above nerf if enabled" = ["minecraft:villager", "minecraft:horse", "minecraft:donkey", "minecraft:bee", "minecraft:mule", "minecraft:cow", "minecraft:goat", "minecraft:mooshroom", "minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:wolf", "minecraft:cat", "minecraft:ocelot", "minecraft:axolotl", "minecraft:llama", "minecraft:rabbit", "minecraft:turtle", "minecraft:strider", "minecraft:armadillo", "minecraft:camel", "minecraft:squid"]
 
 [husk]
 	"Enable burrowing attack for husk?" = true
+	# Default: 1.8
+	# Range: -10000.0 ~ 10000.0
+	"How fast the husk is able to burrow" = 1.8
 
 [pillager]
 	"Have pillagers run while reloading?" = true
 	"Have pillagers go closer to you if they have a multishot crossbow?" = true
-	#Range: 0.0 ~ 900.0
+	# Default: 0.5
+	# Range: 0.0 ~ 900.0
 	"Chance of a pillager patrol leader getting a spyglass" = 0.5
 
 [animals]
@@ -37,23 +44,30 @@
 	"Animals seek shelter?" = true
 
 	[animals.pigs]
-		#Range: > -2147483648
+		# Default: 1
+		# Range: > -2147483648
 		"What is the minimium amount of extra piglets that could be bred?" = 1
-		#Range: > -2147483648
+		# Default: 4
+		# Range: > -2147483648
 		"What is the maxmium amount of extra piglets that could be bred?" = 4
 
-["polar bears"]
-	"Have polar bears attack fish?" = true
+	[animals.armadillos]
+		"Allow armadillos to use their shell like wolf armor?" = true
 
-[ocelots]
-	"Have ocelots attack creepers? (Creepers won't attack back)" = false
-	"Have ocelots attack parrots?" = true
-	"Have ocelots attack phantoms?" = true
+	[animals."polar bears"]
+		"Have polar bears attack fish?" = true
 
-[sheep]
-	"Have sheep run away from wolves?" = true
+	[animals.ocelots]
+		"Have ocelots attack creepers? (Creepers won't attack back)" = false
+		"Have ocelots attack parrots?" = true
+		"Have ocelots attack phantoms?" = true
+
+	[animals.sheep]
+		"Have sheep run away from wolves?" = true
 
 ["snow golems"]
 	#Freezing time can be added up by successive shots.
-	"Allow snow balls to apply 5 seconds of freezing when they hit an entity?" = true
-
+	"Allow snow balls to freeze entities" = true
+	# Default: 100
+	# Range: -99999 ~ 99999
+	"Each snowball will add up this amount of freezing time" = 100

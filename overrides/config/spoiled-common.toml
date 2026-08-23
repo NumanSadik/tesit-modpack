@@ -1,4 +1,3 @@
-
 #General settings
 [General]
 	#Determines the spoilrate in specific containers [Syntax: tileentity:spoil_rate]
@@ -8,7 +7,8 @@
 	#Defines the default total amount of spoiling updates for each food item 
 	#(For example, a defaultSpoilTime of 40 means any default food item will have 40 total updates before it spoils. 
 	#This can be altered when custom food spoiling is set using a datapack) [default: 30]
-	#Range: > 1
+	# Default: 30
+	# Range: > 1
 	spoilRate = 24000
 	#When enabled Spoiled initializes spoiling for all vanilla food [default: true]
 	initializeSpoiling = false
@@ -20,7 +20,8 @@
 	spoilBlacklist = ["minecraft:rotten_flesh", "minecraft:enchanted_golden_apple"]
 	#Defines the total amount of spoiling updates that is used by the default initialized spoiling when 'initializeSpoiling' is enabled 
 	#(If the 'spoilRate' is 10 and the 'defaultSpoilTime' is set to 20 then the food will spoil after 20 * 10 seconds = 200 seconds) [default: 40]
-	#Range: > 1
+	# Default: 40
+	# Range: > 1
 	defaultSpoilTime = 80
 	#Defines the item the foods vanilla foods will turn into when spoiled (if empty it will clear the spoiling item) [default: 'minecraft:rotten_flesh']
 	defaultSpoilItem = "farm_and_charm:fertilizer"
@@ -30,9 +31,6 @@
 	itemContainerModifier = ["minecraft:shulker_box,0"]
 
 #Compatibility settings
-[Compatibility]
-	#When enabled foods that are salted by The Salted mod will not spoil [default: false]
-	saltCompat = false
-	#Defines a list of nbt tags that stop the item from spoiling
-	spoilTagBlacklist = []
-
+[compatibility]
+	#Any components with these ids will cause items not to spoil when they are present on the item
+	ignoredComponents = []
