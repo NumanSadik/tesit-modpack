@@ -1,8 +1,8 @@
 [cookery]
-	#Whether the Satiated Shield effect should absorb excess damage beyond its capacity.
-	SatiatedShieldAbsorbExcessDamage = true
 	#Whether enabling the Satiated Shield effect.
 	SatiatedShieldAbsorbEnabled = true
+	#Whether the Satiated Shield effect should absorb excess damage beyond its capacity.
+	SatiatedShieldAbsorbExcessDamage = true
 	#If true, the Satiated Shield effect will not apply while the player has the Hunger effect.
 	IS_SATIATED_SHIELD_DISABLE_WHEN_HUNGRY_EFFECT = true
 	#Minimum Hunger Value required for the Satiated Shield to apply (int).

@@ -1,4 +1,3 @@
-toastLightMode = false
 #=========[ Pillager Caravans Common Config ]========
 # Please prefer editing the config through the in-game 
 # configuration screen (available via the mods list),
@@ -6,6 +5,7 @@ toastLightMode = false
 #====================================================
 enablePillagerCaravans = true
 enableEncounterToast = true
+toastLightMode = false
 # Default: 24000
 # Range: > 0
 worldAgeRequired = 24000

@@ -1,5 +1,7 @@
 #General mod settings
 [general]
+	#SETTING THESE CLIENT SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME SERVER SETTINGS THAT ARE SET TO TRUE (for your client only).
+	dummySetting = true
 	#Sends relative mouse position and clicking
 	sendMouseInfo = true
 	#Sends a calculated rate of typing. If off, uses a default value on server
@@ -14,10 +16,6 @@
 	showIdleStatesInPlayerAboveHead = true
 	#Setting false disables all animations
 	showPlayerAnimations = true
-	#Plays a sound when a player opens some Guis
-	playScreenOpenSounds = true
-	#Plays a sutble sound when a player clicks their mouse in a Gui
-	playMouseClickSounds = true
 	#Enables or disables typing animation
 	showPlayerAnimation_Typing = true
 	#Enables or disables idle animation
@@ -48,8 +46,10 @@
 	screenTypingMultiplePlayersText = "Several people are typing"
 	#String to use next to the typing player(s) name
 	screenTypingText = " is typing"
-	#SETTING THESE CLIENT SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME SERVER SETTINGS THAT ARE SET TO TRUE (for your client only).
-	dummySetting = true
+	#Plays a sound when a player opens some Guis
+	playScreenOpenSounds = true
+	#Plays a sutble sound when a player clicks their mouse in a Gui
+	playMouseClickSounds = true
 	#Adjusts the size of the gui visual that appears infront of a player, 2 = twice the size
 	# Default: 1.0
 	# Range: 0.1 ~ 1.7976931348623157E308

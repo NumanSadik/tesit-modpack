@@ -1,4 +1,3 @@
-
 [general]
 	#Disable this to turn off the module system logic that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
@@ -25,4 +24,3 @@
 	"Enable Creative Verbose Logging" = false
 	#Set to true to force all creative tab additions to be added to the end of the creative tabs rather than the middle, as a failsafe
 	"Force Creative Tab Appends" = false
-
