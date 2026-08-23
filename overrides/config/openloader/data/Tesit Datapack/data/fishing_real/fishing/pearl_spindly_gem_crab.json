@@ -1,0 +1,13 @@
+{
+  "input": {
+	"item": "finsandtails:pearl_spindly_gem_crab"
+  },
+  "result": {
+	"id": "finsandtails:spindly_gem_crab",
+  "nbt": {
+
+      "Variant": 1
+
+  }
+  }
+}

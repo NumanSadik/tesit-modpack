@@ -6,7 +6,7 @@
 	#If true, commands will only run if the game is fully restarted
 	OnFullRestart = true
 	#list of all the commands to run, in order
-	Commands = ["gamerule doMobSpawning false", "gamerule reducedDebugInfo true"]
+	Commands = ["gamerule do_mob_spawning false", "gamerule reducedDebugInfo true"]
 
 [2]
 	#this new set of commands uses different settings from the other 2 and will run second

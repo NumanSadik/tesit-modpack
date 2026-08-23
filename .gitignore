@@ -21,3 +21,7 @@ overrides/servers.dat_old
 overrides/config/sound_physics_remastered/sound_rates.properties
 /overrides/dynamic-resource-pack-cache
 overrides/command_history.txt
+overrides/brbe.pins
+overrides/brbe-diagnostic.log
+overrides/downloads/log.json
+overrides/dynamic-data-pack-cache/hash.txt
