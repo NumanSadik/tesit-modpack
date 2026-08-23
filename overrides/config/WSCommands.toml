@@ -4,9 +4,9 @@
 	#If true, commands will run for each player instead of just for the first join
 	DedicatedMode = false
 	#If true, commands will only run if the game is fully restarted
-	OnFullRestart = false
+	OnFullRestart = true
 	#list of all the commands to run, in order
-	Commands = ["tellraw @s \"WorldStartCommands is not configured yet\"", "tellraw @s \"go to your config folder and find WSCommands.toml to configure it\"", "wsc @s reset"]
+	Commands = ["gamerule doMobSpawning false", "gamerule reducedDebugInfo true"]
 
 [2]
 	#this new set of commands uses different settings from the other 2 and will run second
