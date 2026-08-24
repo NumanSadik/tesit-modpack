@@ -16,8 +16,6 @@
     {
       "type": "arc:items",
       "items": [
-        "#forge:gems",
-        "#forge:ingots",
         "#c:gems",
         "#c:ingots",
         "#minecraft:beacon_payment_items",

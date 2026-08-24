@@ -1,0 +1,12 @@
+{
+  "name": "Shepard",
+  "price": 10,
+  "max_level": 100,
+  "color": "#228B22",
+  "icon": {
+    "id": "minecraft:yellow_wool"
+  },
+  "description": "Animals are your specialty.",
+  "background": "minecraft:textures/block/hay_block_side.png",
+  "is_default": false
+}

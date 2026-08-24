@@ -1,14 +1,8 @@
 {
     "pack": {
         "description": "Configuration resources for Tesit modpack",
-        "pack_format": 26
-    },
-    "filter": {
-      "block": [
-        {
-          "namespace": "examplemod",
-          "path": "advancements/."
-        }
-      ]
+        "pack_format": 34,
+        "min_format": [88, 0],
+        "max_format": [88, 0]
     }
 }
