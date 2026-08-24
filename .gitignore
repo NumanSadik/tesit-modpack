@@ -25,3 +25,5 @@ overrides/brbe.pins
 overrides/brbe-diagnostic.log
 overrides/downloads/log.json
 overrides/dynamic-data-pack-cache/hash.txt
+/overrides/crash-reports
+/overrides/logs
