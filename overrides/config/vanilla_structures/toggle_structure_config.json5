@@ -17,7 +17,7 @@ Created by Cristel Lib
 		"desert_pyramid": true
 	},
 	"end_cities": {
-		"end_city": true
+		"end_city": false
 	},
 	"igloos": {
 		"igloo": true
@@ -30,11 +30,11 @@ Created by Cristel Lib
 		"mineshaft_mesa": true
 	},
 	"nether_complexes": {
-		"bastion_remnant": true,
-		"fortress": true
+		"bastion_remnant": false,
+		"fortress": false
 	},
 	"nether_fossils": {
-		"nether_fossil": true
+		"nether_fossil": false
 	},
 	"ocean_monuments": {
 		"monument": true
