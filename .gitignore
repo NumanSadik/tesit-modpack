@@ -1,5 +1,5 @@
 overrides/config/roughlyenoughitems/favorites.json5
-*.bak
+*.bak*
 overrides/config/forgeendertech/cached.dat
 overrides/resourcepacks/Goety Old Textures.zip
 overrides/resourcepacks/Quark Programmer Art.zip
