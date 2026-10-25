@@ -20,14 +20,22 @@
 	"Enable Pouch" = true
 	#Basically backports copper equipment from latest MC versions.
 	"Enable Copper equipment" = true
-	#Make food, items and blocks less stackable. Items and Blocks are disabled by default. Changing stuff requires a /reload, but might require a Minecraft restart.
+	#Make food, items and blocks less stackable. Changing stuff requires a /reload, but might require a Minecraft restart.
 	"Enable Stack sizes" = true
-	#Retrieve name tags from name tagged entities.
+	#Retrieve name tags from name tagged entities. Name tagged entities show a death message when they die.
 	"Enable Name tags" = true
 	#Make items not able to mine / attack
 	"Enable Disabled items" = true
 	#Items no longer break, will sit at one durability and can't be used. Items in the item tag `insanesurvivaloverhaul:not_unvanishable` are not affected and items in the item tag `insanesurvivaloverhaul:unvanishable` are always unvanishable.
 	"Enable Unvanishable items" = true
+	#Lowers copper drops.
+	"Enable Scarce copper" = true
+	#Changes to Shulker Boxes.
+	"Enable Shulker boxes" = false
+	#Adds daggers: a fast, low-damage weapon type available in every material tier. No mineable/* block-breaking ability, no sweep attack.
+	"Enable Daggers" = true
+	#Adds repair kits: crafted from a material, they let you repair items using that material in the crafting grid.
+	"Enable Repair kits" = true
 
 	#Wooden items have bonuses when used in sunlight.
 	[Items."Ecologic wood"]
@@ -57,7 +65,7 @@
 		# Range: 0.0 ~ 1.0
 		"Base slowness per pouch over max" = 0.03
 
-	#Make food, items and blocks less stackable. Items and Blocks are disabled by default. Changing stuff requires a /reload, but might require a Minecraft restart.
+	#Make food, items and blocks less stackable. Changing stuff requires a /reload, but might require a Minecraft restart.
 	[Items."Stack sizes"]
 		#The formula to calculate the stack size of a food item. Variables as nutrition, saturation, eat_seconds as numbers and fast_food as boolean can be used. Set to empty to disable this. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html.
 		"Food stack reduction formula" = "ROUND(MAX(64 / MAX(hunger, 1), 1), 0)"
@@ -88,6 +96,31 @@
 	[Items."Stone tools gone"]
 		"Items to replace" = ["minecraft:stone_axe, minecraft:copper_axe", "minecraft:stone_pickaxe, minecraft:copper_pickaxe", "minecraft:stone_shovel, minecraft:copper_shovel", "minecraft:stone_hoe, minecraft:copper_hoe", "minecraft:stone_sword, minecraft:copper_sword"]
 		"Data pack" = true
+
+	#Retrieve name tags from name tagged entities. Name tagged entities show a death message when they die.
+	[Items."Name tags"]
+		#If true, entities named with a name tag show a death message in chat when they die. Requires the showDeathMessages game rule.
+		"Death Message" = true
+
+	#Changes to Shulker Boxes.
+	[Items."Shulker boxes"]
+		#Enables a data pack that changes Shulker Boxes recipe to use cloth (or leather if the Cloth feature is disabled) and chests instead of shulker shells, and shulkers will drop Shulker Boxes directly instead of shells.
+		"Early game shulker boxes" = true
+		#Enables a resource pack that renames Shulker Boxes to Sack
+		"Rename shulker box to sack" = true
+		#When picking up an item, if a Shulker Box in the inventory already contains that item, the item is put in the Shulker Box instead of the inventory. Auto pickup must be enabled on each Shulker Box by pressing the toggle key (S by default) while hovering it in the inventory.
+		"Auto pickup into shulker boxes" = true
+
+	#Adds repair kits: crafted from a material, they let you repair items using that material in the crafting grid.
+	[Items."Repair kits"]
+		#Default repair bonus multiplier applied to the durability a repair kit restores per material used. Each repair kit repairs based on the material it was crafted with, up to Max repair. Can be overridden by item component.
+		# Default: 1.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		"Repair kit material ratio" = 1.2
+		#Maximum repair percentage of an item that repair kits can reach. Can be overridden by item component.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		"Max repair" = 1.0
 
 [Mining]
 	#Various changes for different materials and ores.
@@ -126,10 +159,14 @@
 	[Mining."Mining misc"]
 		#Makes slabs, stairs and walls take less time to break
 		"Faster slabs, stairs and walls" = true
-		#In vanilla there's a 5 tick delay (0.25 secs) between breaking blocks. The tick delay is reduced by 1 tick every 2.5 tool mining speed.
+		#In vanilla there's a 5 tick delay (0.25 secs) between breaking blocks (non-instantly broken in survival). The tick delay is reduced by 1 tick every 2.5 mining speed against the broken block (efficiency, haste, etc. included). Doesn't apply to creative.
 		"Mining speed based destroy delay" = true
 		#Tools with a mining speed set via the minecraft:tool component show it as a tooltip.
 		"Mining speed tooltip" = true
+		#Delay in ticks between breaking blocks in creative. Vanilla is 5.
+		# Default: 2
+		# Range: 0 ~ 10
+		"Creative destroy delay" = 2
 
 	#Change, through data packs, some blocks properties, from hardness to explosion resistance to speed and jump factors to bone meal chance to fail.
 	[Mining."Block definition"]
@@ -178,7 +215,7 @@
 		"Guardian magic damage only" = true
 		#Iron golems no longer deal randomized damage, but fixed attack_damage attribute damage instead
 		"Fixed iron golem damage" = true
-		#Changes mobs loot and makes mobs drop reduced loot if not killed by a player
+		#Reworks the loot tables of several mobs (blaze, cave spider, creeper, enderman, ghast, magma cube, phantom, piglin brute, pillager, skeleton, slime, spider, stray, witch, wither skeleton, zombified piglin), gives bogged extra drops (glowstone dust, mushrooms), makes snow golems drop their carved pumpkin on death if they still have it, and makes mobs drop reduced loot if not killed by a player
 		"Loot changes" = true
 		#If true, renames Heart of the Sea to Divine Fragment and retextures it accordingly
 		"Rename heart of the sea to divine fragment" = true
@@ -204,8 +241,6 @@
 
 	#Add a brand new Echo Torch and some changes to mob spawn
 	[Mobs.Spawning]
-		#Disables Zombie Villagers
-		"No zombie villagers" = false
 		#Allows mobs to spawn in the world spawn (in vanilla mobs can't spawn in a 24 blocks radius from world spawn)
 		"Allow world spawn spawn" = true
 		#Disables normal skeletons from spawning in Fortresses.
@@ -220,6 +255,7 @@
 		# Default: 32
 		# Range: > -2147483648
 		"Max guardians in deep oceans spawn y" = 32
+		"Replace zombie villagers with normal zombies" = false
 
 	#Turtle helmet water breathing duration and stackable scute blocks.
 	[Mobs.Turtles]
@@ -256,7 +292,7 @@
 		"Composter time to produce" = 50
 		#If true, you can bone meal dirt that's near a grass block (or below tall grass) to get grass block.
 		"Bone meal dirt to grass" = true
-		#Makes bone meal have a chance to fail on Cave Vines, Saplings and Sweet Berry Bushes. Also makes rotten flesh compostable.
+		#Makes Cave Vines, Saplings, Sweet Berry Bushes and Crops requiring more bone meal. Makes rotten flesh compostable. Makes crafting Bones yield less Bone Meal and Bone Blocks cheaper.
 		"Data pack" = true
 
 		[Farming."Bone meal"."Rich farmland"]
@@ -309,15 +345,15 @@
 		"Data pack" = true
 
 		[Farming.Livestock."Well fed"]
-			#If true, animals will be 'well fed' for this ticks when fed. During this time they have an higher chance (given by the livestock data) to breed. Set to 0 to disable.
+			#Animals will be 'well fed' for this minutes when fed. During this time they have an higher chance (given by the livestock data) to breed. Set to 0 to disable.
 			# Default: 60
 			# Range: > 0
 			Duration = 60
-			#How much well fed time must be left to the entity to be able to feed it again.
+			#How many minutes of well fed time must be left to the entity to be able to feed it again.
 			# Default: 30
 			# Range: > 0
 			"Left to feed again" = 30
-			#How much well fed time is consumed when animals breed.
+			#How many minutes of well fed time are consumed when animals breed.
 			# Default: 20
 			# Range: > 0
 			"Consumed on breed" = 20
@@ -452,11 +488,11 @@
 
 	#Makes natural regeneration and hunger work differently, similar to Combat Test snapshots. Can be customized. Also allows to add passive regen
 	["Hunger & Health"."Hunger and health regen"]
-		#How much health do players heal overtime each second without consuming hunger? This value is applied to the insanesurvivaloverhaul:passive_regen_per_second attribute on player join.
+		#How much health do players heal overtime each second without consuming hunger? This value is applied to the insanesurvivaloverhaul:passive_regen_per_second attribute base value.
 		# Default: 0.0
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Passive regen per second" = 0.0
-		#How much health do players heal overtime each second by consuming hunger? This value is applied to the insanesurvivaloverhaul:regen_per_second attribute on player join.
+		#How much health do players heal overtime each second by consuming hunger? This value is applied to the insanesurvivaloverhaul:regen_per_second attribute base value.
 		# Default: 0.5
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Regen per second" = 0.5
@@ -470,7 +506,7 @@
 		"Regen reduction in combat time" = 10.0
 		#Set to true to disable the health regen boost given when max hunger and saturation (false in Vanilla).
 		"Disable saturation regen boost" = true
-		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. This value is applied to the insanesurvivaloverhaul:max_exhaustion attribute on player join. NOTE that Minecraft (for ... reasons) caps this value to 40.
+		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. This value is applied to the insanesurvivaloverhaul:max_exhaustion attribute base value. NOTE that Minecraft (for ... reasons) caps this value to 40.
 		# Default: 6.0
 		# Range: 0.0 ~ 40.0
 		"Max exhaustion" = 6.0
@@ -478,13 +514,13 @@
 		# Default: 6.0
 		# Range: 0.0 ~ 1.7976931348623157E308
 		"Exhaustion on heal" = 6.0
-		#Hunger consumed per half heart healed, only applies if 'Consume hunger only' is true. Decimal values are treated as chances to consume one more (e.g. this set to 0.5 means that there's 50% chance to consume one hunger). This value is applied to the insanesurvivaloverhaul:hunger_consumed attribute on player join. (vanilla ignores this; Combat Test has this set to 0.5).
+		#Hunger consumed per half heart healed, only applies if 'Consume hunger only' is true. Decimal values are treated as chances to consume one more (e.g. this set to 0.5 means that there's 50% chance to consume one hunger). This value is applied to the insanesurvivaloverhaul:hunger_consumed attribute base value. (vanilla ignores this; Combat Test has this set to 0.5).
 		# Default: 0.5
 		# Range: 0.0 ~ 40.0
 		"Hunger consumption on heal" = 0.5
 		#Set to true to consume Hunger only (and not saturation) when regenerating health (false for Vanilla).
 		"Consume hunger only" = true
-		#Sets how much hunger the player must have to regeneration health (vanilla is 18). This value is applied to the insanesurvivaloverhaul:hunger_required_to_regen attribute on player join.
+		#Sets how much hunger the player must have to regeneration health (vanilla is 18). This value is applied to the insanesurvivaloverhaul:hunger_required_to_regen attribute base value.
 		# Default: 7
 		# Range: > 0
 		"Hunger required to regen" = 7
@@ -624,7 +660,7 @@
 	#Changes attack sound based off tool used. Axes use vanilla strong attack, swords use vanilla weak attack, pickaxes and shovels use new sounds.
 	"Enable Attack sounds" = true
 	"Enable Snowballs" = true
-	#Armor gives regenerating absorption and regen absorption speed instead of armor and toughness
+	#Armor gives regenerating absorption and regen absorption speed instead of armor and toughness. Please note this is not compatible with the 'Armor rework' data pack
 	"Enable Absorption armor" = false
 	#Rework critical hits to be a chance to happen instead of damage on jump. Also the chance and bonus damage are now an attribute. By default critical_chance is 0 and can increase with the Critical enchantment and critical_damage is 0.5 (+50%).
 	"Enable Critical rework" = true
@@ -638,13 +674,17 @@
 	"Enable Piercing damage" = true
 	#Change armor formula to damage * (1 - 1.5 * (armor / (armor + 20)))
 	"Enable Armor rework" = true
-	#Give an use to the fletching table, adding more arrows and better crafting
+	#Gives a use to the fletching table, letting you craft better arrows out of vanilla ones.
 	"Enable Fletching" = true
 	#This feature disables itself if Shields+ is installed
 	"Enable Shields" = true
-	#Invincibility frames based off attack speed, so faster attacks will give less invincibility frames and viceversa.
+	#Invincibility frames based off attack speed, so faster attacks will give less invincibility frames and vice versa.
 	"Enable Attack speed based invincibility" = true
 	"Enable Misc combat" = true
+	#Rework sweep attack. Sweep is no longer on swords, instead it's on hoes. Also, the sweep attack deals full damage and the range is increased. A data pack is enabled that removes the Sweeping Edge enchantment.
+	"Enable Sweep overhaul" = false
+	#Mobs hit by pickupable arrows remember them, and drop a percentage of those arrows on death. Any arrow type is dropped back as a normal arrow.
+	"Enable Stuck arrows" = true
 
 	#Changes attack sound based off tool used. Axes use vanilla strong attack, swords use vanilla weak attack, pickaxes and shovels use new sounds.
 	[Combat."Attack sounds"]
@@ -652,24 +692,26 @@
 
 	#Adds a new attribute to add regenerating absorption hearts to the player. Please note that default mods' regenerating absorption is done through item definitions within the combat_rework data pack and via Absorption Armor feature.
 	[Combat."Regenerating absorption"]
-		#Ticks that must pass from the last hit to regen absorption hearts. This is affected by regenerating absorption speed (absorp regen speed * this)
-		# Default: 150
-		# Range: > 0
-		"Un-damaged time to regen" = 150
-		#Min Un-damaged time to regen
-		# Default: 60
-		# Range: > 0
-		"Un-damaged time to regen cap" = 60
 		#The amount of regenerating absorption hearts cannot go over the entity's current health.
 		"Cap to health" = true
-		#How fast (each tick) will absorption hearts decay when higher than the current maximum.
-		# Default: 0.1
+		#How many absorption hearts are lost each second when higher than the current maximum.
+		# Default: 2.0
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Decay speed" = 0.1
 		#If true, absorption hearts will not shield from damages in the bypasses_armor damage type tag.
 		"Absorbing bypasses_armor damage only" = true
 		#If true, a sound is played when the absorption is damaged.
 		"Sound on absorption hurt" = true
+
+		[Combat."Regenerating absorption"."In combat"]
+			#If the player has been in combat (attacked or attacking) since this seconds regen speed is multiplied by 'Regen speed'
+			# Default: 8.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			Time = 8.0
+			#If the player is in combat, regen speed is multiplied by this
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			"Regen speed" = 0.0
 
 	[Combat.Snowballs]
 		#Snowballs deal this amount of damage.
@@ -689,7 +731,7 @@
 		#Enables a data pack that increases snowballs stack size to 64
 		"Snowball stack size" = true
 
-	#Armor gives regenerating absorption and regen absorption speed instead of armor and toughness
+	#Armor gives regenerating absorption and regen absorption speed instead of armor and toughness. Please note this is not compatible with the 'Armor rework' data pack
 	[Combat."Absorption armor"]
 		#If > 0, only Armor Toughness on items will be converted to absorption, multiplying it by this.
 		# Default: 0.25
@@ -796,7 +838,7 @@
 		# Range: > 0
 		"Shield block damage" = 5
 
-	#Invincibility frames based off attack speed, so faster attacks will give less invincibility frames and viceversa.
+	#Invincibility frames based off attack speed, so faster attacks will give less invincibility frames and vice versa.
 	[Combat."Attack speed based invincibility"]
 		#If true, invincibility frames will not be increased for slower attacks.
 		"Only faster attack speed" = false
@@ -804,8 +846,6 @@
 	[Combat."Misc combat"]
 		#If enabled, tools will not take 2 damage when used to hurt entities
 		"One damage for tool attacking" = true
-		#Rework Sweeping attack. Sweeping is no longer on swords, instead it's on hoes. Also, the sweeping attack deals full damage and the range is increased. A data pack is enabled that removes the sweeping enchantment.
-		"Sweeping overhaul" = true
 		#In vanilla, if you attack as soon as you just attacked you already deal 20% of the full damage. This changes that to 0%.
 		"No damage when spamming" = true
 		#If true, tridents damage will be calculated based off the item thrown, instead of a fixed 8
@@ -831,6 +871,51 @@
 			# Default: 4
 			# Range: > -2147483648
 			"Enchantment level equivalent" = 4
+
+	#Rework sweep attack. Sweep is no longer on swords, instead it's on hoes. Also, the sweep attack deals full damage and the range is increased. A data pack is enabled that removes the Sweeping Edge enchantment.
+	[Combat."Sweep overhaul"]
+		#Vanilla = false
+		"Sweep on hoes" = true
+		#Vanilla = true
+		"Sweep on swords" = false
+		#Vanilla = false
+		"Crit allows sweep" = true
+		#If true, the mobs hit by the sweep attack will take full damage instead of 1. Vanilla = false
+		"Full sweep damage" = true
+		#Increases the horizontal sweep hit box by this value in blocks. Vanilla = 0
+		# Default: 1.5
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Horizontal sweep inflation" = 1.5
+		#Increases the vertical sweep hit box by this value in blocks. Vanilla = 0
+		# Default: 0.15
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Vertical sweep inflation" = 0.15
+		#Increases the sweep range by this value in blocks. Vanilla = 0
+		# Default: 1.0
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Sweep range inflation" = 1.0
+		#Vanilla = false
+		"Allow sweep when airborne" = true
+		#Vanilla = false
+		"Allow sweep when sprinting" = true
+		#Vanilla = false
+		"Allow sweep when moving fast" = true
+		#If true, scales the sweep knockback strength proportionally to the attack's knockback level instead of using the hardcoded 0.4 constant (so knockback enchantment actually works). Vanilla = false
+		"Scale knockback" = true
+		#Enables a data pack that removes the Sweeping Edge enchantment and (if Rune Enchanting is installed) the Sweeping Edge rune
+		"Data pack" = true
+
+	#Mobs hit by pickupable arrows remember them, and drop a percentage of those arrows on death. Any arrow type is dropped back as a normal arrow.
+	[Combat."Stuck arrows"]
+		#Chance, for each arrow stuck in the mob, to be dropped on death.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		"Drop amount" = 0.5
+
+	#Gives a use to the fletching table, letting you craft better arrows out of vanilla ones.
+	[Combat.Fletching]
+		#If disabled, torch arrows only set the target on fire instead of also placing a torch when they hit a block.
+		"Torch arrows place torches" = true
 
 [World]
 	#Spawners are now a challenge. Monsters spawning from spawners ignore light.
@@ -991,7 +1076,7 @@
 			# Range: 0.0 ~ 1.0
 			"Break chance" = 0.3
 
-	#Thunderstorm Intensity. Disable it via gamerule: insanesurvivaloverhaul:thunderstormIntensity
+	#Thunderstorm Intensity. Disable it via gamerule: insanesurvivaloverhaul:thunderstorm_intensity
 	[World.Thunderstorms]
 		#Minimum thunderstorm intensity.
 		# Default: 1
@@ -1026,24 +1111,15 @@
 		"Dry wet weather" = true
 
 [Sleep]
-	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
+	#Adds Cloth and enables a Data Pack that integrates it:
+	#* Makes zombies drop cloth instead of rotten flesh
+	#* Beds require Cloth to be crafted
+	#* Bundles can be made with Cloth
+	#* Chainmail armor is made craftable with Cloth and chains
+	#* Adds advancements for this feature and moves vanilla beds advancements to cloth advancement
 	"Enable Cloth" = true
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
 	"Enable Tiredness" = true
-
-	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
-	[Sleep.Cloth]
-		#Enables a Data Pack that integrated Cloth:
-		#* Makes zombies drop cloth instead of rotten flesh
-		#* Beds require Cloth to be crafted
-		#* Bundles can be made with Cloth
-		#* Chainmail armor is made craftable with Cloth and chains
-		#* Adds advancements for this feature and moves vanilla beds advancements to cloth advancement
-		"Data pack" = true
-		#Enables a data pack that changes Shulker Boxes recipe to use cloth and chests instead of shulker shells, and shulkers will drop Shulker Boxes directly instead of shells.
-		"Early game shulker boxes" = true
-		#Enables a resource pack that renames Shulker Boxes to Sack
-		"Rename shulker box to sack" = true
 
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
 	[Sleep.Tiredness]
@@ -1066,7 +1142,7 @@
 		#REMOVE_ONE_LEVEL keeps the current tiredness but if higher than 'Tiredness to effect' removes one level of Tired to a minimum of I
 		#Allowed Values: RESET, KEEP, SET_AT_EFFECT, REMOVE_ONE_LEVEL
 		"On death behaviour" = "SET_AT_EFFECT"
-		#Phantoms will no longer spawn based on insomnia, but instead based off tiredness. Will spawn with Tired III.
+		#Phantoms will no longer spawn based on insomnia, but instead based off tiredness. Will spawn with Tired II+.
 		"Tired tied phantoms" = true
 		"Allow sleeping even when not tired" = false
 		#If true, sets the playersSleepingPercentage game rule to 1 so tired players can sleep no matter how many players on a server.
@@ -1270,6 +1346,13 @@
 	"Enable Potions and effects" = true
 	#Changes how fast entities consume and refill air, and how drowning damage scales.
 	"Enable Breathing" = true
+	#Enables a data pack that changes fireworks recipes:
+	#* Firework Rockets recipes output 5 instead of 3
+	#* Firework Stars recipe outputs 2 instead of 1
+	#* Firework Stars can be added to already crafted Firework Rockets
+	"Enable Fireworks" = true
+	#A block that's visible through walls, for testing the see-through-walls render technique.
+	"Enable Glow block" = true
 
 	#Colliding with walls at high speed (e.g. from explosions or knockback) deals damage.
 	[Misc."Collide with walls"]
@@ -1341,6 +1424,9 @@
 		#* Carpets, Bricks, Banners, Targets and Tnt recipes now outputs more
 		#* Tnt recipe now also accepts paper instead of sand
 		#* Moss carpets can be crafted back to moss blocks
+		#* Logs smelt 4 items instead of 1.5 when used as furnace fuel
+		#* Dried Kelp Blocks smelt 16 items instead of 20 when used as furnace fuel
+		#* Lava smelts 256 items instead of 100
 		"Misc tweaks" = true
 		#Reworks Prismarine, Dark Prismarine and Sea Lantern recipes to no longer need Prismarine Shards/Crystals:
 		#* Prismarine is now made with Copper and Calcite
@@ -1366,8 +1452,6 @@
 		"No coordinates" = true
 		#If true, maxEntityCramming game rule is set to 6 from 24
 		"Reduced mob cramming" = true
-		#Kelp blocks smelt 16 items instead of 20
-		"Less burn time for kelp block" = true
 		#Fixes several piston physics exploits like TNT duping. (If quark is present this is disabled)
 		"Remove piston physics exploit" = true
 		#When an entity is hit and on a mount they have this chance to fall
@@ -1385,8 +1469,6 @@
 	[Misc.Tweaks]
 		#Falling on glass has a chance of breaking it. The higher the fall, the higher the chance. insanesurvivaloverhaul:fall_on_break block tag can be used to add more blocks that break when falling onto them.
 		"Falling breaking glass" = true
-		#When you die in hardcore, your spawn point is set to where you died and a lightning strike is summoned
-		"Better hardcore death" = true
 		#If enabled, the Totem of Undying will give Resistance IV for 5.5 seconds
 		"Totem resistance" = true
 		#Vanilla is 5
@@ -1412,6 +1494,12 @@
 		"Damage to break vehicles" = 2
 		#If true, makes ocelots transform into cats when tamed. Like pre ocelot-cat split.
 		"Ocelot to cat" = true
+		#Max amount of matching, repairable items that can be merged together in a crafting grid to combine their durability (vanilla's repair recipe). Vanilla is 2.
+		# Default: 9
+		# Range: 2 ~ 9
+		"Repair merge max items" = 9
+		#Dragon Egg will no longer port on left-click
+		"Teleport dragon egg only on right click" = false
 
 		[Misc.Tweaks.Parrot]
 			#The fall distance (in blocks) needed before parrots (and other shoulder entities) get knocked off the player's shoulder. Vanilla is 0.5
@@ -1445,7 +1533,7 @@
 		"Streamline splash potions" = true
 		#Enables a data pack that increases potions stack sizes
 		"Potion stack size" = true
-		#Multiplier for the duration of potions. Doesn't affect instantaneous effects. Requires a Minecraft restart
+		#Multiplier for the duration of potions. Doesn't affect instantaneous effects.
 		# Default: 2.0
 		# Range: 0.0 ~ 1.7976931348623157E308
 		"Potion duration multiplier" = 2.0
@@ -1471,6 +1559,13 @@
 			# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			Maximum = 2.5
 
+	#A block that's visible through walls, for testing the see-through-walls render technique.
+	[Misc."Glow block"]
+		#Max angle (in degrees) between the crosshair and a glow block's center for it to count as looked at. Looking directly at the block always counts.
+		# Default: 5.0
+		# Range: 0.0 ~ 90.0
+		"Look angle" = 5.0
+
 [Death]
 	#Makes you lose a percentage of items and durability and xp on death. By default the game rules are all set to 0. Controlled via game rules.
 	#Items percentage lost can be configured with the insanesurvivaloverhaul:death_lose_items_percentage, insanesurvivaloverhaul:death_durability_penalty and insanesurvivaloverhaul:death_destroy_items game rules.
@@ -1482,6 +1577,10 @@
 	#Makes players lose max health on death and adds a new item to gain them back.
 	#Controlled via the insanesurvivaloverhaul:death_health_lost game rule.
 	"Enable Death max health penalty" = true
+	#When you die in hardcore, your spawn point is set to where you died and a lightning strike is summoned
+	"Enable Better hardcore death" = true
+	#Replace score in the death screen with time since last death
+	"Enable Time since last death" = false
 
 	#The mob that kills a player will not despawn, and when killed will drop more experience.
 	[Death."Player killer bounty"]
